@@ -58,7 +58,7 @@ tagline:
 
 애드투페이퍼 서비스에서는 모든 Database Read Query를 Memcached에 캐시하고 있습니다. 모든 상황에 대해 견고한 Cache Invalidation 로직을 만드는 작업은 매우 많은 시간이 소요되는 작업이므로, Johnny Cache라는 Cache Framework를 사용하고 있습니다. Johnny Cache는 기본적으로 MySQL의 Query Cache와 비슷하게 동작합니다. Johnny Cache Middleware를 등록해 놓으면 Monkey Patch를 통해 SELECT 쿼리가 발생할 때는 쿼리를 Key로 Memcached에 캐시하고, INSERT 또는 UPDATE 쿼리가 발생할 때는 해당 Table에 관계된 Cache들을 자동으로 Invalidation 해줍니다.
 
-백엔드 코드를 작성할 때는 Memcached의 Cache hit을 높이기 위해 SELECT 문의 WHERE절에는 특정한 상수가 들어가는 것을 피하고 있습니다. 또한 어플리케이션상에서 데이터를 가공할 수 있을 때에는 최대한 어플리케이션에서 코드상에서 처리해서 I/O Bound 되는 것을 피하고 있습니다.
+백엔드 코드를 작성할 때는 Memcached의 Cache hit ratio를 높이기 위해 SELECT 문의 WHERE절에는 특정한 상수가 들어가는 것을 피하고 있습니다. 또한 어플리케이션상에서 데이터를 가공할 수 있을 때에는 최대한 어플리케이션에서 코드상에서 처리해서 I/O Bound 되는 것을 피하고 있습니다.
 
 <br/>
 
