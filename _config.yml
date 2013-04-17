@@ -12,10 +12,10 @@ pygments: true
 title : Add2paper Engineering Blog
 tagline:
 author :
-  name : 이경찬
-  email : lkc@add2paper.com
-  github : leekchan
-  twitter : kyoungchanlee
+  name : Add2paper
+  email : home@add2paper.com
+  github :
+  twitter :
   feedburner :
 
 # The production_url is only used when full-domain names are needed
