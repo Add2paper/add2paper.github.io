@@ -1,0 +1,9 @@
+
+http://add2paper.github.com/archive.html
+http://add2paper.github.com/atom.xml
+http://add2paper.github.com/categories.html
+http://add2paper.github.com/index.html
+http://add2paper.github.com/pages.html
+http://add2paper.github.com/rss.xml
+http://add2paper.github.com/sitemap.txt
+http://add2paper.github.com/tags.html
