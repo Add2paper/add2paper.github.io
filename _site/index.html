@@ -10,6 +10,14 @@
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta property="og:title" content="Add2paper Engineering Blog"/>
+    <meta property="og:type" content="blog"/>
+    <meta property="og:url" content="http://add2paper.github.io/"/>
+    <meta property="og:site_name" content="Add2paper Engineering Blog"/>
+    <meta property="og:image" content="http://www.add2paper.com/static/public2/images/fb_image2.png" />
+    <meta property="og:description"
+          content="애드투페이퍼 서비스 개발 및 운영 경험을 공유하는 블로그입니다."/>
+
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -34,6 +42,15 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=434811836608336";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
@@ -93,11 +110,11 @@
 
 <li>프린터 API 백엔드 &#160;</li>
 
-<li>광고주용 실시간 리포트 페이지 &#160;</li>
+<li>광고주용 실시간 리포트 사이트 &#160;</li>
 
-<li>프린터관리자용 실시간 프린팅 및 정산 정보 확인 페이지 &#160;</li>
+<li>프린터관리자용 실시간 프린팅 및 정산 정보 확인 사이트 &#160;</li>
 
-<li>내부 관리용 페이지 &#160;</li>
+<li>내부 관리용 사이트 &#160;</li>
 </ol>
 
 <p>애드투페이퍼 초반에는 일부 시스템이 ASP, PHP로 되어있었지만 2012년 하반기부터 기존 코드 및 신규 코드들을 Python + Django로 작성하여 현재는 100% Python + Django 코드로 동작중입니다.</p>
@@ -184,7 +201,11 @@ supervisorctl reload
 </div>
 
 
+
       </div>
+
+      <div class="fb-like" data-href="http://add2paper.github.io" data-send="true" data-width="450" data-show-faces="true"></div>
+
       <hr>
       <footer>
         <p>&copy; 2013 Add2paper
