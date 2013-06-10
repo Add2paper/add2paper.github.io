@@ -5,7 +5,7 @@
 <div class="row-fluid post-full">
   <div class="span12">
     <div class="date">
-      <span>{{ page.date | date_to_long_string }}</strong>
+      <strong>{{ page.date | date_to_long_string }}</strong>
     </div>
     <div class="content">
       {{ content }}
@@ -17,7 +17,7 @@
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
@@ -25,7 +25,7 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
     <hr>
     <div class="pagination">
@@ -43,7 +43,5 @@
       {% endif %}
       </ul>
     </div>
-    <hr>
-    {% include JB/comments %}
   </div>
 </div>

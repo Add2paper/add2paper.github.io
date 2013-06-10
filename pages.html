@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Pages 
-header: Pages
+title: 글목록
+header: 글목록
 group: navigation
 ---
 {% include JB/setup %}
 
-<h2>All Pages</h2>
-<ul>
-{% assign pages_list = site.pages %}
-{% include JB/pages_list %}
+<ul class="posts" style="margin-bottom: 50px;">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>

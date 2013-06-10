@@ -63,3 +63,137 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.content p,
+.content blockquote {
+    margin: 0;
+    padding: 0;
+}
+.content {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+.content table {
+  margin: 10px 0 15px 0;
+  border-collapse: collapse;
+}
+.content td,th {
+  border: 1px solid #ddd;
+  padding: 3px 10px;
+}
+.content th {
+  padding: 5px 10px;
+}
+
+.content a {
+    color: #0069d6;
+}
+.content a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+.content a img {
+    border: none;
+}
+.content p {
+    margin-bottom: 9px;
+}
+
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #404040;
+    line-height: 36px;
+}
+.content h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+.content h2 {
+    font-size: 24px;
+}
+.content h3 {
+    font-size: 18px;
+}
+.content h4 {
+    font-size: 16px;
+}
+.content h5 {
+    font-size: 14px;
+}
+.content h6 {
+    font-size: 13px;
+}
+.content hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+.content blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+.content blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+.content blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.content code, .content pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+.content code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.content pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.content pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+.content sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}

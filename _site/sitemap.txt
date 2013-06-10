@@ -7,3 +7,6 @@ http://add2paper.github.com/pages.html
 http://add2paper.github.com/rss.xml
 http://add2paper.github.com/sitemap.txt
 http://add2paper.github.com/tags.html
+
+http://add2paper.github.com/2013/06/10/Add2paper-Recruiting
+http://add2paper.github.com/2013/04/17/Add2paper-Technology-Stack
