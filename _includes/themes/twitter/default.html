@@ -11,11 +11,25 @@
 
     <meta property="og:title" content="Add2paper Engineering Blog"/>
     <meta property="og:type" content="blog"/>
-    <meta property="og:url" content="http://add2paper.github.io/"/>
+
+    {% if page.url == "/index.html" %}
+    <meta property="og:url" content="http://add2paper.github.io"/>
     <meta property="og:site_name" content="Add2paper Engineering Blog"/>
+    <meta property="og:description" content="애드투페이퍼 서비스 개발 및 운영 경험을 공유하는 블로그입니다."/>
+    {% else %}
+    <meta property="og:url" content="http://add2paper.github.io{{ page.url }}"/>
+    <meta property="og:site_name" content="{{ page.title }} - Add2paper Engineering Blog"/>
+    {% endif %}
+
+    {% if page.url == "/2013/06/10/Add2paper-Recruiting" %}
+      <meta property="og:description" content="애드투페이퍼에서 대한민국 200만 대학생의 생활을 혁신하는 서비스를 같이 만들어나갈 엔지니어 분들을 찾습니다."/>
+    {% endif %}
+
+    {% if page.url == "/2013/04/17/Add2paper-Technology-Stack" %}
+      <meta property="og:description" content="애드투페이퍼 서비스 개발 및 운영 경험을 공유하는 블로그입니다."/>
+    {% endif %}
+
     <meta property="og:image" content="http://www.add2paper.com/static/public2/images/fb_image2.png" />
-    <meta property="og:description"
-          content="애드투페이퍼 서비스 개발 및 운영 경험을 공유하는 블로그입니다."/>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -58,7 +72,7 @@
             <li><a href="/">Home</a></li>
             <li><a href="/archive.html">Archive</a></li>
             <li><a href="/rss.xml">RSS</a></li>
-            <li><a href="/atom.xml">Atom</a></li>
+            <!--<li><a href="/atom.xml">Atom</a></li>-->
             {% include JB/pages_list %}
           </ul>
         </div>
