@@ -4,7 +4,7 @@
  <title>Add2paper Engineering Blog</title>
  <link href="http://add2paper.github.com/" rel="self"/>
  <link href="http://add2paper.github.com"/>
- <updated>2013-06-11T14:39:50+09:00</updated>
+ <updated>2013-06-13T21:32:37+09:00</updated>
  <id>http://add2paper.github.com</id>
  <author>
    <name>Add2paper</name>
@@ -22,7 +22,7 @@
 
 &lt;p&gt;애드투페이퍼에서 대한민국 200만 대학생의 생활을 혁신하는 서비스를 같이 만들어나갈 엔지니어 분들을 찾습니다.&lt;/p&gt;
 &lt;br /&gt;
-&lt;h2 id='___0'&gt;웹 서비스 개발자 0명&lt;/h2&gt;
+&lt;h2 id='__'&gt;웹 서비스 개발자&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;p&gt;애드투페이퍼의 서비스의 백엔드는 100% Python으로 만들어져 있습니다. 저희 서비스의 구성 Stack은 &lt;a href='/2013/04/17/Add2paper-Technology-Stack/'&gt;&amp;#8220;애드투페이퍼 서비스 구성 Stack&amp;#8221;&lt;/a&gt; 포스팅에서 확인하실 수 있습니다. Python으로 혁신적인 서비스를 만들고 싶으신 분들, 더이상 Instagram, Pinterest, Quora 등 Python 엔지니어들의 지상낙원을 부러워하지 않으셔도 됩니다. 애드투페이퍼에서 Python으로 끝내주는 서비스 같이 만들어요!&lt;/p&gt;
 &lt;br /&gt;
@@ -58,7 +58,7 @@
 &lt;li&gt;Memcached, Redis, Celery, Nginx, Gunicorn, Supervisor 중 1개 이상 사용해본 경험 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h2 id='____0'&gt;애드투페이퍼 윈도우 클라이언트 개발자 0명&lt;/h2&gt;
+&lt;h2 id='___'&gt;애드투페이퍼 윈도우 클라이언트 개발자&lt;/h2&gt;
 &lt;hr /&gt;
 &lt;p&gt;전국 70대 대학교에 설치되어 있는 애드투페이퍼 윈도우 클라이언트를 혁신할 엔지니어분을 모십니다. 현재 애드투페이퍼 클라이언트는 애드투페이퍼 회원의 무료프린팅뿐만 아니라 기존 유료프린팅 솔루션까지 대체하는 차세대 프린팅 솔루션으로 입지를 굳히고 있습니다. (애드투페이퍼 클라이언트에서는 무료 / 유료 프린트가 모두 가능합니다.)&lt;/p&gt;
 
@@ -75,14 +75,14 @@
 &lt;h3 id='id77'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;C / C++ 가능자&lt;/li&gt;
+&lt;li&gt;C / C++ 가능자 &amp;#160;&lt;/li&gt;
+
+&lt;li&gt;MFC 가능자 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
 &lt;h3 id='id78'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Win32 API, MFC 가능자&lt;/li&gt;
-
 &lt;li&gt;매일 전국 각지에서 애드투페이퍼 클라이언트를 이용해 인쇄하는 애디 친구들의 사용자 경험을 밤낮으로 고민하고 개선하는 열정을 가지신 분 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
