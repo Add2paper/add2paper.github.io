@@ -13,7 +13,7 @@ tagline:
 
 애드투페이퍼에서 대한민국 200만 대학생의 생활을 혁신하는 서비스를 같이 만들어나갈 엔지니어 분들을 찾습니다.
 
-<br /><br />
+&#x20;<br /><br />
 
 ## 웹 서비스 개발자
 ***
@@ -45,7 +45,7 @@ tagline:
 * Mercurial, Git 등 DVCS 사용 경험 &nbsp;
 * Memcached, Redis, Celery, Nginx, Gunicorn, Supervisor 중 1개 이상 사용해본 경험 &nbsp;
 
-<br /><br />
+&#x20;<br /><br />
 
 ## 애드투페이퍼 윈도우 클라이언트 개발자
 ***
@@ -73,7 +73,7 @@ tagline:
 
 * 매일 전국 각지에서 애드투페이퍼 클라이언트를 이용해 인쇄하는 애디 친구들의 사용자 경험을 밤낮으로 고민하고 개선하는 열정을 가지신 분 &nbsp;
 
-<br /><br /><br />
+&#x20;<br /><br /><br />
 
 
 ## 지원 방법
@@ -81,7 +81,7 @@ tagline:
 * resume, 포트폴리오 (형식 자유) 를 lkc@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)
 * 이메일 접수 시 24시간 이내에 개별 연락드립니다.
 
-<br /><br /><br />
+&#x20;<br /><br /><br />
 
 ## 애드투페이퍼 언론 보도
 
@@ -89,7 +89,7 @@ tagline:
 * ["아이디어만 있으면 창업" | OBS](http://www.obsnews.co.kr/news/articleView.html?idxno=716608)
 * [靑 "창조경제 사례? 골프존·싸이·카카오톡이다" | 머니투데이](http://www.mt.co.kr/view/mtview.php?type=1&no=2013050316091578345&outlink=1)
 
-<br /><br /><br />
+&#x20;<br /><br /><br />
 
 <div class="fb-like" data-href="http://add2paper.github.io/2013/06/10/Add2paper-Recruiting/" data-send="true" data-width="450" data-show-faces="true"></div>
 

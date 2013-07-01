@@ -121,6 +121,6 @@ supervisorctl reload
 
 감사합니다.
 
-<br /><br />
+&#x20;<br /><br />
 
 <div class="fb-like" data-href="http://add2paper.github.io" data-send="true" data-width="450" data-show-faces="true"></div>
