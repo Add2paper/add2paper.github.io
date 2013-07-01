@@ -6,7 +6,7 @@ tagline:
 {% include JB/setup %}
 
 
-<img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/6/137084743083739.png" style="width: 100%" />
+<img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/7/137266001286913.png" style="width: 100%" />
 <img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/6/137084747402312.png" style="width: 100%; margin: 10px 0 10px 0;" />
 
 애드투페이퍼([홈페이지](http://www.add2paper.com) / [매체소개서](http://www.add2paper.com/pdf/))는 20대 대학생 타겟 미디어입니다. 현재 전국 70개 대학, 16만 명의 대학생이 애드투페이퍼 서비스를 사용하고 있습니다. 2013년 3월에 애드투페이퍼 앱([아이폰](http://www.add2paper.com/m_api/download/ios/) / [안드로이드](http://www.add2paper.com/m_api/download/android/))을 추가로 출시해 매일 모바일 회원의 50%가 앱에 접속하고 있습니다. (<u>50%에 달하는 DAU는 매우 놀라운 수치입니다! ^^</u>)
