@@ -9,7 +9,7 @@ tagline:
 <img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/7/137266001286913.png" style="width: 100%" />
 <img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/6/137084747402312.png" style="width: 100%; margin: 10px 0 10px 0;" />
 
-애드투페이퍼([홈페이지](http://www.add2paper.com) / [매체소개서](http://www.add2paper.com/pdf/))는 20대 대학생 타겟 미디어입니다. 현재 전국 70개 대학, 17만 명의 대학생이 애드투페이퍼 서비스를 사용하고 있습니다. 2013년 3월에 애드투페이퍼 앱([아이폰](http://www.add2paper.com/m_api/download/ios/) / [안드로이드](http://www.add2paper.com/m_api/download/android/))을 추가로 출시해 매일 모바일 회원의 50%가 앱에 접속하고 있습니다. (<u>50%에 달하는 DAU는 매우 놀라운 수치입니다! ^^</u>) 2013년에는 아산나눔재단, DSC인베스트 등으로 부터 9억원의 투자를 유치하여 공격적인 성장을 준비중입니다.
+애드투페이퍼([홈페이지](http://www.add2paper.com) / [매체소개서](http://www.add2paper.com/pdf/))는 20대 대학생 타겟 미디어입니다. 현재 전국 70개 대학, 17만 명의 대학생이 애드투페이퍼 서비스를 사용하고 있습니다. 2013년 3월에 애드투페이퍼 앱([아이폰](http://www.add2paper.com/m_api/download/ios/) / [안드로이드](http://www.add2paper.com/m_api/download/android/))을 추가로 출시해 매일 모바일 회원의 50%가 앱에 접속하고 있습니다. (<u>50%에 달하는 DAU는 매우 놀라운 수치입니다! ^^</u>) 2013년에는 아산나눔재단, DSC인베스트먼트 등으로부터 9억 원의 투자를 유치하여 공격적인 성장을 준비 중입니다.
 
 애드투페이퍼에서 대한민국 200만 대학생의 생활을 혁신하는 서비스를 같이 만들어나갈 엔지니어 분들을 찾습니다.
 
@@ -25,7 +25,7 @@ tagline:
 
 <br />
 
-애드투페이퍼의 모바일앱은 HTML5, CSS, Javascript, Phonegap 으로 만들어져 있습니다. 단일소스로 아이폰, 안드로이드앱을 빌드해서 배포하고 있습니다. 저희는 조만간 Javascript의 세상이 올것을 믿어 의심치 않습니다. Javascript를 사랑하는 분들을 기다립니다!
+애드투페이퍼의 모바일앱은 HTML5, CSS, Javascript, Phonegap 으로 만들어져 있습니다. 단일소스로 아이폰, 안드로이드앱을 빌드해서 배포하고 있습니다. 저희는 조만간 Javascript의 세상이 올 것을 믿어 의심치 않습니다. Javascript를 사랑하는 분들을 기다립니다!
 
 <br />
 
@@ -111,23 +111,23 @@ tagline:
 &#x20;<br /><br /><br />
 
 ### 근무 환경 및 복리 후생
-* 회사 위치 : [서울특별시 서초구 양재동 264-7 신성YS빌딩 3층](http://map.naver.com/local/siteview.nhn?code=13468464)
-* 건물 한층을 전부 사용하는 쾌적한 사무실
-* 연봉 : 협의 후 결정
-* 점심 식대 지원 
-* 4대 보험
-* 원하는 출퇴근시간, 근무환경 선택 가능
-* 도서 구입비 지원
-* 컨퍼런스 참가비 지원
-* <b><u>남자 : 여자 = 2 : 8 의 미친 성비 (중요)</u></b>
+* 회사 위치 : [서울특별시 서초구 양재동 264-7 신성YS빌딩 3층](http://map.naver.com/local/siteview.nhn?code=13468464) &nbsp;
+* 건물 한층을 전부 사용하는 쾌적한 사무실 &nbsp;
+* 연봉 : 협의 후 결정 &nbsp;
+* 점심 식대 지원  &nbsp;
+* 4대 보험 &nbsp;
+* 원하는 출퇴근 시간, 근무환경 선택 가능 &nbsp;
+* 도서 구매비 지원 &nbsp;
+* 컨퍼런스 참가비 지원 &nbsp;
+* <b><u>남자 : 여자 = 2 : 8 의 미친 성비 (중요)</u></b> &nbsp;
 
 &#x20;<br /><br /><br />
 
 ## 지원 방법
 
-* 수시 채용입니다. 언제든지 연락주세요.
-* resume, 포트폴리오 (형식 자유) 를 lkc@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)
-* 이메일 접수 시 24시간 이내에 개별 연락드립니다.
+* 수시 채용입니다. 언제든지 연락주세요. &nbsp;
+* resume, 포트폴리오 (형식 자유) 를 lkc@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.) &nbsp;
+* 이메일 접수 시 24시간 이내에 개별 연락드립니다. &nbsp;
 
 &#x20;<br /><br /><br />
 
