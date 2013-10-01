@@ -5,14 +5,14 @@
         <description>Add2paper Engineering Blog - Add2paper</description>
         <link>http://add2paper.github.com</link>
         <link>http://add2paper.github.com</link>
-        <lastBuildDate>2013-08-26T11:34:52+09:00</lastBuildDate>
-        <pubDate>2013-08-26T11:34:52+09:00</pubDate>
+        <lastBuildDate>2013-10-01T17:28:52+09:00</lastBuildDate>
+        <pubDate>2013-10-01T17:28:52+09:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>애드투페이퍼 서비스를 같이 혁신할 엔지니어분을 모십니다.</title>
-                <description>&lt;img src='http://dgkqp309hf29p.cloudfront.net/media/image/2013/7/137266001286913.png' style='width: 100%' /&gt;&lt;img src='http://dgkqp309hf29p.cloudfront.net/media/image/2013/6/137084747402312.png' style='width: 100%; margin: 10px 0 10px 0;' /&gt;
+                <description>&lt;img style='width: 100%' src='http://dgkqp309hf29p.cloudfront.net/media/image/2013/7/137266001286913.png' /&gt;&lt;img style='width: 100%; margin: 10px 0 10px 0;' src='http://dgkqp309hf29p.cloudfront.net/media/image/2013/6/137084747402312.png' /&gt;
 &lt;p&gt;애드투페이퍼(&lt;a href='http://www.add2paper.com'&gt;홈페이지&lt;/a&gt; / &lt;a href='http://www.add2paper.com/pdf/'&gt;매체소개서&lt;/a&gt;)는 20대 대학생 타겟 미디어입니다. 현재 전국 70개 대학, 17만 명의 대학생이 애드투페이퍼 서비스를 사용하고 있습니다. 2013년 3월에 애드투페이퍼 앱(&lt;a href='http://www.add2paper.com/m_api/download/ios/'&gt;아이폰&lt;/a&gt; / &lt;a href='http://www.add2paper.com/m_api/download/android/'&gt;안드로이드&lt;/a&gt;)을 추가로 출시해 매일 모바일 회원의 50%가 앱에 접속하고 있습니다. (&lt;u&gt;50%에 달하는 DAU는 매우 놀라운 수치입니다! ^^&lt;/u&gt;) 2013년에는 아산나눔재단, DSC인베스트먼트 등으로부터 9억 원의 투자를 유치하여 공격적인 성장을 준비 중입니다.&lt;/p&gt;
 
 &lt;p&gt;애드투페이퍼에서 대한민국 200만 대학생의 생활을 혁신하는 서비스를 같이 만들어나갈 엔지니어분들을 찾습니다.&lt;/p&gt;
@@ -22,7 +22,7 @@
 &lt;p&gt;&amp;#32;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id='javascript______'&gt;Javascript 엔지니어 (모바일앱 &amp;amp; 웹 서비스 프론트엔드)&lt;/h2&gt;
-&lt;hr /&gt;&lt;img src='http://dgkqp309hf29p.cloudfront.net/media/image/2013/8/137748157223743.png' style='width: 100%' /&gt;&lt;div style='text-align: center;'&gt;(Google Play 추천앱에 선정된 애드투페이퍼 안드로이드앱)&lt;/div&gt;&lt;br /&gt;
+&lt;hr /&gt;&lt;img style='width: 100%' src='http://dgkqp309hf29p.cloudfront.net/media/image/2013/8/137748157223743.png' /&gt;&lt;div style='text-align: center;'&gt;(Google Play 추천앱에 선정된 애드투페이퍼 안드로이드앱)&lt;/div&gt;&lt;br /&gt;
 &lt;p&gt;애드투페이퍼의 모바일앱은 HTML5, CSS, Javascript, Phonegap 으로 만들어져 있습니다. 단일소스로 아이폰, 안드로이드앱을 빌드해서 배포하고 있습니다. 저희는 조만간 Javascript의 세상이 올 것을 믿어 의심치 않습니다. Javascript를 사랑하는 분들을 기다립니다!&lt;/p&gt;
 &lt;br /&gt;
 &lt;h3 id='_____'&gt;담당업무 (원하시는 업무를 선택하셔서 진행하시면 됩니다.)&lt;/h3&gt;
@@ -35,13 +35,13 @@
 &lt;li&gt;애드투페이퍼 웹 서비스 프론트엔드 개발 / 신규 서비스 프론트엔드 개발 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id137'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id1'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Javascript 가능자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id138'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id2'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;HTML5 스펙에 대한 이해 &amp;#160;&lt;/li&gt;
@@ -55,7 +55,7 @@
 &lt;hr /&gt;
 &lt;p&gt;애드투페이퍼의 서비스의 백엔드는 100% Python으로 만들어져 있습니다. 저희 서비스의 구성 Stack은 &lt;a href='/2013/04/17/Add2paper-Technology-Stack/'&gt;&amp;#8220;애드투페이퍼 서비스 구성 Stack&amp;#8221;&lt;/a&gt; 포스팅에서 확인하실 수 있습니다. Python으로 혁신적인 서비스를 만들고 싶으신 분들, 더이상 Instagram, Pinterest, Quora 등 Python 엔지니어들의 지상낙원을 부러워하지 않으셔도 됩니다. 애드투페이퍼에서 Python으로 끝내주는 서비스 같이 만들어요!&lt;/p&gt;
 &lt;br /&gt;
-&lt;h3 id='id139'&gt;담당업무&lt;/h3&gt;
+&lt;h3 id='id3'&gt;담당업무&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;애드투페이퍼 서비스 신규 기능 추가 / 신규 서비스 개발 &amp;#160;&lt;/li&gt;
@@ -65,13 +65,13 @@
 &lt;li&gt;DevOps (애드투페이퍼에서는 자동화된 배포 시스템을 이용, 누구나 원하는 시간에 언제든지 원클릭으로 배포가 가능합니다.) &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id140'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id4'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Python 가능자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id141'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id5'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;기본적인 알고리즘에 대한 이해 &amp;#160;&lt;/li&gt;
@@ -95,7 +95,7 @@
 
 &lt;p&gt;현재까지 애드투페이퍼 클라이언트를 통해 인쇄된 프린팅 장수는 총 873만 6213장입니다(2013년 6월 10일 오후 5시 기준). 시험기간 같은 피크타임에는 하루 6만 장 이상 인쇄되기도 합니다. 애드투페이퍼 클라이언트는 전국 대학생 생활의 한 부분으로 자리 잡아가고 있습니다. 전국 모든 대학교 복사실 PC에 애드투페이퍼 클라이언트가 설치되는 그날까지, 애드투페이퍼 클라이언트의 혁신을 주도할 엔지니어분을 모십니다.&lt;/p&gt;
 &lt;br /&gt;
-&lt;h3 id='id142'&gt;담당업무&lt;/h3&gt;
+&lt;h3 id='id6'&gt;담당업무&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;애드투페이퍼 클라이언트 사용자 경험 혁신 &amp;#160;&lt;/li&gt;
@@ -103,7 +103,7 @@
 &lt;li&gt;애드투페이퍼 클라이언트 성능 튜닝 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id143'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id7'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C / C++ 가능자 &amp;#160;&lt;/li&gt;
@@ -111,10 +111,36 @@
 &lt;li&gt;MFC 가능자 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id144'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id8'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;매일 전국 각지에서 애드투페이퍼 클라이언트를 이용해 인쇄하는 애디 친구들의 사용자 경험을 밤낮으로 고민하고 개선하는 열정을 가지신 분 &amp;#160;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;&lt;h2 id='partner_engineer'&gt;Partner Engineer (기술 지원 담당)&lt;/h2&gt;&lt;hr /&gt;
+&lt;p&gt;전국 70개 대학교, 700대 PC에 설치되어 있는 애드투페이퍼 솔루션의 기술 지원을 담당하실 분을 모십니다.&lt;/p&gt;
+&lt;br /&gt;
+&lt;h3 id='id9'&gt;담당업무&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;애드투페이퍼 클라이언트 설치 지원 &amp;#160;&lt;/li&gt;
+
+&lt;li&gt;프린터 드라이버 설치 관련 기술 지원 &amp;#160;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;h3 id='id10'&gt;지원자격&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft Windows XP, 7, 8 사용에 능숙하신 분 &amp;#160;&lt;/li&gt;
+
+&lt;li&gt;프로그램, 드라이버 설치에 능숙하신 분 &amp;#160;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+&lt;h3 id='id11'&gt;우대사항&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Microsoft Windows 시리즈의 각종 고급 기능을 사용해 보신 분 &amp;#160;&lt;/li&gt;
+
+&lt;li&gt;전산 관련 지식을 가지신 분 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&amp;#32;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -172,7 +198,7 @@
 &lt;/ul&gt;
 
 &lt;p&gt;&amp;#32;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div data-href='http://add2paper.github.io/2013/06/10/Add2paper-Recruiting/' data-send='true' data-width='450' class='fb-like' data-show-faces='true' /&gt;</description>
+&lt;div class='fb-like' data-show-faces='true' data-send='true' data-href='http://add2paper.github.io/2013/06/10/Add2paper-Recruiting/' data-width='450' /&gt;</description>
                 <link>http://add2paper.github.com/2013/06/10/Add2paper-Recruiting</link>
                 <guid>http://add2paper.github.com/2013/06/10/Add2paper-Recruiting</guid>
                 <pubDate>2013-06-10T00:00:00+09:00</pubDate>
@@ -300,7 +326,7 @@ supervisorctl reload
 &lt;p&gt;감사합니다.&lt;/p&gt;
 
 &lt;p&gt;&amp;#32;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div data-href='http://add2paper.github.io' data-send='true' data-width='450' class='fb-like' data-show-faces='true' /&gt;</description>
+&lt;div class='fb-like' data-show-faces='true' data-send='true' data-href='http://add2paper.github.io' data-width='450' /&gt;</description>
                 <link>http://add2paper.github.com/2013/04/17/Add2paper-Technology-Stack</link>
                 <guid>http://add2paper.github.com/2013/04/17/Add2paper-Technology-Stack</guid>
                 <pubDate>2013-04-17T00:00:00+09:00</pubDate>
