@@ -6,8 +6,8 @@ tagline:
 {% include JB/setup %}
 
 
-<img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/7/137266001286913.png" style="width: 100%" />
-<img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/6/137084747402312.png" style="width: 100%; margin: 10px 0 10px 0;" />
+<img src="http://cdn.add2paper.com/media/image/2013/11/138473822972603.png" style="width: 100%" />
+<img src="http://cdn.add2paper.com/media/image/2013/6/137084747402312.png" style="width: 100%; margin: 10px 0 10px 0;" />
 
 애드투페이퍼([홈페이지](http://www.add2paper.com) / [매체소개서](http://www.add2paper.com/pdf/))는 20대 대학생 타겟 미디어입니다. 현재 전국 70개 대학, 17만 명의 대학생이 애드투페이퍼 서비스를 사용하고 있습니다. 2013년 3월에 애드투페이퍼 앱([아이폰](http://www.add2paper.com/m_api/download/ios/) / [안드로이드](http://www.add2paper.com/m_api/download/android/))을 추가로 출시해 매일 모바일 회원의 50%가 앱에 접속하고 있습니다. (<u>50%에 달하는 DAU는 매우 놀라운 수치입니다! ^^</u>) 2013년에는 아산나눔재단, DSC인베스트먼트 등으로부터 9억 원의 투자를 유치하여 공격적인 성장을 준비 중입니다.
 
@@ -20,7 +20,7 @@ tagline:
 ## Javascript 엔지니어 (모바일앱 & 웹 서비스 프론트엔드)
 ***
 
-<img src="http://dgkqp309hf29p.cloudfront.net/media/image/2013/8/137748157223743.png" style="width: 100%" />
+<img src="http://cdn.add2paper.com/media/image/2013/8/137748157223743.png" style="width: 100%" />
 <div style="text-align: center;">(Google Play 추천앱에 선정된 애드투페이퍼 안드로이드앱)</div>
 
 <br />
@@ -143,6 +143,7 @@ tagline:
 
 * 회사 위치 : [서울특별시 서초구 양재동 264-7 신성YS빌딩 3층](http://map.naver.com/local/siteview.nhn?code=13468464) &nbsp;
 * 건물 한 층을 전부 사용하는 쾌적한 사무실 &nbsp;
+* 27형 iMac 제공 &nbsp;
 * 연봉 : 협의 후 결정 &nbsp;
 * 점심 식대 지원  &nbsp;
 * 4대 보험 &nbsp;
