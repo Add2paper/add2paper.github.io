@@ -171,6 +171,8 @@ tagline:
 * [<인터뷰> “단지 공짜 출력? 20대 삶 개선할 것” | 아주경제](http://www.ajunews.com/kor/view.jsp?newsId=20130609000325)
 * ["아이디어만 있으면 창업" | OBS](http://www.obsnews.co.kr/news/articleView.html?idxno=716608)
 * [靑 "창조경제 사례? 골프존·싸이·카카오톡이다" | 머니투데이](http://www.mt.co.kr/view/mtview.php?type=1&no=2013050316091578345&outlink=1)
+* 경제매거진 | MBC
+<iframe width="560" height="315" src="//www.youtube.com/embed/jzKCeuPhC0k" frameborder="0"> </iframe>
 
 &#x20;<br /><br /><br />
 
