@@ -165,7 +165,7 @@ tagline:
 
 ## 애드투페이퍼 언론 보도
 
-* [<Fall in App> 무료 프린팅 인기 '애드투페이퍼' | 아이티투데이](http://www.ittoday.co.kr/news/articleView.html?idxno=42209)
+* [무료 프린팅 인기 '애드투페이퍼' | 아이티투데이](http://www.ittoday.co.kr/news/articleView.html?idxno=42209)
 * [KTV 기획 대한민국의 희망, 창조경제 (12회) | KTV](http://www.ktv.go.kr/ktv_contents.jsp?cid=469278)
 * [(더벨)'쫄지말고 투자하라', 시즌 1 마지막 방송 | 머니투데이](http://www.mt.co.kr/view/mtview.php?type=1&no=2013062109199663750&outlink=1)
 * ["앱 잘 활용하면 삶이 스마트해져요" | 부산일보](http://news20.busan.com/controller/newsController.jsp?newsId=20130720000008)
