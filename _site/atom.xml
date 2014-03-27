@@ -4,7 +4,7 @@
  <title>Add2paper Engineering Blog</title>
  <link href="http://add2paper.github.com/" rel="self"/>
  <link href="http://add2paper.github.com"/>
- <updated>2014-03-27T19:25:40+09:00</updated>
+ <updated>2014-03-27T19:31:46+09:00</updated>
  <id>http://add2paper.github.com</id>
  <author>
    <name>Add2paper</name>
@@ -36,7 +36,7 @@
 &lt;/p&gt;&lt;br /&gt;
 &lt;p&gt;&lt;a href='http://www.add2paper.com/m_api/download/android/'&gt;애드투페이퍼 안드로이드앱&lt;/a&gt;은 Native와 Web이 섞인 하이브리드 앱으로 개발되었습니다. 컨텐츠가 빈번하게 바뀌는 부분은 Web 기술을 적용하여 서버에서 기민하게 변경할 수 있도록 설계되었습니다. 애드투페이퍼 안드로이드앱에 가슴 뛰는 놀라운 기능과 서비스를 함께 추가하실 분들을 모십니다!&lt;/p&gt;
 &lt;br /&gt;
-&lt;h3 id='id108'&gt;담당업무&lt;/h3&gt;
+&lt;h3 id='id1'&gt;담당업무&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;애드투페이퍼 안드로이드앱 개발 / 신규 기능 추가 &amp;#160;&lt;/li&gt;
@@ -44,13 +44,13 @@
 &lt;li&gt;애드투페이퍼 안드로이드앱 테스트 자동화 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id109'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id2'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Android 개발 가능자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id110'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id3'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;번뜩이는 아이디어가 넘치시는 분 &amp;#160;&lt;/li&gt;
@@ -68,7 +68,7 @@
 &lt;/p&gt;&lt;br /&gt;
 &lt;p&gt;&lt;a href='http://www.add2paper.com/m_api/download/ios/'&gt;애드투페이퍼 아이폰앱&lt;/a&gt; 또한 Native와 Web이 섞인 하이브리드 앱으로 개발되었습니다. Web 부분은 안드로이드앱과 아이폰앱에서 공유하여 개발 생산성을 극대화 하고 있습니다. 애드투페이퍼 아이폰앱에 가슴 뛰는 놀라운 기능과 서비스를 함께 추가하실 분들을 모십니다!&lt;/p&gt;
 &lt;br /&gt;
-&lt;h3 id='id111'&gt;담당업무&lt;/h3&gt;
+&lt;h3 id='id4'&gt;담당업무&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;애드투페이퍼 아이폰앱 개발 / 신규 기능 추가 &amp;#160;&lt;/li&gt;
@@ -76,13 +76,13 @@
 &lt;li&gt;애드투페이퍼 아이폰앱 테스트 자동화 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id112'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id5'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;iOS 개발 가능자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id113'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id6'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;번뜩이는 아이디어가 넘치시는 분 &amp;#160;&lt;/li&gt;
@@ -96,7 +96,7 @@
 &lt;hr /&gt;
 &lt;p&gt;애드투페이퍼의 서비스의 백엔드는 100% Python으로 만들어져 있습니다. 저희 서비스의 구성 Stack은 &lt;a href='/2013/04/17/Add2paper-Technology-Stack/'&gt;&amp;#8220;애드투페이퍼 서비스 구성 Stack&amp;#8221;&lt;/a&gt; 포스팅에서 확인하실 수 있습니다. Python으로 혁신적인 서비스를 만들고 싶으신 분들, 더이상 Instagram, Pinterest, Quora 등 Python 엔지니어들의 지상낙원을 부러워하지 않으셔도 됩니다. 애드투페이퍼에서 Python으로 끝내주는 서비스 같이 만들어요!&lt;/p&gt;
 &lt;br /&gt;
-&lt;h3 id='id114'&gt;담당업무&lt;/h3&gt;
+&lt;h3 id='id7'&gt;담당업무&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;애드투페이퍼 서비스 신규 기능 추가 / 신규 서비스 개발 &amp;#160;&lt;/li&gt;
@@ -106,13 +106,13 @@
 &lt;li&gt;DevOps (애드투페이퍼에서는 자동화된 배포 시스템을 이용, 누구나 원하는 시간에 언제든지 원클릭으로 배포가 가능합니다.) &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id115'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id8'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Python 가능자&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id116'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id9'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;기본적인 알고리즘에 대한 이해 &amp;#160;&lt;/li&gt;
@@ -136,7 +136,7 @@
 
 &lt;p&gt;현재까지 애드투페이퍼 클라이언트를 통해 인쇄된 프린팅 장수는 총 1천 703만 3736장입니다(2014년 3월 27일 오후 6시 기준). 요즘은 매일 10만장씩 인쇄되어 2천만장 돌파를 코앞에 두고 있습니다. 애드투페이퍼 클라이언트는 전국 대학생 생활의 한 부분으로 자리 잡아가고 있습니다. 전국 모든 대학교 복사실 PC에 애드투페이퍼 클라이언트가 설치되는 그날까지, 애드투페이퍼 클라이언트의 혁신을 주도할 엔지니어분을 모십니다.&lt;/p&gt;
 &lt;br /&gt;
-&lt;h3 id='id117'&gt;담당업무&lt;/h3&gt;
+&lt;h3 id='id10'&gt;담당업무&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;애드투페이퍼 클라이언트 사용자 경험 혁신 &amp;#160;&lt;/li&gt;
@@ -144,7 +144,7 @@
 &lt;li&gt;애드투페이퍼 클라이언트 성능 튜닝 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id118'&gt;지원자격&lt;/h3&gt;
+&lt;h3 id='id11'&gt;지원자격&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C / C++ 가능자 &amp;#160;&lt;/li&gt;
@@ -152,7 +152,7 @@
 &lt;li&gt;MFC 가능자 &amp;#160;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;br /&gt;
-&lt;h3 id='id119'&gt;우대사항&lt;/h3&gt;
+&lt;h3 id='id12'&gt;우대사항&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;매일 전국 각지에서 애드투페이퍼 클라이언트를 이용해 인쇄하는 애드투페이퍼 유저분들의 사용자 경험을 밤낮으로 고민하고 개선하는 열정을 가지신 분 &amp;#160;&lt;/li&gt;
@@ -213,11 +213,11 @@
 
 &lt;li&gt;&lt;a href='http://www.mt.co.kr/view/mtview.php?type=1&amp;amp;no=2013050316091578345&amp;amp;outlink=1'&gt;靑 &amp;#8220;창조경제 사례? 골프존·싸이·카카오톡이다&amp;#8221; | 머니투데이&lt;/a&gt;&lt;/li&gt;
 
-&lt;li&gt;경제매거진 | MBC &lt;iframe src='//www.youtube.com/embed/jzKCeuPhC0k' frameborder='0' height='315' width='560'&gt; &lt;/iframe&gt;&lt;/li&gt;
+&lt;li&gt;경제매거진 | MBC &lt;iframe height='315' src='//www.youtube.com/embed/jzKCeuPhC0k' width='560' frameborder='0'&gt; &lt;/iframe&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&amp;#32;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div data-show-faces='true' class='fb-like' data-send='true' data-width='450' data-href='http://add2paper.github.io/2014/03/27/Add2paper-Recruiting/' /&gt;</content>
+&lt;div data-send='true' data-show-faces='true' class='fb-like' data-width='450' data-href='http://add2paper.github.io/2014/03/27/Add2paper-Recruiting/' /&gt;</content>
  </entry>
  
  <entry>
@@ -345,7 +345,7 @@ supervisorctl reload
 &lt;p&gt;감사합니다.&lt;/p&gt;
 
 &lt;p&gt;&amp;#32;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div data-show-faces='true' class='fb-like' data-send='true' data-width='450' data-href='http://add2paper.github.io' /&gt;</content>
+&lt;div data-send='true' data-show-faces='true' class='fb-like' data-width='450' data-href='http://add2paper.github.io' /&gt;</content>
  </entry>
  
  

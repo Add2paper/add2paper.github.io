@@ -8,7 +8,7 @@ class: index_page
 
 <div style="margin-bottom: 50px;">
     <div class="page-header">
-      <h1><a href="{{ root_url }}{{ site.posts.first.url }}">{{ site.posts.first.title }}</a></h1>
+      <h1><a href=" {{ root_url }}{{ site.posts.first.url }} "> {{ site.posts.first.title }} </a></h1>
     </div>
 
     <div class="row-fluid">
@@ -22,7 +22,7 @@ class: index_page
 
 <div style="margin-top: 50px;">
     <div class="page-header">
-      <h1><a href="{{ root_url }}{{ site.posts.last.url }}">{{ site.posts.last.title }}</a></h1>
+      <h1><a href=" {{ root_url }}{{ site.posts.last.url }} "> {{ site.posts.last.title }} </a></h1>
     </div>
 
     <div class="row-fluid">
