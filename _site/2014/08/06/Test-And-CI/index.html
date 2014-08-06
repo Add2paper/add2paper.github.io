@@ -7,6 +7,7 @@
     <title>테스트와 CI &mdash; 애드투페이퍼 엔지니어링 블로그</title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/main.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="애드투페이퍼 엔지니어링 블로그" />
@@ -117,7 +118,7 @@ class HelloTestCase(TestCase):
 
 <p><img src="/images/test_feedback.png" alt="테스트 피드백" /></p>
 
-<p>처음으로 써본 글이라 설명이 미숙합니다. 혹시 잘못된 부분이 있다면 알려주세요.<br />읽어주셔서 감사합니다.</p>
+<p>읽어주셔서 감사합니다.</p>
             
         </section>
 
@@ -173,7 +174,9 @@ class HelloTestCase(TestCase):
 </footer>
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script src="/assets/main.js"></script>
+<script type="text/javascript">
+$(".full img").on("click",function(){$(this).toggleClass("zoom")});
+</script>
 
 
 
