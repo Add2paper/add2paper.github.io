@@ -3,27 +3,18 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} &mdash; 애드투페이퍼 엔지니어링 블로그{% else %}애드투페이퍼 엔지니어링 블로그{% endif %}</title>
+    <title>애드투페이퍼 엔지니어링 블로그</title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    {% stylesheet main %}
+    <link rel="stylesheet" href="/assets/main.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
+    <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="애드투페이퍼 엔지니어링 블로그" />
-    <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}애드투페이퍼 엔지니어링 블로그{% endif %}">
-    <link rel="canonical" href="http://add2paper.github.io{{ page.url }}"> 
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}애드투페이퍼 엔지니어링 블로그{% endif %}"/>
-    <meta property="og:url" content="http://add2paper.github.io{{ page.url }}"/>
-    {% if page.cover_image %}
-    <meta property="og:image" content="http://add2paper.github.io/images/{{ page.cover_image }}"/>
-    {% if page.main_image %}
-    <meta property="og:image" content="http://add2paper.github.io/images/{{ page.main_image }}"/>  
-    {% endif %}
-    <meta property="og:image" content="http://add2paper.github.io/images/logo.png"/>   
-    {% endif %}
-    {% if page.excerpt %}
-    <meta property="og:description" content="{{ page.excerpt }}"/>
-    <meta name="description" content="{{ page.excerpt }}"/>
-    {% endif %}
+    <meta name="title" content="애드투페이퍼 엔지니어링 블로그">
+    <link rel="canonical" href="http://add2paper.github.io/about/"> 
+    <meta property="og:title" content="애드투페이퍼 엔지니어링 블로그"/>
+    <meta property="og:url" content="http://add2paper.github.io/about/"/>
+    
+    
     <meta property="og:site_name" content="애드투페이퍼 엔지니어링 블로그">     
 </head>
 <body>
@@ -39,11 +30,37 @@
     </header>
 </section>
 
-{{ content }}
+<div class="blog-cover" style="background-image:url(/images/blog-cover.png);">
+    
+    <section>
+        <div class="container">
+            <h1>애드투페이퍼 엔지니어링 블로그</h1>
+            
+        
+            
+            
+            <a href="http://facebook.com/add2fan" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+            
+            <a href="/feed.xml" title="RSS Feed">
+                <i class="icon icon-rss"></i>
+            </a>
+        </div>
+    </section>
+</div>
+
+
+<article class="container">
+
+    <section class="pagination" style="text-align:center">
+      
+      
+    </section>
+</article>
+
 
 <footer class="site-footer">
     <div class="container">
-        &copy; {{ site.time | date: "%Y" }} 
+        &copy; 2014 
         
         <nav>
             <a href="http://www.add2paper.com/">Add2paper</a> &middot;
@@ -60,7 +77,14 @@
     </div>
 </footer>
 
-{% include _scripts.html %}
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+
+
+
+
+
+
 
 </body>
 </html>
