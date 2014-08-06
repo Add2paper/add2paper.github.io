@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Wed, 06 Aug 2014 05:52:27 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Aug 2014 05:52:27 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2014 06:30:01 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2014 06:30:01 +0000</lastBuildDate>
 
     
     
@@ -67,7 +67,7 @@ class HelloTestCase(TestCase):
 
 &lt;h2 id=&quot;ci&quot;&gt;CI&lt;/h2&gt;
 
-&lt;p&gt;프로젝트 규모가 커지면 빌드와 테스트하는 데에 많은 자원적, 시간적 비용이 들게 됩니다. 이런 문제점을 해결하기 위해 한 시스템에서 빌드와 테스트를 수행하는데 이를 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8_%ED%86%B5%ED%95%A9&quot;&gt;CI(Continuous Integration)&lt;/a&gt; 시스템이라고 합니다.&lt;br /&gt;현재 애드투페이퍼에서는 &lt;a href=&quot;https://codeship.io&quot;&gt;codeship.io&lt;/a&gt;이라는 서비스에 저희 소스 코드 저장소의 훅을 걸어 사용하고 있습니다. 코드를 수정하고 저장소에 푸쉬를 하게 되면 아래와 같은 흐름대로 코드 테스트를 진행합니다.&lt;/p&gt;
+&lt;p&gt;프로젝트 규모가 커지면 빌드와 테스트하는 데에 많은 자원적, 시간적 비용이 들게 됩니다. 이런 문제점을 해결하기 위해 한 시스템에서 빌드와 테스트를 수행하는데 이를 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8_%ED%86%B5%ED%95%A9&quot;&gt;CI(Continuous Integration)&lt;/a&gt; 시스템이라고 합니다.&lt;br /&gt;현재 애드투페이퍼에서는 &lt;a href=&quot;https://codeship.io&quot;&gt;codeship.io&lt;/a&gt;이라는 서비스에 소스 코드 저장소의 훅을 걸어 사용하고 있습니다. 코드를 수정하고 저장소에 푸쉬를 하게 되면 아래와 같은 흐름대로 코드 테스트를 진행합니다.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;환경변수 설정&lt;/li&gt;
