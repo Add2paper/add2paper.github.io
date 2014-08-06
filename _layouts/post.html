@@ -1,0 +1,52 @@
+---
+layout: base
+---
+{% if page.cover_image %}
+<div class="article-cover">
+    <div>
+        <img src="/images/{{ page.cover_image }}" class="image">
+    </div>
+</div>
+{% endif %}
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                By <address><a rel="author" href="{{ page.author.link }}" title="{{ page.author.name }}" target="_blank">{{ page.author.name }}</a></address> &mdash;
+                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            </div>
+            <h1 class="title">{{ page.title }}</h1>
+            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+        </header>
+
+        <section>
+            {{ content }}
+            {% include _social.html %}
+        </section>
+
+        <footer>
+            <address>
+               {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
+                <p>Written by <strong><a rel="author" href="{{ page.author.page }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong><br>
+                <span class="muted">{{ page.author.bio }}</span>
+                </p>
+            </address>
+
+        </footer>
+
+        <section>
+          <div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-colorscheme="light"></div>
+        </section>
+    </div>
+</article>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=815565955163058&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
