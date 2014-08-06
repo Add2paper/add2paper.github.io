@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Wed, 06 Aug 2014 05:13:46 +0000</pubDate>
-    <lastBuildDate>Wed, 06 Aug 2014 05:13:46 +0000</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2014 05:24:33 +0000</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2014 05:24:33 +0000</lastBuildDate>
 
     
     
@@ -71,7 +71,7 @@ class HelloTestCase(TestCase):
 
 &lt;p&gt;&lt;img src=&quot;/images/test_feedback.png&quot; alt=&quot;테스트 피드백&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;처음으로 써본 글이라 설명이 미숙합니다. 혹시 잘못된 부분이 있다면 알려주세요.&lt;br /&gt;읽어주셔서 감사합니다.&lt;/p&gt;</description>
+&lt;p&gt;읽어주셔서 감사합니다.&lt;/p&gt;</description>
     </item>
     
     
