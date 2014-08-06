@@ -1,30 +1,33 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if page.title %}{{ page.title }} &mdash; 애드투페이퍼 엔지니어링 블로그{% else %}애드투페이퍼 엔지니어링 블로그{% endif %}</title>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    {% stylesheet main %}
+    <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
+    {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
+    <link rel="stylesheet" href="/assets/main.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
-    <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="애드투페이퍼 엔지니어링 블로그" />
-    <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}애드투페이퍼 엔지니어링 블로그{% endif %}">
-    <link rel="canonical" href="http://add2paper.github.io{{ page.url }}"> 
-    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}애드투페이퍼 엔지니어링 블로그{% endif %}"/>
-    <meta property="og:url" content="http://add2paper.github.io{{ page.url }}"/>
+    <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
+    <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %} 
+    {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}       
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     {% if page.cover_image %}
-    <meta property="og:image" content="http://add2paper.github.io/images/{{ page.cover_image }}"/>
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
     {% if page.main_image %}
-    <meta property="og:image" content="http://add2paper.github.io/images/{{ page.main_image }}"/>  
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
     {% endif %}
-    <meta property="og:image" content="http://add2paper.github.io/images/logo.png"/>   
+    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
     {% endif %}
     {% if page.excerpt %}
     <meta property="og:description" content="{{ page.excerpt }}"/>
     <meta name="description" content="{{ page.excerpt }}"/>
     {% endif %}
-    <meta property="og:site_name" content="애드투페이퍼 엔지니어링 블로그">     
+    <meta property="og:site_name" content="{{ site.inc.title }}">     
 </head>
 <body>
     
@@ -32,10 +35,16 @@
     <header>
         <nav id="navigation">
             <a class="brand" href="/">
-                <img src="/images/logo.png" alt="Inc">
+                <img src="/images/{{ site.inc.logo }}" alt="Inc">
             </a>
             <a href="/" class="home">Blog</a>
+            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}">Product</a>{% endif %}
+            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %}
         </nav>
+        {% if site.inc.tagline or site.inc.product_url %}<nav class="tagline">
+            {% if site.inc.tagline %}<span>{{ site.inc.tagline }}</span>{% endif %}
+            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}" class="btn btn-outline">Learn More</a>{% endif %}
+        </nav>{% endif %}
     </header>
 </section>
 
@@ -46,12 +55,19 @@
         &copy; {{ site.time | date: "%Y" }} 
         
         <nav>
-            <a href="http://www.add2paper.com/">Add2paper</a> &middot;
+            <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
             <a href="/">Blog</a> &middot;
+            {% if site.inc.product_link %}<a href="{{ site.inc.product_link }}">Product</a> &middot; {% endif %}
+            {% if site.inc.about_link %}<a href="{{ site.inc.about_link }}">About</a>{% endif %}
         </nav>
         
         <nav class="social">
-            <a href="http://facebook.com/add2fan" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+            {% if site.inc.twitter %}
+            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            {% endif %}
+            {% if site.inc.facebook %}
+            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+            {% endif %}    
             <a href="/feed.xml" title="RSS Feed">
                 <i class="icon icon-rss black"></i>
             </a>
