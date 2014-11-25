@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Tue, 25 Nov 2014 06:21:25 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Nov 2014 06:21:25 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Nov 2014 06:32:41 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Nov 2014 06:32:41 +0000</lastBuildDate>
 
     
     
@@ -67,7 +67,7 @@
 &lt;ol&gt;
 &lt;li&gt;드라이버 관련 개발 지식은 필수는 아닙니다. 다만 윈도우 개발과 관련한 탄탄한 기본기는 필수입니다.&lt;/li&gt;
 
-&lt;li&gt;현재 윈도우 클라이언트의 UI는 내장된 Chrome (&lt;a href=&quot;https://code.google.com/p/chromiumembedded/&quot;&gt;CEF&lt;/a&gt;) 위에서 동작하는 HTML5 웹앱입니다. 웹 관련 기술에 관심이 있으시면 좋지만 필수는 아닙니다. (UI는 웹개발자들이 담당하고 있습니다. &lt;strike&gt;UI 개발은 신경 쓰지 않으셔도 되니 걱정하지 마세요.&lt;/strike&gt;)&lt;/li&gt;
+&lt;li&gt;현재 윈도우 클라이언트의 UI는 내장된 Chrome (&lt;a href=&quot;https://code.google.com/p/chromiumembedded/&quot;&gt;CEF&lt;/a&gt;) 위에서 동작하는 HTML5 웹앱입니다. 웹 관련 기술에 관심이 있으시면 좋지만 필수는 아닙니다. (UI는 웹개발자들이 담당하고 있습니다. UI 개발은 신경 쓰지 않으셔도 되니 걱정하지 마세요.)&lt;/li&gt;
 
 &lt;li&gt;현재 기술스택은 언제든지 유연하게 변경이 가능합니다. 내가 만들면 이것보다는 훨씬 잘 만들 수 있겠다는 분들 환영합니다!&lt;/li&gt;
 &lt;/ol&gt;
@@ -76,7 +76,7 @@
 
 &lt;h2 id=&quot;android_&quot;&gt;Android 개발자&lt;/h2&gt;
 
-&lt;p&gt;리뷰 평점 4.8! &lt;a href=&quot;http://www.add2paper.com/m_api/download/android/&quot;&gt;애드투페이퍼 안드로이드앱&lt;/a&gt; 및 신규 앱 개발을 담당할 Android 개발자를 찾습니다. 애드투페이퍼 개발팀은 웹덕후라 Adnroid 앱에도 웹기술이 &lt;strike&gt;꽤 많이&lt;/strike&gt; 스며들어 있지만, 마음에 안 들면 &lt;strike&gt;바람직한&lt;/strike&gt; 토론 후 걷어낼 수 있습니다. 더 바람직한 개발 방향을 제시해 주실 분들 언제든지 환영합니다.&lt;/p&gt;
+&lt;p&gt;리뷰 평점 4.8! &lt;a href=&quot;http://www.add2paper.com/m_api/download/android/&quot;&gt;애드투페이퍼 안드로이드앱&lt;/a&gt; 및 신규 앱 개발을 담당할 Android 개발자를 찾습니다. 애드투페이퍼 개발팀은 웹덕후라 Adnroid 앱에도 웹기술이 꽤 많이 쓰이고 있지만, 마음에 안 들면 토론 후 걷어낼 수 있습니다. 더 바람직한 개발 방향을 제시해 주실 분들 언제든지 환영합니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;_4&quot;&gt;담당업무&lt;/h3&gt;
 
@@ -92,7 +92,7 @@
 
 &lt;h2 id=&quot;ios_&quot;&gt;iOS 개발자&lt;/h2&gt;
 
-&lt;p&gt;리뷰 별 다섯개! &lt;a href=&quot;http://www.add2paper.com/m_api/download/ios/&quot;&gt;애드투페이퍼 아이폰앱&lt;/a&gt; 및 신규 앱 개발을 담당할 iOS 개발자를 찾습니다. 아이폰앱 역시 웹기술이 많이 스며들어있습니다. Android앱과 상당 부분 코드를 공유하고 있고, 높은 생산성과 유연한 수정을 지향하고 있습니다. 마음에 안 드시면 역시 토론후 수정이 가능합니다. &lt;strike&gt;(아이폰6 / 아이폰6 플러스가 국내 정시 출시되기 전부터 이미 대응한 건 자랑)&lt;/strike&gt;&lt;/p&gt;
+&lt;p&gt;리뷰 별 다섯개! &lt;a href=&quot;http://www.add2paper.com/m_api/download/ios/&quot;&gt;애드투페이퍼 아이폰앱&lt;/a&gt; 및 신규 앱 개발을 담당할 iOS 개발자를 찾습니다. 아이폰앱 역시 웹기술이 많이 스며들어있습니다. Android앱과 상당 부분 코드를 공유하고 있고, 높은 생산성과 유연한 수정을 지향하고 있습니다. 마음에 안 드시면 역시 토론후 수정이 가능합니다.&lt;/p&gt;
 
 &lt;h3 id=&quot;_5&quot;&gt;담당업무&lt;/h3&gt;
 
@@ -115,7 +115,7 @@
 
 &lt;li&gt;하기 싫은 일을 강요하는 사람은 없습니다. 모든 개발 방향을 토론을 통해 결정됩니다.&lt;/li&gt;
 
-&lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다. &lt;strike&gt;(체력이 약해서…)&lt;/strike&gt;&lt;/li&gt;
+&lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
