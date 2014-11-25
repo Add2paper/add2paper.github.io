@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Tue, 25 Nov 2014 06:12:25 +0000</pubDate>
-    <lastBuildDate>Tue, 25 Nov 2014 06:12:25 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Nov 2014 06:21:25 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Nov 2014 06:21:25 +0000</lastBuildDate>
 
     
     
@@ -67,7 +67,7 @@
 &lt;ol&gt;
 &lt;li&gt;드라이버 관련 개발 지식은 필수는 아닙니다. 다만 윈도우 개발과 관련한 탄탄한 기본기는 필수입니다.&lt;/li&gt;
 
-&lt;li&gt;현재 윈도우 클라이언트의 UI는 내장된 Chrome 위에서 동작하는 HTML5 웹앱입니다. (Javascript를 통해 C# 백엔드와 통신합니다.) 웹 관련 기술에 관심이 있으시면 좋지만 필수는 아닙니다. (UI는 웹개발자들이 담당하고 있습니다. &lt;strike&gt;UI 개발은 신경 쓰지 않으셔도 되니 걱정하지 마세요.&lt;/strike&gt;)&lt;/li&gt;
+&lt;li&gt;현재 윈도우 클라이언트의 UI는 내장된 Chrome (&lt;a href=&quot;https://code.google.com/p/chromiumembedded/&quot;&gt;CEF&lt;/a&gt;) 위에서 동작하는 HTML5 웹앱입니다. 웹 관련 기술에 관심이 있으시면 좋지만 필수는 아닙니다. (UI는 웹개발자들이 담당하고 있습니다. &lt;strike&gt;UI 개발은 신경 쓰지 않으셔도 되니 걱정하지 마세요.&lt;/strike&gt;)&lt;/li&gt;
 
 &lt;li&gt;현재 기술스택은 언제든지 유연하게 변경이 가능합니다. 내가 만들면 이것보다는 훨씬 잘 만들 수 있겠다는 분들 환영합니다!&lt;/li&gt;
 &lt;/ol&gt;
