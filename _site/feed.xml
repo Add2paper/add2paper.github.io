@@ -6,9 +6,159 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 02 Oct 2014 01:45:50 +0000</pubDate>
-    <lastBuildDate>Thu, 02 Oct 2014 01:45:50 +0000</lastBuildDate>
+    <pubDate>Tue, 25 Nov 2014 06:12:25 +0000</pubDate>
+    <lastBuildDate>Tue, 25 Nov 2014 06:12:25 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>애드투페이퍼 서비스를 같이 혁신할 엔지니어분을 모십니다. (산업기능요원 보충역 / 전직 가능)</title>
+      <link>http://add2paper.github.io/2014/11/25/Add2paper-Recruiting2/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://add2paper.github.io/2014/11/25/Add2paper-Recruiting2</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 20대 대학생 타겟 미디어입니다. 2014년 하반기에는 통합 가상 화폐 ‘애딧’과 API 서비스를 오픈하여 다양한 대학생 편의 서비스와 빠른 속도로 제휴를 진행하고 있습니다. 대학생 타겟 미디어를 넘어 대학생 통합 편의 서비스로 진화하고 있는 애드투페이퍼에서 실력 있는 개발자분들을 모십니다. &lt;b&gt;&lt;u&gt;애드투페이퍼가 이번에 병역특례회사로 선정됨에 따라 산업기능요원(보충역 / 전직) 또한 가능합니다.&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;__&quot;&gt;웹서비스 백엔드 개발자&lt;/h2&gt;
+
+&lt;p&gt;애드투페이퍼의 서비스의 백엔드는 100% Python으로 만들어져 있습니다. 저희 서비스의 구성 Stack은 &lt;a href=&quot;http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/&quot;&gt;“애드투페이퍼 서비스 구성 Stack”&lt;/a&gt; 포스팅에서 확인하실 수 있습니다. 최근에는 API 관련 일부 서비스에 &lt;a href=&quot;http://www.tornadoweb.org/&quot;&gt;Tornado&lt;/a&gt;를 실험적으로 도입하고 있고, 저비용+고성능+고가용성 서버를 만드는 데 관심이 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;&quot;&gt;담당업무&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;애드투페이퍼 서비스 신규 기능 추가 / 신규 서비스 개발&lt;/li&gt;
+
+&lt;li&gt;애드투페이퍼 API 서비스 개발&lt;/li&gt;
+
+&lt;li&gt;DevOps (자동화된 배포 시스템을 이용, 누구나 원하는 시간에 언제든지 원클릭으로 배포가 가능합니다.)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;___vpd_&quot;&gt;윈도우 클라이언트 / VPD 개발자&lt;/h2&gt;
+
+&lt;p&gt;애드투페이퍼 윈도우 클라이언트, VPD(Virtual Printer Driver)는 애드투페이퍼 서비스의 핵심입니다. 현재까지 애드투페이퍼클라이언트를 통해 35만 명의 회원이 2500만 장 이상의 출력을 하였습니다. VPD를 통해 기존 프린터 인쇄 방식을 그대로 사용하여 직관적으로 서비스를 사용할 수 있습니다. (또한 프린터 모델과 관계없이 모든 프린터와 호환됩니다.)&lt;/p&gt;
+&lt;div style=&#39;text-align: center;&#39;&gt;
+&lt;img src=&#39;http://cdn.add2paper.com/media/image/2014/11/141688833323987.jpg&#39; style=&#39;width: 600px&#39; /&gt;
+&lt;br /&gt;
+(일반 프린터 인쇄와 같이 Add2Paper Printer를 선택하고 인쇄를 하면 VPD에서 전처리 후 윈도우 클라이언트를 실행합니다.)
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&#39;http://cdn.add2paper.com/media/image/2014/11/141688832599639.jpg&#39; style=&#39;width: 600px&#39; /&gt;
+&lt;br /&gt;
+(애드투페이퍼 계정으로 로그인 후 &#39;인쇄하기&#39;를 누르면 실제 프린터에서 출력물이 나옵니다.)
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;3년간의 축적된 기술을 바탕으로 더 나은 클라이언트와 VPD를 만들기 위해 노력하고 있습니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;_2&quot;&gt;담당업무&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;애드투페이퍼 윈도우 클라이언트 개발 (C# / .Net Framework)&lt;/li&gt;
+
+&lt;li&gt;VPD 개발&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;_3&quot;&gt;특이사항&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;드라이버 관련 개발 지식은 필수는 아닙니다. 다만 윈도우 개발과 관련한 탄탄한 기본기는 필수입니다.&lt;/li&gt;
+
+&lt;li&gt;현재 윈도우 클라이언트의 UI는 내장된 Chrome 위에서 동작하는 HTML5 웹앱입니다. (Javascript를 통해 C# 백엔드와 통신합니다.) 웹 관련 기술에 관심이 있으시면 좋지만 필수는 아닙니다. (UI는 웹개발자들이 담당하고 있습니다. &lt;strike&gt;UI 개발은 신경 쓰지 않으셔도 되니 걱정하지 마세요.&lt;/strike&gt;)&lt;/li&gt;
+
+&lt;li&gt;현재 기술스택은 언제든지 유연하게 변경이 가능합니다. 내가 만들면 이것보다는 훨씬 잘 만들 수 있겠다는 분들 환영합니다!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;android_&quot;&gt;Android 개발자&lt;/h2&gt;
+
+&lt;p&gt;리뷰 평점 4.8! &lt;a href=&quot;http://www.add2paper.com/m_api/download/android/&quot;&gt;애드투페이퍼 안드로이드앱&lt;/a&gt; 및 신규 앱 개발을 담당할 Android 개발자를 찾습니다. 애드투페이퍼 개발팀은 웹덕후라 Adnroid 앱에도 웹기술이 &lt;strike&gt;꽤 많이&lt;/strike&gt; 스며들어 있지만, 마음에 안 들면 &lt;strike&gt;바람직한&lt;/strike&gt; 토론 후 걷어낼 수 있습니다. 더 바람직한 개발 방향을 제시해 주실 분들 언제든지 환영합니다.&lt;/p&gt;
+
+&lt;h3 id=&quot;_4&quot;&gt;담당업무&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;애드투페이퍼 안드로이드앱 개발 / 신규 기능 추가&lt;/li&gt;
+
+&lt;li&gt;애드투페이퍼 안드로이드앱 테스트 자동화&lt;/li&gt;
+
+&lt;li&gt;신규 앱 개발&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ios_&quot;&gt;iOS 개발자&lt;/h2&gt;
+
+&lt;p&gt;리뷰 별 다섯개! &lt;a href=&quot;http://www.add2paper.com/m_api/download/ios/&quot;&gt;애드투페이퍼 아이폰앱&lt;/a&gt; 및 신규 앱 개발을 담당할 iOS 개발자를 찾습니다. 아이폰앱 역시 웹기술이 많이 스며들어있습니다. Android앱과 상당 부분 코드를 공유하고 있고, 높은 생산성과 유연한 수정을 지향하고 있습니다. 마음에 안 드시면 역시 토론후 수정이 가능합니다. &lt;strike&gt;(아이폰6 / 아이폰6 플러스가 국내 정시 출시되기 전부터 이미 대응한 건 자랑)&lt;/strike&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;_5&quot;&gt;담당업무&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;애드투페이퍼 아이폰앱 개발 / 신규 기능 추가&lt;/li&gt;
+
+&lt;li&gt;애드투페이퍼 아이폰앱 테스트 자동화&lt;/li&gt;
+
+&lt;li&gt;신규 앱 개발&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;_&quot;&gt;개발 문화&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Github, Github Issues, Hipchat을 사용한 가볍고 탄력성 있는 개발 문화를 지향합니다. 최근에 작성된 코드들은 테스트 코드를 작성하고 CI를 통해 자동으로 코드를 검증합니다.&lt;/li&gt;
+
+&lt;li&gt;새로운 기술을 적극적으로 검토하고 실험합니다. 기술 스택도 마음대로 선택 가능합니다. 다만 충분한 테스트 코드 작성 및 검토가 선행됩니다.&lt;/li&gt;
+
+&lt;li&gt;하기 싫은 일을 강요하는 사람은 없습니다. 모든 개발 방향을 토론을 통해 결정됩니다.&lt;/li&gt;
+
+&lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다. &lt;strike&gt;(체력이 약해서…)&lt;/strike&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;_6&quot;&gt;복리후생&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;회사 위치 : &lt;a href=&quot;http://map.naver.com/local/siteview.nhn?code=13468464&quot;&gt;서울특별시 강남구 역삼동 799-5, 대일빌딩 3층&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실&lt;/li&gt;
+
+&lt;li&gt;개발에 필요한 모든 장비 지원(iMac, 맥북 등)&lt;/li&gt;
+
+&lt;li&gt;연봉제, 4대보험, 퇴직금, 인센티브&lt;/li&gt;
+
+&lt;li&gt;점심 식대 지원&lt;/li&gt;
+
+&lt;li&gt;원하는 출퇴근 시간, 근무환경 선택 가능&lt;/li&gt;
+
+&lt;li&gt;도서 구매비 지원&lt;/li&gt;
+
+&lt;li&gt;컨퍼런스 참가비 지원&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;_7&quot;&gt;지원방법&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;수시 채용입니다. 언제든지 연락주세요.&lt;/li&gt;
+
+&lt;li&gt;resume, 포트폴리오 (형식 자유) 를 jobs@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;_8&quot;&gt;언론보도&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://search.daum.net/search?w=news&amp;cluster=n&amp;q=%EC%95%A0%EB%93%9C%ED%88%AC%ED%8E%98%EC%9D%B4%ED%8D%BC&amp;sort=1&quot;&gt;‘애드투페이퍼’ 최신 기사 검색&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     
     
     <item>

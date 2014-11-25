@@ -4,7 +4,7 @@ layout: post
 title: 애드투페이퍼 서비스를 같이 혁신할 엔지니어분을 모십니다.
 cover_image: blog-cover.png
 
-excerpt: "대학 생활을 혁신하는 개발팀을 소개합니다."
+excerpt: "대학 생활을 혁신할 개발자를 찾습니다."
 
 author:
   name: 이경찬
