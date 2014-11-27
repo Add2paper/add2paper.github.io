@@ -24,8 +24,8 @@ author:
 ### 서버 구성
 애드투페이퍼 서비스는 KT Ucloud 인스턴스 7대 위에서 동작하고 있습니다. 각 인스턴스의 역할은 다음과 같습니다.
 
-1. 로드밸런서 1대 (2vCore 2GB | Ubuntu 11.04 | HAProxy)
-2. 어플리케이션 서버 3대 (4vCore 4GB | Ubuntu 11.04 | Gunicorn, Django, Supervisor)
+1. 로드밸런서 1대 (1vCore 1GB | Ubuntu 11.04 | HAProxy)
+2. 어플리케이션 서버 피크 타임 기준 3대 (4vCore 4GB | Ubuntu 11.04 | Gunicorn, Django, Supervisor) - 애드투페이퍼앱은 매일 아침 8시 30분에 수신 거부자를 제외한 전체 회원(약 30만 명)에게 무료 포인트 적립 푸시를 발송합니다.
 3. DB 2대 (4vCore 4GB | CentOS 5.4 | MySQL Master-Slave Replication 구성)
 4. 캐시 + 워커 서버 1대 (4vCore 8GB | Ubuntu 11.04 | Memcached, Celery, Redis, Supervisor)
 
@@ -42,8 +42,6 @@ author:
 4. 광고주용 실시간 리포트 사이트 &nbsp;
 5. 프린터관리자용 실시간 프린팅 및 정산 정보 확인 사이트 &nbsp;
 6. 내부 관리용 사이트 &nbsp;
-
-애드투페이퍼 초반에는 일부 시스템이 ASP, PHP로 되어있었지만 2012년 하반기부터 기존 코드 및 신규 코드들을 Python + Django로 작성하여 현재는 100% Python + Django 코드로 동작중입니다.
 
 
 <br/>
@@ -72,7 +70,7 @@ author:
 ## Database / Storage
 데이터베이스는 MySQL 5.5 를 사용하고 있고, Master-Slave 구성으로 2대를 사용하고 있습니다.
 
-서비스상에서 업로드 되는 이미지 및 파일은 Amazon S3 (Tokyo Region)에 저장하고 CloudFront를 붙여서 사용하고 있습니다. 광고 이미지를 리사이징 하는 등의 작업은 어플리케이션 서버에서 인메모리로 처리하고 S3에 저장합니다.
+서비스상에서 업로드 되는 이미지 및 파일은 Amazon S3 (Tokyo Region)에 저장하고 Tcloud CDN을 붙여서 사용하고 있습니다. 광고 이미지를 리사이징 하는 등의 작업은 어플리케이션 서버에서 인메모리로 처리하고 S3에 저장합니다.
 
 <br/>
 
@@ -87,15 +85,14 @@ author:
 
 ## Deployment
 
-어플리케이션 배포는 [beanstalk](http://beanstalkapp.com)을 이용해 자동화하고 있습니다. beanstalk 서비스는 Mercurial 저장소를 제공하고 (Git도 제공), 등록된 서버들에 병렬로 접속해서 미리 지정된 SSH Command들을 실행시켜주는 기능을 제공합니다. 배포 시 각 서버에서 실행하는 커맨드는 다음과 같습니다.
+어플리케이션 배포는 [Fabric](http://www.fabfile.org/)을 이용해 자동화하고 있습니다. 배포 시 각 서버에서 실행하는 커맨드는 다음과 같습니다.
 
 <br/>
 
 ###어플리케이션 서버
 
 <pre>
-hg pull
-hg update --clean
+[Git 저장소에서 최신 코드 다운로드]
 pip install -r ./requirements.txt
 supervisorctl status gunicorn | sed "s/.*[pid ]\([0-9]\+\)\,.*/\1/" | xargs kill -HUP
 </pre>
@@ -107,8 +104,7 @@ supervisorctl status gunicorn | sed "s/.*[pid ]\([0-9]\+\)\,.*/\1/" | xargs kill
 
 
 <pre>
-hg pull
-hg update --clean
+[Git 저장소에서 최신 코드 다운로드]
 pip install -r ./requirements.txt
 python ./manage.py migrate
 supervisorctl reload
