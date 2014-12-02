@@ -36,13 +36,13 @@ foo를 초기화하고 bar에 값을 대입하고 foo의 값을 바꿨더니 bar
 {% highlight python %}
 >>> foo = [0, 1, 2]
 >>> bar = foo
->>> print id(foo) == id(bar)
-True
->>> print id(foo[0]) == id(bar[0])
-True
+>>> print id(foo), id(bar), id(foo) == id(bar)
+4433166064, 4433166064, True
+>>> print id(foo[0]), id(bar[0]), id(foo[0]) == id(bar[0])
+140327877880784, 140327877880784, True
 >>> foo[0] = 777
->>> print id(foo[0]) == id(bar[0])
-True
+>>> print id(foo[0]), id(bar[0]), id(foo[0]) == id(bar[0])
+140327876950296, 140327876950296, True
 {% endhighlight %}
 그럼 이러한 현상을 피하기 위해서는 무엇이 필요할까요? 얕은 복사의 반의어인 **Deep Copy(깊은 복사)**를 이용하면 됩니다. Python에서는 기본적으로 copy 모듈을 제공하고 있어 아래와 같이 사용하면 됩니다.
 {% highlight python %}
@@ -50,8 +50,8 @@ True
 >>> foo = [0, 1, 2]
 >>> bar = copy.deepcopy(foo)
 >>> foo[0] = 123
->>> print id(foo) == id(bar)
-False
+>>> print id(foo), id(bar), id(foo) == id(bar),
+4433166064, 4433319624, False
 >>> print foo, bar
 [123, 1, 2] [0, 1, 2]
 {% endhighlight %}
@@ -60,11 +60,11 @@ False
 >>> import copy
 >>> foo = [0, 1, 2]
 >>> bar = copy.deepcopy(foo)
->>> print id(foo[0]) == id(bar[0])
-True
+>>> print id(foo[0]), id(bar[0]), id(foo[0]) == id(bar[0])
+140327876950296, 140327876950296, True
 >>> foo[0] = 777
->>> print id(foo[0]) == id(bar[0])
-False
+>>> print id(foo[0]), id(bar[0]), id(foo[0]) == id(bar[0])
+140327877880712, 140327876950296, False
 {% endhighlight %}
 Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다. 
 {% highlight python %}
