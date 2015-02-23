@@ -10,7 +10,7 @@ author:
   name: 이경찬
   bio: CTO
   image: lkc.jpg
-  page: http://www.leekchan.com
+  page: http://leekchan.com
 ---
 
 안녕하세요, [애드투페이퍼](http://www.add2paper.com)에서 개발을 담당하고 있는 [이경찬](http://www.leekchan.com)입니다. 애드투페이퍼를 개발 및 운영하면서 경험하고 해결한 사항들을 공유하고자 블로그를 만들었습니다. 첫 번째 포스트에서는 애드투페이퍼 서비스 구성 Stack에 대해서 공유하고자 합니다.

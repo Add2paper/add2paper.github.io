@@ -10,7 +10,7 @@ author:
   name: 이경찬
   bio: CTO
   image: lkc.jpg
-  page: http://www.leekchan.com
+  page: http://leekchan.com
 ---
 
 <img src="http://cdn.add2paper.com/media/image/2013/6/137084747402312.png" style="width: 100%; margin: 10px 0 10px 0;" />
