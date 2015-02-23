@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Mon, 23 Feb 2015 04:53:38 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 04:53:38 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Feb 2015 04:58:11 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Feb 2015 04:58:11 +0000</lastBuildDate>
 
     
     
@@ -32,7 +32,7 @@
 
 &lt;li&gt;클라이언트 - 서버 통신 : HTTPS 프로토콜을 이용한 REST API 호출 (인쇄 로직에서는 암호화된 인증 토큰을 서버와 주고받아서 인증된 클라이언트인지 여부를 추가로 체크합니다.)&lt;/li&gt;
 
-&lt;li&gt;Themida 패킹을 통한 디스어셈블링 방지&lt;/li&gt;
+&lt;li&gt;Themida 패킹&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;

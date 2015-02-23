@@ -23,7 +23,7 @@ author:
 1. UI : C#, .Net Framework 4.5, WPF
 2. Hooking DLL : C++
 3. 클라이언트 - 서버 통신 : HTTPS 프로토콜을 이용한 REST API 호출 (인쇄 로직에서는 암호화된 인증 토큰을 서버와 주고받아서 인증된 클라이언트인지 여부를 추가로 체크합니다.)
-4. Themida 패킹을 통한 디스어셈블링 방지
+4. Themida 패킹
 
 <br><br>
 
