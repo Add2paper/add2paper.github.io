@@ -71,5 +71,6 @@ author:
 
 <br><br>
 
-## 언론보도
-* ['애드투페이퍼' 최신 기사 검색](http://search.daum.net/search?w=news&cluster=n&q=%EC%95%A0%EB%93%9C%ED%88%AC%ED%8E%98%EC%9D%B4%ED%8D%BC&sort=1)
+## 회사 소개 및 언론 보도 
+* [회사 소개](http://www.add2paper.com/about/)
+* [언론 보도](http://www.add2paper.com/about/#press) 

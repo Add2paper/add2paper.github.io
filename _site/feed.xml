@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Mon, 23 Feb 2015 06:18:38 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Feb 2015 06:18:38 +0000</lastBuildDate>
+    <pubDate>Thu, 26 Feb 2015 02:38:08 +0000</pubDate>
+    <lastBuildDate>Thu, 26 Feb 2015 02:38:08 +0000</lastBuildDate>
 
     
     
@@ -113,10 +113,12 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;_3&quot;&gt;언론보도&lt;/h2&gt;
+&lt;h2 id=&quot;____&quot;&gt;회사 소개 및 언론 보도&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;http://search.daum.net/search?w=news&amp;cluster=n&amp;q=%EC%95%A0%EB%93%9C%ED%88%AC%ED%8E%98%EC%9D%B4%ED%8D%BC&amp;sort=1&quot;&gt;‘애드투페이퍼’ 최신 기사 검색&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/&quot;&gt;회사 소개&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
