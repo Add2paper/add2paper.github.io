@@ -1,4 +1,4 @@
-inc:
+﻿inc:
   # Blog Information
   title:        "애드투페이퍼 엔지니어링 블로그"
   subtitle:     
@@ -54,7 +54,8 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-pygments:    true
+# pygments:    false
+highlighter: rouge
 
 relative_permalinks: true
 
