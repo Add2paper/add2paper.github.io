@@ -6,15 +6,15 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Tue, 16 Jun 2015 10:19:52 +0900</pubDate>
-    <lastBuildDate>Tue, 16 Jun 2015 10:19:52 +0900</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2015 06:50:39 +0000</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2015 06:50:39 +0000</lastBuildDate>
 
     
     
     <item>
       <title>API Hooking Honey-Butter Tips</title>
       <link>http://add2paper.github.io/2015/06/15/Complex-API-Hooking-Model/</link>
-      <pubDate>Mon, 15 Jun 2015 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/06/15/Complex-API-Hooking-Model</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;의 시스템 개발자 오지헌입니다. API 후킹을 통해 조금 복잡한 애플리케이션을 개발하고 싶은 분들을 위해 몇 가지 팁을 모아봤습니다.&lt;/p&gt;
@@ -64,50 +64,50 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 
 &lt;p&gt;우선 종료 요청을 수정해야하기 때문에 TerminateProcess의 후킹은 필수적입니다. TerminateProcess의 원형은 아래와 같습니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	BOOL WINAPI TerminateProcess(
-	  _In_ HANDLE hProcess,
-	  _In_ UINT   uExitCode
-	);&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;    BOOL WINAPI TerminateProcess(
+        _In_ HANDLE hProcess,
+        _In_ UINT   uExitCode
+    );&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;소유권 관리 개념이 없다면, 아마 후킹 프로시저는 아래과 같아질 겁니다(슈도코드).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	HookedTerminateProcess(process, exitCode)
-	{
-		name = getProcessName(process)
-		if checkAllowedProcessName(name) then 호출허용
-		else 호출거부
-	}&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;    HookedTerminateProcess(process, exitCode)
+    {
+        name = getProcessName(process)
+        if checkAllowedProcessName(name) then 호출허용
+        else 호출거부
+    }&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;척 보기에도 문제점이 많습니다. &lt;br /&gt; getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워보입니다. 뿐만 아니라 주어진 핸들의 권한이 부족해 getProcessName 함수가 실패할 수도 있습니다!&lt;/p&gt;
 
 &lt;p&gt;소유권 관리 개념이 추가되면, 코드는 아래와 같아집니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	Process::Process(handle, pid, access, ...)
-	{
-		allowed = checkAllowedProcess(...);
-		handle_ = handle;
-		pid_ = pid;
-	}
-	Process::~Process()
-	{ handle 등 정리 }
+&lt;pre&gt;&lt;code&gt;    Process::Process(handle, pid, access, ...)
+    {
+        allowed = checkAllowedProcess(...);
+        handle_ = handle;
+        pid_ = pid;
+    }
+    Process::~Process()
+    { handle 등 정리 }
 
-	HookedOpenProcess(pid, access, ...)
-	{
-		opened_handle = OriginalOpenProcess(...)
-		if opened_handle != null then processes.add(shared_ptr&amp;lt;Process&amp;gt;(new Process(opened_handle, pid, access, ...)));
-		return opened_handle
-	}
-	HookedCloseHandle(handle)
-	{
-		if processes.exists(handle) then processes.remove(handle)
-		else return OriginalCloseHandle(...)
-	}
-	HookedTerminateProcess(process, exitCode)
-	{
-		myProcess = processes.find(process)
-		if myProcess-&amp;gt;IsAllowed() then 호출허용
-		else 호출거부
-	}&lt;/code&gt;&lt;/pre&gt;
+    HookedOpenProcess(pid, access, ...)
+    {
+        opened_handle = OriginalOpenProcess(...)
+        if opened_handle != null then processes.add(shared_ptr&amp;lt;Process&amp;gt;(new Process(opened_handle, pid, access, ...)));
+        return opened_handle
+    }
+    HookedCloseHandle(handle)
+    {
+        if processes.exists(handle) then processes.remove(handle)
+        else return OriginalCloseHandle(...)
+    }
+    HookedTerminateProcess(process, exitCode)
+    {
+        myProcess = processes.find(process)
+        if myProcess-&amp;gt;IsAllowed() then 호출허용
+        else 호출거부
+    }&lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
 &lt;li&gt;OpenProcess와 CloseHandle이 추가적으로 후킹됐습니다. &lt;br /&gt;&lt;/li&gt;
@@ -131,8 +131,8 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 
 &lt;p&gt;후킹 프로시저 내에서 요청을 거부했을 경우, 단순히 FALSE를 리턴하지 않고 SetLastError()를 사용해 실패 이유를 알려주면 오동작을 방지할 수 있습니다. &lt;br /&gt; 가령, TerminateProcess 요청을 실패시킬 때&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	SetLastError(ERROR_ACCESS_DENIED)
-	return FALSE&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;    SetLastError(ERROR_ACCESS_DENIED)
+    return FALSE&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;로 오류코드를 ERROR_ACCESS_DENIED로 명시적으로 설정해주면 잘 만든 프로그램들은 스스로 GetLastError()로 오류코드를 체크해 그에 맞는 메세지를 출력해주거나 별도의 작업을 수행합니다.&lt;/p&gt;
 
@@ -140,14 +140,14 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 
 &lt;p&gt;Variadic Template을 사용하면&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;	Hook::OverrideHook&amp;lt;decltype(&amp;amp;MessageBoxA)&amp;gt; messageBoxAHook // 선언
+&lt;pre&gt;&lt;code&gt;    Hook::OverrideHook&amp;lt;decltype(&amp;amp;MessageBoxA)&amp;gt; messageBoxAHook // 선언
 
-	messageBoxAHook.Install(
-		api주소,
-		[this](...) // 후킹프로시저
-	{
-		return messageBoxAHook(hWnd, &amp;quot;[hooked] &amp;quot; + lpText, ...)
-	})&lt;/code&gt;&lt;/pre&gt;
+    messageBoxAHook.Install(
+        api주소,
+        [this](...) // 후킹프로시저
+    {
+        return messageBoxAHook(hWnd, &amp;quot;[hooked] &amp;quot; + lpText, ...)
+    })&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;이렇게 편하고 type-safe한 API 후킹을 할 수 있다. &lt;br /&gt; 물론 함수 prototype만 보고 hooking stub을 만들어야 하기 때문에 머리가 빠개집니다.&lt;/p&gt;
 
@@ -171,7 +171,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
     <item>
       <title>More Python 2 - Patch C Module</title>
       <link>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module%20-%20Copy/</link>
-      <pubDate>Mon, 01 Jun 2015 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module - Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;의 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다. &lt;br /&gt; &lt;a href=&quot;/2014/12/01/More-Python-1-Copy/&quot;&gt;첫 번째 More Python&lt;/a&gt;을 작성하고 정확히 반년 뒤, 의병의 날인 오늘 그 두 번째 글을 작성하게 되었습니다. 하하&lt;br /&gt;&lt;/p&gt;
@@ -181,21 +181,21 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 &lt;p&gt;이번에 다룰 내용은 흔히들 Monkey Patch라고들 부르는 Patch에 관한 이야기입니다.&lt;br /&gt; Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&gt;
 &lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;kn&#39;&gt;import&lt;/span&gt; &lt;span class=&#39;nn&#39;&gt;django&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;def&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;patch_django&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;():&lt;/span&gt;
-&lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;    &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&quot;Flask!&quot;&lt;/span&gt;
+&lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;    &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;Flask!&amp;quot;&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;django&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;patch_django&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;django&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt;
-&lt;span class=&#39;s&#39;&gt;&#39;Flask!&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&#39;s&#39;&gt;&amp;#39;Flask!&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이렇게 Python의 은혜를 받아 매우 손쉽게 Patch를 할 수 있습니다. &lt;br /&gt; 이런 은혜에도 불구하고 문제점이 하나 있는데요, 아래와 같이 코드를 보면 Patch가 원활히 되지 않습니다. :(&lt;/p&gt;
 &lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;kn&#39;&gt;from&lt;/span&gt; &lt;span class=&#39;nn&#39;&gt;datetime&lt;/span&gt; &lt;span class=&#39;kn&#39;&gt;import&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;def&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;patch_today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;():&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;    &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2015&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;today&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;patch_today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt;
 &lt;span class=&#39;n&#39;&gt;Traceback&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;most&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;recent&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;call&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;last&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;):&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;File&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;line&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;ow&#39;&gt;in&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;module&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#39;nb&#39;&gt;TypeError&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;can&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&#39;t set attributes of built-in/extension type &#39;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;datetime&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#39;n&#39;&gt;File&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;line&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;ow&#39;&gt;in&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;module&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;ne&#39;&gt;TypeError&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;can&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;#39;t set attributes of built-in/extension type &amp;#39;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;datetime&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;datetime.date의 속성을 지정할 수 없다고 합니다. (C 모듈은 Monkey Patch를 할 수 없습니다.)&lt;br /&gt; 일단 영문을 모르겠으니 묻지도 따지지도 않고 파일을 찾아 디버깅을 해보겠습니다.&lt;/p&gt;
 &lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;datetime&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;__file__&lt;/span&gt;
-&lt;span class=&#39;s&#39;&gt;&#39;/Somewhere/lib/python2.7/lib-dynload/datetime.so&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&#39;s&#39;&gt;&amp;#39;/Somewhere/lib/python2.7/lib-dynload/datetime.so&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;아니! Python 파일이 아닙니다. C로 작성된 모듈 같은데 이제 어쩌죠? (저는 Python밖에 모른다고요…)&lt;br /&gt;&lt;del&gt;이제 이만 글을 마칩니다. 읽어주셔서 감사합니다.&lt;/del&gt;&lt;/p&gt;
 
 &lt;p&gt;하늘이 무너져도 솟아날 구멍이 있다더니 ctypes 모듈을 이용하면 이러한 c로 작성된 모듈이나 외부 라이브러리를 다룰 수 있습니다. 그러면 ctypes를 이용해 dir와 비슷해 보이는, 속성들을 가져오는 get_dict를 작성하겠습니다.&lt;/p&gt;
@@ -207,19 +207,19 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;def&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;get_dict&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;obj&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;):&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;    &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;_get_dict&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;obj&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;contents&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;value&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이제 이 get_dict를 이용해서 Patch를 해봅니다!&lt;/p&gt;
-&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;get_dict&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&#39;today&#39;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;patch_today&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;get_dict&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;#39;today&amp;#39;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;patch_today&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;오, 오 되었습니다. 이제 실행을 해보면!&lt;/p&gt;
 &lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt;
 &lt;span class=&#39;n&#39;&gt;Traceback&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;most&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;recent&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;call&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;last&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;):&lt;/span&gt;
-  &lt;span class=&#39;n&#39;&gt;File&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;line&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;ow&#39;&gt;in&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;module&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&#39;nb&#39;&gt;TypeError&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;unbound&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;method&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;patch_today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;must&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;be&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;called&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;with&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;instance&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;as&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;first&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;argument&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;got&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;nothing&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;instead&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&#39;n&#39;&gt;File&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;line&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;ow&#39;&gt;in&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;module&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&#39;ne&#39;&gt;TypeError&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;:&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;unbound&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;method&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;patch_today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;must&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;be&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;called&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;with&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;instance&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;as&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;first&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;argument&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;got&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;nothing&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;instead&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;이제는 다른 오류가 반겨줍니다. 아무래도 date의 규격에 맞지 않는 것 같습니다.&lt;br /&gt;클래스로 다시 Patch 코드를 작성해봅시다.&lt;/p&gt;
 &lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;k&#39;&gt;class&lt;/span&gt; &lt;span class=&#39;nc&#39;&gt;PatchDate&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;nb&#39;&gt;object&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;):&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;    &lt;span class=&#39;nd&#39;&gt;@classmethod&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;    &lt;span class=&#39;k&#39;&gt;def&lt;/span&gt; &lt;span class=&#39;nf&#39;&gt;today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;cls&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;):&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;...&lt;/span&gt;        &lt;span class=&#39;k&#39;&gt;return&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2015&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;다시 한번 Patch를 하고 실행을 해보면!&lt;/p&gt;
-&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;get_dict&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&#39;today&#39;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;PatchDate&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;today&lt;/span&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;get_dict&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)[&lt;/span&gt;&lt;span class=&#39;s&#39;&gt;&amp;#39;today&amp;#39;&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;PatchDate&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;today&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;today&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;()&lt;/span&gt;
 &lt;span class=&#39;n&#39;&gt;datetime&lt;/span&gt;&lt;span class=&#39;o&#39;&gt;.&lt;/span&gt;&lt;span class=&#39;n&#39;&gt;date&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;(&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;2015&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;뙇!&lt;/p&gt;
@@ -240,7 +240,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
     <item>
       <title>프로덕트 매니저 채용 공고</title>
       <link>http://add2paper.github.io/2015/03/16/Add2paper-Recuriting-Product-Manager/</link>
-      <pubDate>Mon, 16 Mar 2015 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/03/16/Add2paper-Recuriting-Product-Manager</guid>
       <description>&lt;p&gt;우리나라는 대학 진학률이 70%에 이릅니다. 한국의 경제인구 대부분이 대학생이거나, 대학생이었습니다. &lt;br /&gt; &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 ‘대학생’과 ‘대학캠퍼스’타겟에 독점적 영향력을 갖는 모바일플랫폼으로 성장하고자 합니다.&lt;br /&gt; 이미 한국의 규모 있는 대학 70%에 애드투페이퍼 무료프린팅ZONE이 제휴 되어있습니다. 또한 ‘애딧’포인트를 기반으로 대학생들의 모바일 소비 생활을 혁신하고 있습니다. &lt;br /&gt; 우리에게 무료프린팅서비스는 종착점이 아닌 출발점입니다. 2015년에는 대학생들이 학교에 가는 길, 점심을 먹을 때, 커피를 마실 때, 저녁을 먹을 때마다 ‘애딧’을 통해 보다 합리적이고 즐거운 소비생활을 하게 될 것입니다!&lt;br /&gt; 우리 대학생들의 삶을 바꾸어갈 핵심서비스를 함께 만들며 성장할 PM을 모십니다!&lt;/p&gt;
@@ -343,7 +343,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
     <item>
       <title>리버스 엔지니어 채용 공고 - 신입 / 경력 (산업기능요원 보충역 / 전직 가능)</title>
       <link>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer/</link>
-      <pubDate>Mon, 23 Feb 2015 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 20대 대학생 타겟 미디어입니다. 2014년 하반기에는 통합 가상 화폐 ‘애딧’과 API 서비스를 오픈하여 다양한 대학생 편의 서비스와 빠른 속도로 제휴를 진행하고 있습니다. &lt;u&gt;2015년 2월 23일 현재까지 100여 개 대학교에 제휴 된 2,300여 대의 애드투페이퍼 PC를 통해 40만 명의 회원이 2,600만여 장의 인쇄를 하였습니다. 2015년 상반기에는 속도감 있는 제휴를 통해 140여 개 대학교 3,500여 대 PC로 확장 예정입니다.&lt;/u&gt; 대학생 타겟 미디어를 넘어 대학생 통합 편의 서비스로 진화하고 있는 애드투페이퍼에서 실력 있는 개발자분들을 모십니다. &lt;b&gt;&lt;u&gt;산업기능요원(보충역 / 전직) 또한 가능합니다.&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
@@ -456,7 +456,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
     <item>
       <title>More Python 1 - Copy</title>
       <link>http://add2paper.github.io/2014/12/01/More-Python-1-Copy/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0900</pubDate>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2014/12/01/More-Python-1-Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드를 개발하고 있는 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다.&lt;br /&gt; 이번 포스트부터 Python의 멀고도 가까운 내용을 소개하는 More Python을 연재코자 합니다. &lt;br /&gt; 그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다!&lt;/p&gt;
@@ -464,7 +464,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 &lt;h2 id=&quot;copy&quot;&gt;Copy&lt;/h2&gt;
 
 &lt;p&gt;이 포스트에서 말하고자 하는 Copy는 변수를 복사하는 그 Copy입니다. &lt;br /&gt;예를 들어 아래와 같이 apple 변수 값을 banana 변수에 그대로 대입하는 경우입니다.&lt;/p&gt;
-&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;apple&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&#39;red&#39;&lt;/span&gt;
+&lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;apple&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;s&#39;&gt;&amp;#39;red&amp;#39;&lt;/span&gt;
 &lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;banana&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;apple&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;그럼 그냥 쓰면 되지 문제가 뭐길래 포스팅까지 하느냐? 하면 바로 아래와 같은 경우입니다.&lt;/p&gt;
 &lt;div class=&#39;highlight&#39;&gt;&lt;pre&gt;&lt;code class=&#39;language-python&#39; data-lang=&#39;python&#39;&gt;&lt;span class=&#39;o&#39;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&#39;n&#39;&gt;foo&lt;/span&gt; &lt;span class=&#39;o&#39;&gt;=&lt;/span&gt; &lt;span class=&#39;p&#39;&gt;[&lt;/span&gt;&lt;span class=&#39;mi&#39;&gt;0&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;1&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;,&lt;/span&gt; &lt;span class=&#39;mi&#39;&gt;2&lt;/span&gt;&lt;span class=&#39;p&#39;&gt;]&lt;/span&gt;
@@ -526,7 +526,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
     <item>
       <title>애드투페이퍼 서비스를 같이 혁신할 엔지니어분을 모십니다. (산업기능요원 보충역 / 전직 가능)</title>
       <link>http://add2paper.github.io/2014/11/25/Add2paper-Recruiting2/</link>
-      <pubDate>Tue, 25 Nov 2014 00:00:00 +0900</pubDate>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2014/11/25/Add2paper-Recruiting2</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 20대 대학생 타겟 미디어입니다. 2014년 하반기에는 통합 가상 화폐 ‘애딧’과 API 서비스를 오픈하여 다양한 대학생 편의 서비스와 빠른 속도로 제휴를 진행하고 있습니다. 대학생 타겟 미디어를 넘어 대학생 통합 편의 서비스로 진화하고 있는 애드투페이퍼에서 실력 있는 개발자분들을 모십니다. &lt;b&gt;&lt;u&gt;애드투페이퍼가 이번에 병역특례회사로 선정되어 산업기능요원(보충역 / 전직) 또한 가능합니다.&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
@@ -676,7 +676,7 @@ OS별, CPU 아키텍처별 별도 개발이 필요
     <item>
       <title>테스트와 CI</title>
       <link>http://add2paper.github.io/2014/08/06/Test-And-CI/</link>
-      <pubDate>Wed, 06 Aug 2014 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2014/08/06/Test-And-CI</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드 개발을 맡은 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다. 이번 블로그 개편에 맞춰 저희가 하고 있는 백엔드 테스트, 장고 테스트에 대하여 공유하고자 합니다.&lt;/p&gt;
@@ -771,7 +771,7 @@ class HelloTestCase(TestCase):
     <item>
       <title>애드투페이퍼 서비스를 같이 혁신할 엔지니어분을 모십니다.</title>
       <link>http://add2paper.github.io/2014/03/27/Add2paper-Recuriting/</link>
-      <pubDate>Thu, 27 Mar 2014 00:00:00 +0900</pubDate>
+      <pubDate>Thu, 27 Mar 2014 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2014/03/27/Add2paper-Recuriting</guid>
       <description>&lt;p&gt;&lt;img src=&#39;http://cdn.add2paper.com/media/image/2013/6/137084747402312.png&#39; style=&#39;width: 100%; margin: 10px 0 10px 0;&#39; /&gt;&lt;/p&gt;
@@ -1012,7 +1012,7 @@ class HelloTestCase(TestCase):
     <item>
       <title>애드투페이퍼 서비스 구성 Stack</title>
       <link>http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/</link>
-      <pubDate>Wed, 17 Apr 2013 00:00:00 +0900</pubDate>
+      <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 개발을 담당하고 있는 &lt;a href=&quot;http://www.leekchan.com&quot;&gt;이경찬&lt;/a&gt;입니다. 애드투페이퍼를 개발 및 운영하면서 경험하고 해결한 사항들을 공유하고자 블로그를 만들었습니다. 첫 번째 포스트에서는 애드투페이퍼 서비스 구성 Stack에 대해서 공유하고자 합니다.&lt;/p&gt;

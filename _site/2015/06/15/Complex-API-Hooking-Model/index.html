@@ -110,50 +110,50 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 
 <p>우선 종료 요청을 수정해야하기 때문에 TerminateProcess의 후킹은 필수적입니다. TerminateProcess의 원형은 아래와 같습니다.</p>
 
-<pre><code>	BOOL WINAPI TerminateProcess(
-	  _In_ HANDLE hProcess,
-	  _In_ UINT   uExitCode
-	);</code></pre>
+<pre><code>    BOOL WINAPI TerminateProcess(
+        _In_ HANDLE hProcess,
+        _In_ UINT   uExitCode
+    );</code></pre>
 
 <p>소유권 관리 개념이 없다면, 아마 후킹 프로시저는 아래과 같아질 겁니다(슈도코드).</p>
 
-<pre><code>	HookedTerminateProcess(process, exitCode)
-	{
-		name = getProcessName(process)
-		if checkAllowedProcessName(name) then 호출허용
-		else 호출거부
-	}</code></pre>
+<pre><code>    HookedTerminateProcess(process, exitCode)
+    {
+        name = getProcessName(process)
+        if checkAllowedProcessName(name) then 호출허용
+        else 호출거부
+    }</code></pre>
 
 <p>척 보기에도 문제점이 많습니다. <br /> getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워보입니다. 뿐만 아니라 주어진 핸들의 권한이 부족해 getProcessName 함수가 실패할 수도 있습니다!</p>
 
 <p>소유권 관리 개념이 추가되면, 코드는 아래와 같아집니다.</p>
 
-<pre><code>	Process::Process(handle, pid, access, ...)
-	{
-		allowed = checkAllowedProcess(...);
-		handle_ = handle;
-		pid_ = pid;
-	}
-	Process::~Process()
-	{ handle 등 정리 }
+<pre><code>    Process::Process(handle, pid, access, ...)
+    {
+        allowed = checkAllowedProcess(...);
+        handle_ = handle;
+        pid_ = pid;
+    }
+    Process::~Process()
+    { handle 등 정리 }
 
-	HookedOpenProcess(pid, access, ...)
-	{
-		opened_handle = OriginalOpenProcess(...)
-		if opened_handle != null then processes.add(shared_ptr&lt;Process&gt;(new Process(opened_handle, pid, access, ...)));
-		return opened_handle
-	}
-	HookedCloseHandle(handle)
-	{
-		if processes.exists(handle) then processes.remove(handle)
-		else return OriginalCloseHandle(...)
-	}
-	HookedTerminateProcess(process, exitCode)
-	{
-		myProcess = processes.find(process)
-		if myProcess-&gt;IsAllowed() then 호출허용
-		else 호출거부
-	}</code></pre>
+    HookedOpenProcess(pid, access, ...)
+    {
+        opened_handle = OriginalOpenProcess(...)
+        if opened_handle != null then processes.add(shared_ptr&lt;Process&gt;(new Process(opened_handle, pid, access, ...)));
+        return opened_handle
+    }
+    HookedCloseHandle(handle)
+    {
+        if processes.exists(handle) then processes.remove(handle)
+        else return OriginalCloseHandle(...)
+    }
+    HookedTerminateProcess(process, exitCode)
+    {
+        myProcess = processes.find(process)
+        if myProcess-&gt;IsAllowed() then 호출허용
+        else 호출거부
+    }</code></pre>
 
 <ul>
 <li>OpenProcess와 CloseHandle이 추가적으로 후킹됐습니다. <br /></li>
@@ -177,8 +177,8 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 
 <p>후킹 프로시저 내에서 요청을 거부했을 경우, 단순히 FALSE를 리턴하지 않고 SetLastError()를 사용해 실패 이유를 알려주면 오동작을 방지할 수 있습니다. <br /> 가령, TerminateProcess 요청을 실패시킬 때</p>
 
-<pre><code>	SetLastError(ERROR_ACCESS_DENIED)
-	return FALSE</code></pre>
+<pre><code>    SetLastError(ERROR_ACCESS_DENIED)
+    return FALSE</code></pre>
 
 <p>로 오류코드를 ERROR_ACCESS_DENIED로 명시적으로 설정해주면 잘 만든 프로그램들은 스스로 GetLastError()로 오류코드를 체크해 그에 맞는 메세지를 출력해주거나 별도의 작업을 수행합니다.</p>
 
@@ -186,14 +186,14 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 
 <p>Variadic Template을 사용하면</p>
 
-<pre><code>	Hook::OverrideHook&lt;decltype(&amp;MessageBoxA)&gt; messageBoxAHook // 선언
+<pre><code>    Hook::OverrideHook&lt;decltype(&amp;MessageBoxA)&gt; messageBoxAHook // 선언
 
-	messageBoxAHook.Install(
-		api주소,
-		[this](...) // 후킹프로시저
-	{
-		return messageBoxAHook(hWnd, &quot;[hooked] &quot; + lpText, ...)
-	})</code></pre>
+    messageBoxAHook.Install(
+        api주소,
+        [this](...) // 후킹프로시저
+    {
+        return messageBoxAHook(hWnd, &quot;[hooked] &quot; + lpText, ...)
+    })</code></pre>
 
 <p>이렇게 편하고 type-safe한 API 후킹을 할 수 있다. <br /> 물론 함수 prototype만 보고 hooking stub을 만들어야 하기 때문에 머리가 빠개집니다.</p>
 

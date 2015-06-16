@@ -15,28 +15,28 @@ author:
 
 ## 후킹 방법 선택하기
 ### 커널레벨
-	
+    
 루트킷이나 백신 등이 사용하는 가장 높은 권한의 후킹 방식입니다.
 개발 난이도는 높습니다.
 요즘은 코드사인이 되지 않은 드라이버는 메모리에 로딩하는 것 조차 불가능하기 때문에 여러 의미로 개인 개발자들이 사용하기 힘든 후킹 방법입니다.
 
-	드라이버 개발, HW/OS 지식이 필요
-	사소한 실수에 블루스크린을 볼 수 있음
-	OS별, CPU 아키텍처별 별도 개발이 필요
-	코드사이닝 인증서 필요
-	
+    드라이버 개발, HW/OS 지식이 필요
+    사소한 실수에 블루스크린을 볼 수 있음
+    OS별, CPU 아키텍처별 별도 개발이 필요
+    코드사이닝 인증서 필요
+    
 ### 유저레벨
-	
+    
 주로 DLL을 작성하여 프로세스 단위에 적용하는 안정성, 호환성이 높은 후킹 방식입니다. 추천.
-	
+    
 * IAT 후킹
 
-	대표적 유저레벨 후킹 방식의 하나로, 모듈 별 후킹 여부를 결정할 수 있습니다. API의 주소가 담긴 테이블을 수정하는 식으로 작동합니다.
-	
+    대표적 유저레벨 후킹 방식의 하나로, 모듈 별 후킹 여부를 결정할 수 있습니다. API의 주소가 담긴 테이블을 수정하는 식으로 작동합니다.
+    
 * Trampoline
 
-	API의 코드를 직접 패치하는 방식입니다. 때문에 후킹이 한 프로세스 내에서 전역적으로 적용됩니다. 제대로 구현하기가 IAT 후킹에 비해 훨씬 까다롭습니다.
-	
+    API의 코드를 직접 패치하는 방식입니다. 때문에 후킹이 한 프로세스 내에서 전역적으로 적용됩니다. 제대로 구현하기가 IAT 후킹에 비해 훨씬 까다롭습니다.
+    
 ## 글로벌 후킹
 
 유저레벨 API 후킹을 하게 된다면 한 가지 문제가 생깁니다. <br />
@@ -57,51 +57,51 @@ API 후킹에 핸들/객체 소유권 관리의 개념이 도입되면 간단한
 우선 종료 요청을 수정해야하기 때문에 TerminateProcess의 후킹은 필수적입니다.
 TerminateProcess의 원형은 아래와 같습니다.
 
-		BOOL WINAPI TerminateProcess(
-		  _In_ HANDLE hProcess,
-		  _In_ UINT   uExitCode
-		);
+        BOOL WINAPI TerminateProcess(
+            _In_ HANDLE hProcess,
+            _In_ UINT   uExitCode
+        );
 
 소유권 관리 개념이 없다면, 아마 후킹 프로시저는 아래과 같아질 겁니다(슈도코드).
-		
-		HookedTerminateProcess(process, exitCode)
-		{
-			name = getProcessName(process)
-			if checkAllowedProcessName(name) then 호출허용
-			else 호출거부
-		}
+        
+        HookedTerminateProcess(process, exitCode)
+        {
+            name = getProcessName(process)
+            if checkAllowedProcessName(name) then 호출허용
+            else 호출거부
+        }
 
 척 보기에도 문제점이 많습니다. <br/>
 getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워보입니다. 뿐만 아니라 주어진 핸들의 권한이 부족해 getProcessName 함수가 실패할 수도 있습니다!
 
 소유권 관리 개념이 추가되면, 코드는 아래와 같아집니다.
-		
-		Process::Process(handle, pid, access, ...)
-		{
-			allowed = checkAllowedProcess(...);
-			handle_ = handle;
-			pid_ = pid;
-		}
-		Process::~Process()
-		{ handle 등 정리 }
+        
+        Process::Process(handle, pid, access, ...)
+        {
+            allowed = checkAllowedProcess(...);
+            handle_ = handle;
+            pid_ = pid;
+        }
+        Process::~Process()
+        { handle 등 정리 }
 
-		HookedOpenProcess(pid, access, ...)
-		{
-			opened_handle = OriginalOpenProcess(...)
-			if opened_handle != null then processes.add(shared_ptr<Process>(new Process(opened_handle, pid, access, ...)));
-			return opened_handle
-		}
-		HookedCloseHandle(handle)
-		{
-			if processes.exists(handle) then processes.remove(handle)
-			else return OriginalCloseHandle(...)
-		}
-		HookedTerminateProcess(process, exitCode)
-		{
-			myProcess = processes.find(process)
-			if myProcess->IsAllowed() then 호출허용
-			else 호출거부
-		}
+        HookedOpenProcess(pid, access, ...)
+        {
+            opened_handle = OriginalOpenProcess(...)
+            if opened_handle != null then processes.add(shared_ptr<Process>(new Process(opened_handle, pid, access, ...)));
+            return opened_handle
+        }
+        HookedCloseHandle(handle)
+        {
+            if processes.exists(handle) then processes.remove(handle)
+            else return OriginalCloseHandle(...)
+        }
+        HookedTerminateProcess(process, exitCode)
+        {
+            myProcess = processes.find(process)
+            if myProcess->IsAllowed() then 호출허용
+            else 호출거부
+        }
 
 * OpenProcess와 CloseHandle이 추가적으로 후킹됐습니다. <br/>
 * OpenProcess에선 내부적으로 Process객체를 만들어 프로세스 핸들의 소유권을 넘겨주며<br/>
@@ -113,13 +113,13 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
 
 개이득.
 
-###	SetLastError
+### SetLastError
 
 후킹 프로시저 내에서 요청을 거부했을 경우, 단순히 FALSE를 리턴하지 않고 SetLastError()를 사용해 실패 이유를 알려주면 오동작을 방지할 수 있습니다. <br/>
 가령, TerminateProcess 요청을 실패시킬 때
 
-		SetLastError(ERROR_ACCESS_DENIED)
-		return FALSE
+        SetLastError(ERROR_ACCESS_DENIED)
+        return FALSE
 
 로 오류코드를 ERROR_ACCESS_DENIED로 명시적으로 설정해주면 잘 만든 프로그램들은 스스로 GetLastError()로 오류코드를 체크해 그에 맞는 메세지를 출력해주거나 별도의 작업을 수행합니다.
 
@@ -127,15 +127,15 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
 
 Variadic Template을 사용하면
 
-		Hook::OverrideHook<decltype(&MessageBoxA)> messageBoxAHook // 선언
+        Hook::OverrideHook<decltype(&MessageBoxA)> messageBoxAHook // 선언
 
-		messageBoxAHook.Install(
-			api주소,
-			[this](...) // 후킹프로시저
-		{
-			return messageBoxAHook(hWnd, "[hooked] " + lpText, ...)
-		})
-	
+        messageBoxAHook.Install(
+            api주소,
+            [this](...) // 후킹프로시저
+        {
+            return messageBoxAHook(hWnd, "[hooked] " + lpText, ...)
+        })
+    
 이렇게 편하고 type-safe한 API 후킹을 할 수 있다. <br/>
 물론 함수 prototype만 보고 hooking stub을 만들어야 하기 때문에 머리가 빠개집니다.
 
