@@ -1,10 +1,10 @@
 ---
 layout: post
 
-title: API Hooking Tips
+title: API Hooking Honey-Butter Tips
 cover_image: blog-cover.png
 
-excerpt: "API 후킹 팁 모음"
+excerpt: "API 후킹 꿀팁 모음"
 
 author:
   name: 오지헌
