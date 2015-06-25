@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 25 Jun 2015 09:08:08 +0000</pubDate>
-    <lastBuildDate>Thu, 25 Jun 2015 09:08:08 +0000</lastBuildDate>
+    <pubDate>Thu, 25 Jun 2015 09:27:32 +0000</pubDate>
+    <lastBuildDate>Thu, 25 Jun 2015 09:27:32 +0000</lastBuildDate>
 
     
     
@@ -179,7 +179,7 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 &lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;[](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileDialog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;22&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// 먼저 원본 함수를 호출하여 결과를 얻어옵니다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt; 
 &lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// 이제 여기서 재미난 작업들을 합니다.&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt; 

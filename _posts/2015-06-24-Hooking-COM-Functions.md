@@ -156,7 +156,7 @@ void hook()
     [](IFileDialog *_this, IShellItem **ppsi)
     {
         // 먼저 원본 함수를 호출하여 결과를 얻어옵니다.
-        auto ret = (_this->*GetResultFunction)(ppsi);
+        auto ret = (_this->*GetResultHook)(ppsi);
 
         // 이제 여기서 재미난 작업들을 합니다.
 
