@@ -56,6 +56,7 @@ Windows Vista 이상부터 파일 열기/저장 Dialog를 위한 COM 객체가 �
 오늘은 여기에 사용되는 API 중 하나를 골라 후킹 해보겠습니다.
 
 파일을 열 때 나타나는 Dialog는 다음과 같이 생겼습니다.
+
 {% include _image.html img="https://i-msdn.sec.s-msft.com/dynimg/IC420398.png" caption="그림2 - 크고 아름다운 Dialog" %}
 
 오 꽤 깔쌈합니다. 이런 걸 띄우려면 <strong>IFileOpenDialog</strong> 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.
@@ -97,6 +98,7 @@ int main()
 
 후킹을 하려면 후킹 할 API의 주소, 즉 구현 부의 주소를 알아야 합니다. 그런데 앞에서 COM 객체의 구현 부는 숨겨져 있다고 했단 말이죠...
 컴파일러는 대체 어떻게 주소를 알아낼까요? 아무래도 저 예제 프로그램을 직접 분석해볼 수밖에 없을 것 같습니다.
+
 {% include _image.html img="/images/com_disasm.png" caption="그림3 - WinDBG로 분석한 결과" %}
 
 불필요한 부분은 깔끔히 쳐내고 GetResult 함수를 호출하는 부분만 잘라왔습니다. 짧은 코드지만 이 부분의 루틴을 이해해야 나중에 실제로 후킹 코드를 작성할 수 있습니다.
@@ -122,6 +124,7 @@ C++에서 클래스가 가상 함수를 갖는 경우 이를 동적으로 bindin
 역시 다른 데서 이러면 혼납니다.
 
 좋습니다. 이제 GetResult의 주소를 구할 수 있습니다. 하지만 아직 API가 요구하는 정확한 인자(Parameter) 정보가 부족합니다. 함수를 한 번 뜯어(?)봅시다.
+
 {% include _image.html img="/images/com_disasm2.png" caption="그림4 - GetResult 함수의 속살" %}
 
 GetResult는 CFileOpenSave 클래스의 멤버 함수입니다. 그런데 흥미롭게도 Calling convention이 thiscall이 아니라 stdcall이네요?
