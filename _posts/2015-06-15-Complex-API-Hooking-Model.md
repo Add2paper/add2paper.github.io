@@ -14,6 +14,7 @@ author:
 [애드투페이퍼](http://www.add2paper.com)의 시스템 개발자 오지헌입니다. API 후킹을 통해 조금 복잡한 애플리케이션을 개발하고 싶은 분들을 위해 몇 가지 팁을 모아봤습니다.
 
 ## 후킹 방법 선택하기
+
 ### 커널레벨
     
 루트킷이나 백신 등이 사용하는 가장 높은 권한의 후킹 방식입니다.
@@ -142,7 +143,6 @@ Variadic Template을 사용하면
 ### 마치며
 쓰다보니 점점 귀찮아져서 내용이 부실해지네요. 나머진 다음 글에서!
 
-<br />
 ### 유용한 글
 * [http://www.reversecore.com/54](http://www.reversecore.com/54)
 * [http://www.codeproject.com/Articles/2082/API-hooking-revealed](http://www.codeproject.com/Articles/2082/API-hooking-revealed)
