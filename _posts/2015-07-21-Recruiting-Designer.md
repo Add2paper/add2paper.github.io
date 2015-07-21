@@ -4,7 +4,7 @@ layout: post
 title: 50만 대학생들에게 든든한 힘이 되고있는 서비스 ‘애딧(애드투페이퍼)’팀에서 신입디자이너를 채용합니다!
 cover_image: blog-cover.png
 
-excerpt: "대학 생활을 혁신할 개발자를 찾습니다. (산업기능요원 보충역 / 전직 가능)"
+excerpt: "대학 생활을 혁신할 디자이너를 찾습니다."
 
 author:
   name: 전해나
