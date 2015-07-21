@@ -65,7 +65,7 @@ author:
 * UX, UI, BX 등 폭 넓은 디자인 경험을 쌓고 싶으신 분 
 
 
-## 복리후생
+### 복리후생
 
 
 * 정규직 채용
@@ -76,9 +76,9 @@ author:
 
 
 
-## 지원방법
+### 지원방법
 * resume, 포트폴리오 (형식 자유) 를 jobs@add2paper.com 으로 보내주세요.
 <br><br>
 
-## 언론보도
+### 언론보도
 * ['애드투페이퍼' 최신 기사 검색](http://search.daum.net/search?w=news&cluster=n&q=%EC%95%A0%EB%93%9C%ED%88%AC%ED%8E%98%EC%9D%B4%ED%8D%BC&sort=1)
