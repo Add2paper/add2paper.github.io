@@ -11,8 +11,6 @@ author:
   bio: Software Engineer
   page: javascript:alert('홈피 없어요...')
 ---
-
-
 <style>
 .image-wrapper {
     text-align: center;
