@@ -16,7 +16,7 @@ author:
 안녕하세요, [애드투페이퍼](http://www.add2paper.com)의 [박아윤](http://www.parkayun.kr)입니다. <br />
 [첫 번째 More Python](/2014/12/01/More-Python-1-Copy/)을 작성하고 정확히 반년 뒤, 의병의 날인 오늘 그 두 번째 글을 작성하게 되었습니다. 하하<br />
 
-##Patch
+## Patch
 이번에 다룰 내용은 흔히들 Monkey Patch라고들 부르는 Patch에 관한 이야기입니다.<br />
 Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.
 
@@ -102,6 +102,6 @@ Patch를 성공적으로 수행했으니 이만 글을 마칩니다. 읽어주�
 (첫 번째 글이 너무 진지한 것 같아 이번에는 가벼운 느낌으로 글을 작성해보았습니다.)
 
 
-###참고
+### 참고
 * [http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types](http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types)
 * [https://docs.python.org/2/library/ctypes.html](https://docs.python.org/2/library/ctypes.html)

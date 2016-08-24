@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>애드투페이퍼 서비스 구성 Stack &mdash; 애드투페이퍼 엔지니어링 블로그</title>
     <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="/assets/main.css?1">
+    <link rel="stylesheet" href="/css/main.css?1">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="애드투페이퍼 엔지니어링 블로그" />
@@ -149,7 +149,7 @@
 
 <p><br /></p>
 
-<p>###어플리케이션 서버</p>
+<h3 id="section-2">어플리케이션 서버</h3>
 
 <pre>
 [Git 저장소에서 최신 코드 다운로드]
@@ -160,7 +160,7 @@ supervisorctl status gunicorn | sed "s/.*[pid ]\([0-9]\+\)\,.*/\1/" | xargs kill
 
 <p><br /></p>
 
-<h3 id="section-2">캐시 + 워커 서버</h3>
+<h3 id="section-3">캐시 + 워커 서버</h3>
 
 <pre>
 [Git 저장소에서 최신 코드 다운로드]
