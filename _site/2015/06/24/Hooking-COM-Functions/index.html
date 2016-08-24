@@ -95,11 +95,13 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 이러한 인터페이스는 실제 런타임에 객체의 CLSID와 IID를 이용하여 인스턴스를 생성하기 전까지는 단순한 껍데기에 불과합니다.
 가령 C++에서 COM 인터페이스는 이런 식으로 선언되어 있습니다.</p>
 
-<div class="image-wrapper">
-    <img src="/images/com_interface.png" alt="" />
-    
-    <span class="image-caption">그림1 - IFileOpenDialog 인터페이스</span>
-    
+<div>
+    <div class="image-wrapper">
+        <img src="/images/com_interface.png" alt="" />
+        
+        <span class="image-caption">그림1 - IFileOpenDialog 인터페이스</span>
+        
+    </div>
 </div>
 
 <p>왠지 폼나게 생긴 것 같지만 결국 길바닥에 널린 한낱 구조체에 불과합니다. 안에 들어있는 함수들이 전부 순수 가상 함수로 선언된 거 보이시죠?
@@ -114,11 +116,13 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 <p>파일을 열 때 나타나는 Dialog는 다음과 같이 생겼습니다.</p>
 
-<div class="image-wrapper">
-    <img src="https://i-msdn.sec.s-msft.com/dynimg/IC420398.png" alt="" />
-    
-    <span class="image-caption">그림2 - 크고 아름다운 Dialog</span>
-    
+<div>
+    <div class="image-wrapper">
+        <img src="https://i-msdn.sec.s-msft.com/dynimg/IC420398.png" alt="" />
+        
+        <span class="image-caption">그림2 - 크고 아름다운 Dialog</span>
+        
+    </div>
 </div>
 
 <p>오 꽤 깔쌈합니다. 이런 걸 띄우려면 <strong>IFileOpenDialog</strong> 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.</p>
@@ -160,11 +164,13 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 <p>후킹을 하려면 후킹 할 API의 주소, 즉 구현 부의 주소를 알아야 합니다. 그런데 앞에서 COM 객체의 구현 부는 숨겨져 있다고 했단 말이죠…
 컴파일러는 대체 어떻게 주소를 알아낼까요? 아무래도 저 예제 프로그램을 직접 분석해볼 수밖에 없을 것 같습니다.</p>
 
-<div class="image-wrapper">
-    <img src="/images/com_disasm.png" alt="" />
-    
-    <span class="image-caption">그림3 - WinDBG로 분석한 결과</span>
-    
+<div>
+    <div class="image-wrapper">
+        <img src="/images/com_disasm.png" alt="" />
+        
+        <span class="image-caption">그림3 - WinDBG로 분석한 결과</span>
+        
+    </div>
 </div>
 
 <p>불필요한 부분은 깔끔히 쳐내고 GetResult 함수를 호출하는 부분만 잘라왔습니다. 짧은 코드지만 이 부분의 루틴을 이해해야 나중에 실제로 후킹 코드를 작성할 수 있습니다.</p>
@@ -190,11 +196,13 @@ mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 �
 
 <p>좋습니다. 이제 GetResult의 주소를 구할 수 있습니다. 하지만 아직 API가 요구하는 정확한 인자(Parameter) 정보가 부족합니다. 함수를 한 번 뜯어(?)봅시다.</p>
 
-<div class="image-wrapper">
-    <img src="/images/com_disasm2.png" alt="" />
-    
-    <span class="image-caption">그림4 - GetResult 함수의 속살</span>
-    
+<div>
+    <div class="image-wrapper">
+        <img src="/images/com_disasm2.png" alt="" />
+        
+        <span class="image-caption">그림4 - GetResult 함수의 속살</span>
+        
+    </div>
 </div>
 
 <p>GetResult는 CFileOpenSave 클래스의 멤버 함수입니다. 그런데 흥미롭게도 Calling convention이 thiscall이 아니라 stdcall이네요?

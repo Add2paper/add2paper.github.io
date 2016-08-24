@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Wed, 24 Aug 2016 04:13:22 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2016 04:13:22 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Aug 2016 07:55:24 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 07:55:24 +0000</lastBuildDate>
 
     
     
@@ -46,42 +46,50 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;오전 10시 : 업무 시작&lt;/h2&gt;
-&lt;p&gt;팀원들과 아침 인사를 나누고 자리에 앉았습니다. 때마침 10시를 맞아 슬랙(Slack) 봇이 일정을 보내놓았군요.
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/start.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;팀원들과 아침 인사를 나누고 자리에 앉았습니다. 때마침 10시를 맞아 슬랙(Slack) 봇이 일정을 보내놓았군요.&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/start.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림1: 구글 캘린더를 연동한 슬랙]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림1: 구글 캘린더를 연동한 슬랙]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;
-* 애디팀 크리스마스 이벤트 / 송년회 안내 (오후 6시 ~ 오후 6시 30분)
-* 미니세미나 (오후 6시 30분 ~ 오후 7시)
-* 프로덕트팀 회식 (오후 7시 ~ 오후 9시)&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;애디팀 크리스마스 이벤트 / 송년회 안내 (오후 6시 ~ 오후 6시 30분)&lt;/li&gt;
+  &lt;li&gt;미니세미나 (오후 6시 30분 ~ 오후 7시)&lt;/li&gt;
+  &lt;li&gt;프로덕트팀 회식 (오후 7시 ~ 오후 9시)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;  벌써 2015년이 끝나갑니다. 송년회 안내, 회식 등 연말을 알리는 일정이 있습니다. 평소에는 오후 7시에 업무를 마무리 하지만, 각종 안내가 있으니 오후 6시까지 일을 마무리해야겠다는 생각도 드는군요.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;개발사항 체크&lt;/h2&gt;
-&lt;p&gt;오늘 할 일을 확인하기 위해 어제 개발했던 사항들을 정리하려 합니다. 저희 팀은 모든 개발 사항을 한 채널에 기록하고 이름을 dev 라고 정했습니다. dev 채널을 통해 어제 개발했던 사항을 확인해야겠군요.
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/dev_channel.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;오늘 할 일을 확인하기 위해 어제 개발했던 사항들을 정리하려 합니다. 저희 팀은 모든 개발 사항을 한 채널에 기록하고 이름을 dev 라고 정했습니다. dev 채널을 통해 어제 개발했던 사항을 확인해야겠군요.&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/dev_channel.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림2: 슬랙 dev 채널]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림2: 슬랙 dev 채널]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;
-  이전의 개발 기록들을 확인했습니다. 동시에 어제 무슨 일을 했는지 상기합니다. 오늘 할 일에 대한 구상이 잡혀가는군요.&lt;/p&gt;
+&lt;p&gt;  이전의 개발 기록들을 확인했습니다. 동시에 어제 무슨 일을 했는지 상기합니다. 오늘 할 일에 대한 구상이 잡혀가는군요.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-3&quot;&gt;오전 10시 15분 : 애딧페이 아침마당&lt;/h2&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/additpay_haena.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림3: 아침마당 장소를 공지하시는 대표님]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/additpay_haena.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림3: 아침마당 장소를 공지하시는 대표님]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;대표님께서 아침마당 장소를 공지해주셨습니다. &lt;a href=&quot;http://additpay.com&quot;&gt;애딧페이&lt;/a&gt; 서비스는 다 알고 계신가요? 모르시는 분은 다음 &lt;a href=&quot;http://www.edaily.co.kr/news/NewsRead.edy?SCD=JE41&amp;amp;newsid=01977846609562112&quot;&gt;기사&lt;/a&gt;를 참고해주세요.&lt;/p&gt;
@@ -117,27 +125,29 @@
 
 &lt;h2 id=&quot;section-5&quot;&gt;오전 10시 45분 : 요약 지표 확인&lt;/h2&gt;
 
-&lt;p&gt;본 서버 - 사내 서버 간 데이터베이스(DB) 동기화가 끝났군요. 클로이 모레츠가 활동 유저(Active User) 요약 지표를 알려줍니다. 클로이 모레츠는 저희가 미리 설정한 각종 알리미 봇 입니다. 매일 아침 DB 동기화가 끝나면 메인 채널에 지표를 알립니다. 이를 통해 팀원 모두 앱 AU 상황을 알 수 있습니다.
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/chloe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림4: 요약 지표를 알려주는 클로이 모레츠(봇)]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;본 서버 - 사내 서버 간 데이터베이스(DB) 동기화가 끝났군요. 클로이 모레츠가 활동 유저(Active User) 요약 지표를 알려줍니다. 클로이 모레츠는 저희가 미리 설정한 각종 알리미 봇 입니다. 매일 아침 DB 동기화가 끝나면 메인 채널에 지표를 알립니다. 이를 통해 팀원 모두 앱 AU 상황을 알 수 있습니다.&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/chloe.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림4: 요약 지표를 알려주는 클로이 모레츠(봇)]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-6&quot;&gt;낮 12시 : 점심 식사&lt;/h2&gt;
 
-&lt;p&gt;바쁘게 일하다 보니 어느덧 점심시간입니다. 업무 관련 내용이 아니므로 점심 메뉴 선정은 카카오톡 단체채팅방을 통해 정합니다. 디자이너 Y님께서 점심 메뉴를 선정하셨군요!
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/kakao_lunch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림5: 점심시간을 알리는 소리, 까똑!]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;바쁘게 일하다 보니 어느덧 점심시간입니다. 업무 관련 내용이 아니므로 점심 메뉴 선정은 카카오톡 단체채팅방을 통해 정합니다. 디자이너 Y님께서 점심 메뉴를 선정하셨군요!&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/kakao_lunch.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림5: 점심시간을 알리는 소리, 까똑!]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -145,31 +155,35 @@
 
 &lt;p&gt;개발하던 내용을 반 정도 끝냈습니다. 작업 내용을 공유하는 게 좋겠군요. 개발팀 전체가 공유하는 원격 코드 저장소&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;에 작업하던 내용을 전송&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;하려 합니다.&lt;/p&gt;
 
-&lt;p&gt;우선 작업 내용에 이상이 없는지, 시뮬레이터를 통해 테스트합니다.
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/simulators.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;우선 작업 내용에 이상이 없는지, 시뮬레이터를 통해 테스트합니다.&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/simulators.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림6: 시뮬레이터로 켠 애드투페이퍼 앱]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림6: 시뮬레이터로 켠 애드투페이퍼 앱]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;  확인해보니 작동에는 문제가 없습니다. 이젠 코드를 확인합니다. 코드 버전 관리 기능을 사용하면 쉽게 작업 전/후를 비교할 수 있습니다. &lt;a href=&quot;https://www.youtube.com/watch?v=clHOuZmqaZA&quot;&gt;1줄로 짤 코드를 누가 10줄로 만들었어요? 에러 잡기 힘들게&lt;/a&gt;와 같은 상황이 없도록 꼼꼼히 코드를 살핍니다.
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/git_highlighting.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림7: 작업 전/후 비교]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;  확인해보니 작동에는 문제가 없습니다. 이젠 코드를 확인합니다. 코드 버전 관리 기능을 사용하면 쉽게 작업 전/후를 비교할 수 있습니다. &lt;a href=&quot;https://www.youtube.com/watch?v=clHOuZmqaZA&quot;&gt;1줄로 짤 코드를 누가 10줄로 만들었어요? 에러 잡기 힘들게&lt;/a&gt;와 같은 상황이 없도록 꼼꼼히 코드를 살핍니다.&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/git_highlighting.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림7: 작업 전/후 비교]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;코드에도 문제가 없어 보입니다. 이제 원격 코드 저장소로 코드를 전송합니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/codeship.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림8: 일차적으로 코드를 점검해주는 CI]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/codeship.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림8: 일차적으로 코드를 점검해주는 CI]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;  전송한 지 약 5분이 지났습니다. dev 채널을 확인해보니 CI 결과 메시지가 와있습니다. 과정을 통과했군요. 참, CI를 모르신다고요? CI에 대한 자세한 설명과 애드투페이퍼에서의 활용법은 &lt;a href=&quot;http://add2paper.github.io/2014/08/06/Test-And-CI/&quot;&gt;테스트와 CI&lt;/a&gt; 글을 통해 확인하실 수 있습니다.&lt;/p&gt;
@@ -185,50 +199,59 @@
 
 &lt;h2 id=&quot;section-8&quot;&gt;오후 4시 : 작업 완료&lt;/h2&gt;
 
-&lt;p&gt;시간이 흘러 작업을 완료했습니다. 오후 2시에 했듯, 개발 내용 점검 후 코드 저장소에 전송합니다. 시뮬레이터, 작업 전/후 비교, CI를 끝냈습니다. 이젠 작업 내용을 master에 붙여야 합니다.
-&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
-    &lt;img src=&quot;/images/good_morning/branches.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림9: 나누어진 작업내용들]&amp;lt;/span&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;p&gt;시간이 흘러 작업을 완료했습니다. 오후 2시에 했듯, 개발 내용 점검 후 코드 저장소에 전송합니다. 시뮬레이터, 작업 전/후 비교, CI를 끝냈습니다. 이젠 작업 내용을 master에 붙여야 합니다.&lt;/p&gt;
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/branches.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림9: 나누어진 작업내용들]&lt;/span&gt;
+        
+    &lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;  5가지 색깔 띠가 [그림9]에 있습니다. 색깔 띠를 각각 branch(직역: 나뭇가지)라고 부릅니다. 나무에 기둥을 중심으로 가지가 뻗어있는 걸 연상해주세요.
 저희 팀은 큰 작업 단위를 branch로 나눈 후, 작업 완료후에 메인 branch인 master로 합칩니다. 그림의 파랑, 초록, 보라, 노랑 띠들을 맨 위 검정색 띠로 합치는 셈이죠.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/merge_branches.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림10: 검은색 색깔 띠로 합쳐져가는 branch들]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/merge_branches.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림10: 검은색 색깔 띠로 합쳐져가는 branch들]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;  master에 코드를 합치는 건 예민한 작업입니다. master에 문제가 생기면 서비스에 즉각 타격을 입기 때문이죠. 작업 단위가 클수록 세심히 코드를 살펴야합니다. 꼼꼼한 작업 확인을 위해 저희는 Pull requests(PR)&lt;sup id=&quot;fnref:7&quot;&gt;&lt;a href=&quot;#fn:7&quot; class=&quot;footnote&quot;&gt;7&lt;/a&gt;&lt;/sup&gt; 기능으로 코드 검토(review)를 합니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/pull_requests.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림11: Pull requests 생성]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/pull_requests.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림11: Pull requests 생성]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;PR을 생성했습니다. &lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/comment_on_pr.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림12: 코드 검토 모습]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/comment_on_pr.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림12: 코드 검토 모습]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;  엇, CTO님께서 댓글을 남기셨습니다. 확인해보니 앞으로 사용하지 않을 코드를 안 지웠군요. 충분히 검토했다고 생각했지만 놓쳤던 부분이 있었습니다. 이렇게 코드를 고쳐나간 후, 최종 단계에서 병합(Merge)를 합니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/complete_merge.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림13: 병합 완료]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/complete_merge.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림13: 병합 완료]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -237,20 +260,24 @@
 
 &lt;p&gt;작업 내용을 서비스에 적용하려면 코드를 서버에 배포해야합니다. 배포 직전에는 앞서 진행한 모든 검토 과정들을 다시 진행합니다. 배포 담당자께서 dev 채널에 미리 공지합니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/deploy.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림14: 코드 배포 준비 모습]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/deploy.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림14: 코드 배포 준비 모습]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;  서버 배포를 완료했습니다. 12년 경력 배포 봇이 이를 알려주는군요. 사무실 로비에는 &lt;a href=&quot;https://www.youtube.com/watch?v=cAez7KLXlfQ&quot;&gt;배포를 알리는 효과음&lt;/a&gt;이 나옵니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/complete_deploy.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림15: 배포 완료]&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/good_morning/complete_deploy.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;[그림15: 배포 완료]&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
@@ -413,11 +440,13 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 이러한 인터페이스는 실제 런타임에 객체의 CLSID와 IID를 이용하여 인스턴스를 생성하기 전까지는 단순한 껍데기에 불과합니다.
 가령 C++에서 COM 인터페이스는 이런 식으로 선언되어 있습니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/com_interface.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;그림1 - IFileOpenDialog 인터페이스&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/com_interface.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;그림1 - IFileOpenDialog 인터페이스&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;왠지 폼나게 생긴 것 같지만 결국 길바닥에 널린 한낱 구조체에 불과합니다. 안에 들어있는 함수들이 전부 순수 가상 함수로 선언된 거 보이시죠?
@@ -432,11 +461,13 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 &lt;p&gt;파일을 열 때 나타나는 Dialog는 다음과 같이 생겼습니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;https://i-msdn.sec.s-msft.com/dynimg/IC420398.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;그림2 - 크고 아름다운 Dialog&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;https://i-msdn.sec.s-msft.com/dynimg/IC420398.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;그림2 - 크고 아름다운 Dialog&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;오 꽤 깔쌈합니다. 이런 걸 띄우려면 &lt;strong&gt;IFileOpenDialog&lt;/strong&gt; 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.&lt;/p&gt;
@@ -478,11 +509,13 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 &lt;p&gt;후킹을 하려면 후킹 할 API의 주소, 즉 구현 부의 주소를 알아야 합니다. 그런데 앞에서 COM 객체의 구현 부는 숨겨져 있다고 했단 말이죠…
 컴파일러는 대체 어떻게 주소를 알아낼까요? 아무래도 저 예제 프로그램을 직접 분석해볼 수밖에 없을 것 같습니다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/com_disasm.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;그림3 - WinDBG로 분석한 결과&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/com_disasm.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;그림3 - WinDBG로 분석한 결과&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;불필요한 부분은 깔끔히 쳐내고 GetResult 함수를 호출하는 부분만 잘라왔습니다. 짧은 코드지만 이 부분의 루틴을 이해해야 나중에 실제로 후킹 코드를 작성할 수 있습니다.&lt;/p&gt;
@@ -508,11 +541,13 @@ mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 �
 
 &lt;p&gt;좋습니다. 이제 GetResult의 주소를 구할 수 있습니다. 하지만 아직 API가 요구하는 정확한 인자(Parameter) 정보가 부족합니다. 함수를 한 번 뜯어(?)봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/com_disasm2.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;그림4 - GetResult 함수의 속살&lt;/span&gt;
-    
+&lt;div&gt;
+    &lt;div class=&quot;image-wrapper&quot;&gt;
+        &lt;img src=&quot;/images/com_disasm2.png&quot; alt=&quot;&quot; /&gt;
+        
+        &lt;span class=&quot;image-caption&quot;&gt;그림4 - GetResult 함수의 속살&lt;/span&gt;
+        
+    &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;p&gt;GetResult는 CFileOpenSave 클래스의 멤버 함수입니다. 그런데 흥미롭게도 Calling convention이 thiscall이 아니라 stdcall이네요?
