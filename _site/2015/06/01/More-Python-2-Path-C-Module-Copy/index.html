@@ -11,11 +11,11 @@
     <link rel="apple-touch-icon" href="/images/logo.png"/>
     <link href="/feed.xml" rel="alternate" type="application/rss+xml" title="애드투페이퍼 엔지니어링 블로그" />
     <meta name="title" content="More Python 2 - Patch C Module ">
-    <link rel="canonical" href="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module%20-%20Copy/">
+    <link rel="canonical" href="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/">
      
            
     <meta property="og:title" content="More Python 2 - Patch C Module "/>
-    <meta property="og:url" content="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module%20-%20Copy/"/>
+    <meta property="og:url" content="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/"/>
     
     <meta property="og:image" content="http://add2paper.github.io/images/blog-cover.png"/>
     
@@ -66,80 +66,78 @@
             <p>안녕하세요, <a href="http://www.add2paper.com">애드투페이퍼</a>의 <a href="http://www.parkayun.kr">박아윤</a>입니다. <br />
 <a href="/2014/12/01/More-Python-1-Copy/">첫 번째 More Python</a>을 작성하고 정확히 반년 뒤, 의병의 날인 오늘 그 두 번째 글을 작성하게 되었습니다. 하하<br /></p>
 
-<h2 id="patch">Patch</h2>
-<p>이번에 다룰 내용은 흔히들 Monkey Patch라고들 부르는 Patch에 관한 이야기입니다.<br />
+<p>##Patch
+이번에 다룰 내용은 흔히들 Monkey Patch라고들 부르는 Patch에 관한 이야기입니다.<br />
 Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">django</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">django</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">patch_django</span><span class="p">():</span>
 <span class="o">...</span>    <span class="k">return</span> <span class="s">"Flask!"</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">django</span> <span class="o">=</span> <span class="n">patch_django</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">django</span><span class="p">()</span>
-<span class="s">'Flask!'</span></code></pre></div>
+<span class="s">'Flask!'</span></code></pre></figure>
 
 <p>이렇게 Python의 은혜를 받아 매우 손쉽게 Patch를 할 수 있습니다. <br />
 이런 은혜에도 불구하고 문제점이 하나 있는데요, 아래와 같이 코드를 보면 Patch가 원활히 되지 않습니다. :(</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">date</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">patch_today</span><span class="p">():</span>
 <span class="o">...</span>    <span class="k">return</span> <span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span> <span class="o">=</span> <span class="n">patch_today</span><span class="p">()</span>
 <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
   <span class="n">File</span> <span class="s">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="nb">TypeError</span><span class="p">:</span> <span class="n">can</span><span class="s">'t set attributes of built-in/extension type '</span><span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="s">'</span></code></pre></div>
+<span class="nb">TypeError</span><span class="p">:</span> <span class="n">can</span><span class="s">'t set attributes of built-in/extension type '</span><span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="s">'</span></code></pre></figure>
 
 <p>datetime.date의 속성을 지정할 수 없다고 합니다. (C 모듈은 Monkey Patch를 할 수 없습니다.)<br />
 일단 영문을 모르겠으니 묻지도 따지지도 않고 파일을 찾아 디버깅을 해보겠습니다.</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">datetime</span><span class="o">.</span><span class="n">__file__</span>
-<span class="s">'/Somewhere/lib/python2.7/lib-dynload/datetime.so'</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">datetime</span><span class="o">.</span><span class="n">__file__</span>
+<span class="s">'/Somewhere/lib/python2.7/lib-dynload/datetime.so'</span></code></pre></figure>
 
 <p>아니! Python 파일이 아닙니다. C로 작성된 모듈 같은데 이제 어쩌죠? (저는 Python밖에 모른다고요…)<br /><del>이제 이만 글을 마칩니다. 읽어주셔서 감사합니다.</del></p>
 
 <p>하늘이 무너져도 솟아날 구멍이 있다더니 ctypes 모듈을 이용하면 이러한 c로 작성된 모듈이나 외부 라이브러리를 다룰 수 있습니다. 그러면 ctypes를 이용해 dir와 비슷해 보이는, 속성들을 가져오는 get_dict를 작성하겠습니다.</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">ctypes</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">ctypes</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">_get_dict</span> <span class="o">=</span> <span class="n">ctypes</span><span class="o">.</span><span class="n">pythonapi</span><span class="o">.</span><span class="n">_PyObject_GetDictPtr</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">_get_dict</span><span class="o">.</span><span class="n">restype</span> <span class="o">=</span> <span class="n">ctypes</span><span class="o">.</span><span class="n">POINTER</span><span class="p">(</span><span class="n">ctypes</span><span class="o">.</span><span class="n">py_object</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">_get_dict</span><span class="o">.</span><span class="n">argtypes</span> <span class="o">=</span> <span class="p">[</span><span class="n">ctypes</span><span class="o">.</span><span class="n">py_object</span><span class="p">]</span>
 <span class="o">&gt;&gt;&gt;</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">get_dict</span><span class="p">(</span><span class="n">obj</span><span class="p">):</span>
-<span class="o">...</span>    <span class="k">return</span> <span class="n">_get_dict</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span><span class="o">.</span><span class="n">contents</span><span class="o">.</span><span class="n">value</span></code></pre></div>
+<span class="o">...</span>    <span class="k">return</span> <span class="n">_get_dict</span><span class="p">(</span><span class="n">obj</span><span class="p">)</span><span class="o">.</span><span class="n">contents</span><span class="o">.</span><span class="n">value</span></code></pre></figure>
 
 <p>이제 이 get_dict를 이용해서 Patch를 해봅니다!</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">'today'</span><span class="p">]</span> <span class="o">=</span> <span class="n">patch_today</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">'today'</span><span class="p">]</span> <span class="o">=</span> <span class="n">patch_today</span></code></pre></figure>
 
 <p>오, 오 되었습니다. 이제 실행을 해보면!</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
 <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
   <span class="n">File</span> <span class="s">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="nb">TypeError</span><span class="p">:</span> <span class="n">unbound</span> <span class="n">method</span> <span class="n">patch_today</span><span class="p">()</span> <span class="n">must</span> <span class="n">be</span> <span class="n">called</span> <span class="k">with</span> <span class="n">date</span> <span class="n">instance</span> <span class="k">as</span> <span class="n">first</span> <span class="n">argument</span> <span class="p">(</span><span class="n">got</span> <span class="n">nothing</span> <span class="n">instead</span><span class="p">)</span></code></pre></div>
+<span class="nb">TypeError</span><span class="p">:</span> <span class="n">unbound</span> <span class="n">method</span> <span class="n">patch_today</span><span class="p">()</span> <span class="n">must</span> <span class="n">be</span> <span class="n">called</span> <span class="k">with</span> <span class="n">date</span> <span class="n">instance</span> <span class="k">as</span> <span class="n">first</span> <span class="n">argument</span> <span class="p">(</span><span class="n">got</span> <span class="n">nothing</span> <span class="n">instead</span><span class="p">)</span></code></pre></figure>
 
 <p>이제는 다른 오류가 반겨줍니다. 아무래도 date의 규격에 맞지 않는 것 같습니다.<br />클래스로 다시 Patch 코드를 작성해봅시다.</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">class</span> <span class="nc">PatchDate</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="k">class</span> <span class="nc">PatchDate</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
 <span class="o">...</span>    <span class="nd">@classmethod</span>
 <span class="o">...</span>    <span class="k">def</span> <span class="nf">today</span><span class="p">(</span><span class="n">cls</span><span class="p">):</span>
-<span class="o">...</span>        <span class="k">return</span> <span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span></code></pre></div>
+<span class="o">...</span>        <span class="k">return</span> <span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span></code></pre></figure>
 
 <p>다시 한번 Patch를 하고 실행을 해보면!</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">'today'</span><span class="p">]</span> <span class="o">=</span> <span class="n">PatchDate</span><span class="o">.</span><span class="n">today</span>
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">'today'</span><span class="p">]</span> <span class="o">=</span> <span class="n">PatchDate</span><span class="o">.</span><span class="n">today</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
-<span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span></code></pre></div>
+<span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span></code></pre></figure>
 
 <p>뙇!</p>
 
 <p>Patch를 성공적으로 수행했으니 이만 글을 마칩니다. 읽어주셔서 감사합니다.<br />
 (첫 번째 글이 너무 진지한 것 같아 이번에는 가벼운 느낌으로 글을 작성해보았습니다.)</p>
 
-<h3 id="section">참고</h3>
-<ul>
-  <li><a href="http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types">http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types</a></li>
-  <li><a href="https://docs.python.org/2/library/ctypes.html">https://docs.python.org/2/library/ctypes.html</a></li>
-</ul>
+<p>###참고
+* <a href="http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types">http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types</a>
+* <a href="https://docs.python.org/2/library/ctypes.html">https://docs.python.org/2/library/ctypes.html</a></p>
 
             
         </section>
@@ -155,8 +153,8 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
         </footer>
 
         <section>
-          <div class="fb-like" data-href="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module%20-%20Copy/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-          <div class="fb-comments" data-href="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module%20-%20Copy/" data-numposts="5" data-colorscheme="light"></div>
+          <div class="fb-like" data-href="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+          <div class="fb-comments" data-href="http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/" data-numposts="5" data-colorscheme="light"></div>
         </section>
     </div>
 </article>

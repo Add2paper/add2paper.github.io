@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Wed, 24 Aug 2016 07:55:24 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2016 07:55:24 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Aug 2016 08:37:25 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 08:37:25 +0000</lastBuildDate>
 
     
     
@@ -188,10 +188,11 @@
 
 &lt;p&gt;  전송한 지 약 5분이 지났습니다. dev 채널을 확인해보니 CI 결과 메시지가 와있습니다. 과정을 통과했군요. 참, CI를 모르신다고요? CI에 대한 자세한 설명과 애드투페이퍼에서의 활용법은 &lt;a href=&quot;http://add2paper.github.io/2014/08/06/Test-And-CI/&quot;&gt;테스트와 CI&lt;/a&gt; 글을 통해 확인하실 수 있습니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;프로젝트 규모가 커지면 빌드와 테스트하는 데에 많은 자원적, 시간적 비용이 들게 됩니다. 이런 문제점을 해결하기 위해 한 시스템에서 빌드와 테스트를 수행하는데 이를 CI(Continuous Integration) 시스템이라고 합니다.
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;프로젝트 규모가 커지면 빌드와 테스트하는 데에 많은 자원적, 시간적 비용이 들게 됩니다. 이런 문제점을 해결하기 위해 한 시스템에서 빌드와 테스트를 수행하는데 이를 CI(Continuous Integration) 시스템이라고 합니다.
 
 - 애드투페이퍼 엔지니어링 블로그 &quot;테스트와 CI&quot;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;CI를 통과했다는 것은 제가 전송한 코드가 실제 서버 환경에서 문제없이 작동한다는 것을 의미합니다. 이제 남은 코드를 작업하러 가야겠습니다.&lt;/p&gt;
 
@@ -232,7 +233,7 @@
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;PR을 생성했습니다. &lt;/p&gt;
+&lt;p&gt;PR을 생성했습니다.&lt;/p&gt;
 
 &lt;div&gt;
     &lt;div class=&quot;image-wrapper&quot;&gt;
@@ -328,26 +329,26 @@
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/07/21/Recruiting-Designer</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/images/recruiting_designer_header.png&quot; alt=&quot;디자이너 채용&quot; /&gt;  &lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&quot;/images/recruiting_designer_header.png&quot; alt=&quot;디자이너 채용&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;디자이너 채용공고 (1명)&lt;/h2&gt;
 
 &lt;p&gt;50만 대학생들에게 든든한 힘이 되고있는 서비스 ‘애딧(애드투페이퍼)’팀에서 신입디자이너를 채용합니다!
 전국 140개 대학교 곳곳에 운영되고 있는 애딧zone부터, 구글플레이&amp;amp;앱스토어 평점 4.8을 받는 모바일어플리케이션을 운영하는 애딧 팀에 합류하는 것은 디자이너에게 무한한 성장의 기회가 될 것입니다.
-지금 바로 지원하세요! &lt;/p&gt;
+지금 바로 지원하세요!&lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;업무 분야&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;UI / GUI Design&lt;/li&gt;
-  &lt;li&gt;BX Design &lt;/li&gt;
+  &lt;li&gt;BX Design&lt;/li&gt;
   &lt;li&gt;UX Design&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;구체적으로,
 애딧(애드투페이퍼) 모바일 어플리케이션 UI/UX 참여
 애딧 브랜드 및 서비스 마케팅 관련 작업 참여 (모바일, 웹, 오프라인)
-500여 기업과 함께하는 애딧의 다양한 광고캠페인 관련 업무 참여  &lt;/p&gt;
+500여 기업과 함께하는 애딧의 다양한 광고캠페인 관련 업무 참여&lt;/p&gt;
 
 &lt;h3 id=&quot;section-2&quot;&gt;지원자격&lt;/h3&gt;
 
@@ -374,7 +375,7 @@
 &lt;ul&gt;
   &lt;li&gt;애드투페이퍼 서비스 사용 경험이 있는 분&lt;/li&gt;
   &lt;li&gt;대학생활을 충분히 즐기신 분! (저희는 대학생이 사용하는 서비스입니다^^)&lt;/li&gt;
-  &lt;li&gt;UX, UI, BX 등 폭 넓은 디자인 경험을 쌓고 싶으신 분 &lt;/li&gt;
+  &lt;li&gt;UX, UI, BX 등 폭 넓은 디자인 경험을 쌓고 싶으신 분&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;section-6&quot;&gt;복리후생&lt;/h3&gt;
@@ -384,7 +385,7 @@
   &lt;li&gt;연봉제, 4대보험, 퇴직금&lt;/li&gt;
   &lt;li&gt;점심식사 지원&lt;/li&gt;
   &lt;li&gt;도서구매비 지원&lt;/li&gt;
-  &lt;li&gt;컨퍼런스 참가비 등 각종 업무 관련 교육비용 지원 &lt;/li&gt;
+  &lt;li&gt;컨퍼런스 참가비 등 각종 업무 관련 교육비용 지원&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;section-7&quot;&gt;지원방법&lt;/h3&gt;
@@ -472,7 +473,32 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 &lt;p&gt;오 꽤 깔쌈합니다. 이런 걸 띄우려면 &lt;strong&gt;IFileOpenDialog&lt;/strong&gt; 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
 #include &amp;lt;atlbase.h&amp;gt;
 #include &amp;lt;ShObjIdl.h&amp;gt;
 &lt;/span&gt;
@@ -497,7 +523,8 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
     &lt;span class=&quot;n&quot;&gt;CoUninitialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;어때요. 참 쉽죠?&lt;/p&gt;
 
@@ -522,9 +549,9 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 &lt;p&gt;함수 호출 전 코드 세 줄을 보겠습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;mov ecx, dword ptr [ebp-104h]  # ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;mov ecx, dword ptr [ebp-104h]  # ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.
 mov edx, dword ptr [ecx]       # IFileOpenDialog의 vtable을 가져옵니다.
-mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 보군요.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 보군요.&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;코드 편집 과정에서 잘렸지만, ebp-104h에는 &lt;strong&gt;IFileOpenDialog&lt;/strong&gt; 객체 인스턴스의 주솟값이 들어 있습니다. 코드 첫 줄에서는 먼저 이 값을 ecx 레지스터에 저장합니다.
 그리고 다음 줄에서 그 주소를 다시 참조하여 edx 레지스터에 저장하는데 저게 뭐 하는 거죠?&lt;/p&gt;
@@ -559,7 +586,36 @@ mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 �
 &lt;p&gt;이제 모든 준비가 됐습니다. 후킹 할 함수의 주소도 알아낼 수 있고, 그 함수의 실제 Prototype도 확인했습니다.
 이전 포스트에서 배운 꿀팁을 이용하여 간단하게 후킹 코드를 작성해봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// 함수 선언부
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;table style=&quot;border-spacing: 0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot; style=&quot;text-align: right&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// 함수 선언부
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HRESULT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;STDMETHODCALLTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IFileDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Hook&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OverrideHook&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
@@ -588,7 +644,8 @@ mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 �
         &lt;span class=&quot;c1&quot;&gt;// 결과를 리턴합니다(재미난 작업에 따라 ret 값이 바뀔 수도 있겠네요).
 &lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;별다른 설명이 필요 없을 정도 심플하고 깔끔합니다. 절로 미소가 지어지네요(&lt;del&gt;사실 테스트는 안 해ㅂ…&lt;/del&gt;).&lt;/p&gt;
 
@@ -646,29 +703,29 @@ API 함수의 주소를 구하는 법도 많이 고민하고 Calling convention�
 개발 난이도는 높습니다.
 요즘은 코드사인이 되지 않은 드라이버는 메모리에 로딩하는 것 조차 불가능하기 때문에 여러 의미로 개인 개발자들이 사용하기 힘든 후킹 방법입니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;드라이버 개발, HW/OS 지식이 필요
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;드라이버 개발, HW/OS 지식이 필요
 사소한 실수에 블루스크린을 볼 수 있음
 OS별, CPU 아키텍처별 별도 개발이 필요
 코드사이닝 인증서 필요
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;h3 id=&quot;section-2&quot;&gt;유저레벨&lt;/h3&gt;
 
 &lt;p&gt;주로 DLL을 작성하여 프로세스 단위에 적용하는 안정성, 호환성이 높은 후킹 방식입니다. 추천.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;IAT 후킹&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;IAT 후킹&lt;/p&gt;
+
+    &lt;p&gt;대표적 유저레벨 후킹 방식의 하나로, 모듈 별 후킹 여부를 결정할 수 있습니다. API의 주소가 담긴 테이블을 수정하는 식으로 작동합니다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Trampoline&lt;/p&gt;
+
+    &lt;p&gt;API의 코드를 직접 패치하는 방식입니다. 때문에 후킹이 한 프로세스 내에서 전역적으로 적용됩니다. 제대로 구현하기가 IAT 후킹에 비해 훨씬 까다롭습니다.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;대표적 유저레벨 후킹 방식의 하나로, 모듈 별 후킹 여부를 결정할 수 있습니다. API의 주소가 담긴 테이블을 수정하는 식으로 작동합니다.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Trampoline&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;pre&gt;&lt;code&gt;API의 코드를 직접 패치하는 방식입니다. 때문에 후킹이 한 프로세스 내에서 전역적으로 적용됩니다. 제대로 구현하기가 IAT 후킹에 비해 훨씬 까다롭습니다.
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;section-3&quot;&gt;글로벌 후킹&lt;/h2&gt;
 
@@ -690,28 +747,30 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 &lt;p&gt;우선 종료 요청을 수정해야하기 때문에 TerminateProcess의 후킹은 필수적입니다.
 TerminateProcess의 원형은 아래와 같습니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    BOOL WINAPI TerminateProcess(
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    BOOL WINAPI TerminateProcess(
         _In_ HANDLE hProcess,
         _In_ UINT   uExitCode
     );
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;소유권 관리 개념이 없다면, 아마 후킹 프로시저는 아래과 같아질 겁니다(슈도코드).&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    HookedTerminateProcess(process, exitCode)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    HookedTerminateProcess(process, exitCode)
     {
         name = getProcessName(process)
         if checkAllowedProcessName(name) then 호출허용
         else 호출거부
     }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;척 보기에도 문제점이 많습니다. &lt;br /&gt;
 getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워보입니다. 뿐만 아니라 주어진 핸들의 권한이 부족해 getProcessName 함수가 실패할 수도 있습니다!&lt;/p&gt;
 
 &lt;p&gt;소유권 관리 개념이 추가되면, 코드는 아래와 같아집니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    Process::Process(handle, pid, access, ...)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Process::Process(handle, pid, access, ...)
     {
         allowed = checkAllowedProcess(...);
         handle_ = handle;
@@ -738,6 +797,7 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
         else 호출거부
     }
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;OpenProcess와 CloseHandle이 추가적으로 후킹됐습니다. &lt;br /&gt;&lt;/li&gt;
@@ -759,9 +819,10 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
 &lt;p&gt;후킹 프로시저 내에서 요청을 거부했을 경우, 단순히 FALSE를 리턴하지 않고 SetLastError()를 사용해 실패 이유를 알려주면 오동작을 방지할 수 있습니다. &lt;br /&gt;
 가령, TerminateProcess 요청을 실패시킬 때&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    SetLastError(ERROR_ACCESS_DENIED)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    SetLastError(ERROR_ACCESS_DENIED)
     return FALSE
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;로 오류코드를 ERROR_ACCESS_DENIED로 명시적으로 설정해주면 잘 만든 프로그램들은 스스로 GetLastError()로 오류코드를 체크해 그에 맞는 메세지를 출력해주거나 별도의 작업을 수행합니다.&lt;/p&gt;
 
@@ -769,7 +830,7 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
 
 &lt;p&gt;Variadic Template을 사용하면&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;    Hook::OverrideHook&amp;lt;decltype(&amp;amp;MessageBoxA)&amp;gt; messageBoxAHook // 선언
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    Hook::OverrideHook&amp;lt;decltype(&amp;amp;MessageBoxA)&amp;gt; messageBoxAHook // 선언
 
     messageBoxAHook.Install(
         api주소,
@@ -778,6 +839,7 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
         return messageBoxAHook(hWnd, &quot;[hooked] &quot; + lpText, ...)
     })
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;이렇게 편하고 type-safe한 API 후킹을 할 수 있다. &lt;br /&gt;
 물론 함수 prototype만 보고 hooking stub을 만들어야 하기 때문에 머리가 빠개집니다.&lt;/p&gt;
@@ -797,87 +859,85 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
     
     <item>
       <title>More Python 2 - Patch C Module</title>
-      <link>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module%20-%20Copy/</link>
+      <link>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module - Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;의 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다. &lt;br /&gt;
 &lt;a href=&quot;/2014/12/01/More-Python-1-Copy/&quot;&gt;첫 번째 More Python&lt;/a&gt;을 작성하고 정확히 반년 뒤, 의병의 날인 오늘 그 두 번째 글을 작성하게 되었습니다. 하하&lt;br /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;patch&quot;&gt;Patch&lt;/h2&gt;
-&lt;p&gt;이번에 다룰 내용은 흔히들 Monkey Patch라고들 부르는 Patch에 관한 이야기입니다.&lt;br /&gt;
+&lt;p&gt;##Patch
+이번에 다룰 내용은 흔히들 Monkey Patch라고들 부르는 Patch에 관한 이야기입니다.&lt;br /&gt;
 Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;patch_django&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Flask!&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;django&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_django&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;django&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&#39;Flask!&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;s&quot;&gt;'Flask!'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;이렇게 Python의 은혜를 받아 매우 손쉽게 Patch를 할 수 있습니다. &lt;br /&gt;
 이런 은혜에도 불구하고 문제점이 하나 있는데요, 아래와 같이 코드를 보면 Patch가 원활히 되지 않습니다. :(&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;datetime&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;t set attributes of built-in/extension type &#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'t set attributes of built-in/extension type '&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;datetime.date의 속성을 지정할 수 없다고 합니다. (C 모듈은 Monkey Patch를 할 수 없습니다.)&lt;br /&gt;
 일단 영문을 모르겠으니 묻지도 따지지도 않고 파일을 찾아 디버깅을 해보겠습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__file__&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&#39;/Somewhere/lib/python2.7/lib-dynload/datetime.so&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__file__&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;'/Somewhere/lib/python2.7/lib-dynload/datetime.so'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;아니! Python 파일이 아닙니다. C로 작성된 모듈 같은데 이제 어쩌죠? (저는 Python밖에 모른다고요…)&lt;br /&gt;&lt;del&gt;이제 이만 글을 마칩니다. 읽어주셔서 감사합니다.&lt;/del&gt;&lt;/p&gt;
 
 &lt;p&gt;하늘이 무너져도 솟아날 구멍이 있다더니 ctypes 모듈을 이용하면 이러한 c로 작성된 모듈이나 외부 라이브러리를 다룰 수 있습니다. 그러면 ctypes를 이용해 dir와 비슷해 보이는, 속성들을 가져오는 get_dict를 작성하겠습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ctypes&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ctypes&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_get_dict&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ctypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pythonapi&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_PyObject_GetDictPtr&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_get_dict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;restype&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ctypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POINTER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py_object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_get_dict&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argtypes&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctypes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;py_object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;obj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;이제 이 get_dict를 이용해서 Patch를 해봅니다!&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;today&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'today'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;오, 오 되었습니다. 이제 실행을 해보면!&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
   &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unbound&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;called&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;got&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nothing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unbound&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;called&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;got&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nothing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;이제는 다른 오류가 반겨줍니다. 아무래도 date의 규격에 맞지 않는 것 같습니다.&lt;br /&gt;클래스로 다시 Patch 코드를 작성해봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PatchDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;PatchDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;nd&quot;&gt;@classmethod&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;다시 한번 Patch를 하고 실행을 해보면!&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;today&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PatchDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'today'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PatchDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;뙇!&lt;/p&gt;
 
 &lt;p&gt;Patch를 성공적으로 수행했으니 이만 글을 마칩니다. 읽어주셔서 감사합니다.&lt;br /&gt;
 (첫 번째 글이 너무 진지한 것 같아 이번에는 가벼운 느낌으로 글을 작성해보았습니다.)&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;참고&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types&quot;&gt;http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.python.org/2/library/ctypes.html&quot;&gt;https://docs.python.org/2/library/ctypes.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;###참고
+* &lt;a href=&quot;http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types&quot;&gt;http://stackoverflow.com/questions/6738987/extension-method-for-python-built-in-types&lt;/a&gt;
+* &lt;a href=&quot;https://docs.python.org/2/library/ctypes.html&quot;&gt;https://docs.python.org/2/library/ctypes.html&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -893,7 +953,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 ‘대학생’과 ‘대학캠퍼스’타겟에  독점적 영향력을 갖는 모바일플랫폼으로 성장하고자 합니다.&lt;br /&gt;
 이미 한국의 규모 있는 대학 70%에 애드투페이퍼 무료프린팅ZONE이 제휴 되어있습니다. 또한 ‘애딧’포인트를 기반으로 대학생들의 모바일 소비 생활을 혁신하고 있습니다. &lt;br /&gt;
 우리에게 무료프린팅서비스는 종착점이 아닌 출발점입니다. 2015년에는 대학생들이 학교에 가는 길, 점심을 먹을 때, 커피를 마실 때, 저녁을 먹을 때마다 ‘애딧’을 통해 보다 합리적이고 즐거운 소비생활을 하게 될 것입니다!&lt;br /&gt;
-우리 대학생들의 삶을 바꾸어갈 핵심서비스를 함께 만들며 성장할 PM을 모십니다! &lt;/p&gt;
+우리 대학생들의 삶을 바꾸어갈 핵심서비스를 함께 만들며 성장할 PM을 모십니다!&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -908,11 +968,11 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-1&quot;&gt;애드투페이퍼는 이런 분을 찾습니다&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;웹서비스 / 모바일앱에 대한 높은 이해도가 있으신 분&lt;/li&gt;
-  &lt;li&gt;UX 디자인에 대한 이해가 있으신 분 &lt;/li&gt;
+  &lt;li&gt;UX 디자인에 대한 이해가 있으신 분&lt;/li&gt;
   &lt;li&gt;높은 커뮤니케이션 능력 및 팀플레이 능력을 갖추신 분&lt;/li&gt;
   &lt;li&gt;대학 생활 혁신에 대한 비전이 있으신 분&lt;/li&gt;
   &lt;li&gt;데이터에 기반한 의사 결정에 열의가 있으신 분&lt;/li&gt;
-  &lt;li&gt;소셜커머스 또는 O2O관련 프로덕트 매니징 경력을 우대합니다.  &lt;/li&gt;
+  &lt;li&gt;소셜커머스 또는 O2O관련 프로덕트 매니징 경력을 우대합니다.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -947,11 +1007,11 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-3&quot;&gt;복리후생&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;회사 위치 : &lt;a href=&quot;http://map.naver.com/local/siteview.nhn?code=13468464&quot;&gt;서울특별시 강남구 역삼동 799-5, 대일빌딩 3층&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실  &lt;/li&gt;
+  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실&lt;/li&gt;
   &lt;li&gt;연봉제, 4대보험, 퇴직금, 인센티브&lt;/li&gt;
-  &lt;li&gt;점심 식대 지원  &lt;/li&gt;
-  &lt;li&gt;도서 구매비 지원  &lt;/li&gt;
-  &lt;li&gt;컨퍼런스 참가비 지원  &lt;/li&gt;
+  &lt;li&gt;점심 식대 지원&lt;/li&gt;
+  &lt;li&gt;도서 구매비 지원&lt;/li&gt;
+  &lt;li&gt;컨퍼런스 참가비 지원&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -966,7 +1026,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-5&quot;&gt;회사 소개 및 언론 보도&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/&quot;&gt;회사 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=FTOkQE-oqF8&quot;&gt;애드투페이퍼 서비스 소개 동영상&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -982,7 +1042,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <guid>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 20대 대학생 타겟 미디어입니다. 2014년 하반기에는 통합 가상 화폐 ‘애딧’과 API 서비스를 오픈하여 다양한 대학생 편의 서비스와 빠른 속도로 제휴를 진행하고 있습니다. &lt;u&gt;2015년 2월 23일 현재까지 100여 개 대학교에 제휴 된 2,300여 대의 애드투페이퍼 PC를 통해 40만 명의 회원이 2,600만여 장의 인쇄를 하였습니다. 2015년 상반기에는 속도감 있는 제휴를 통해 140여 개 대학교 3,500여 대 PC로 확장 예정입니다.&lt;/u&gt; 대학생 타겟 미디어를 넘어 대학생 통합 편의 서비스로 진화하고 있는 애드투페이퍼에서 실력 있는 개발자분들을 모십니다. &lt;b&gt;&lt;u&gt;산업기능요원(보충역 / 전직) 또한 가능합니다.&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;애드투페이퍼에서 새로 개발 중인 윈도우 클라이언트 4.0 버전은 기존의 Virtual Printer Driver 개발 방식에서 탈피하여 프린터 관련 Windows API 후킹을 통해 타겟 물리 프린터의 종류에 상관없이 프린터 고유의 모든 기능을 사용할 수 있는 혁신적인 고성능 클라이언트입니다. 기존의 Virtual Printer Driver 개발 방식으로는 빠르게 발전하는 물리 프린터의 모든 고유 기능을 유연하고 빠르게 지원하기 어려워 해당 개발 방식을 도입하였습니다. 현재 32bit 버전은 개발 완료 후 QA 중이고 상반기에 64bit 버전을 개발하고 릴리즈할 예정입니다. &lt;/p&gt;
+&lt;p&gt;애드투페이퍼에서 새로 개발 중인 윈도우 클라이언트 4.0 버전은 기존의 Virtual Printer Driver 개발 방식에서 탈피하여 프린터 관련 Windows API 후킹을 통해 타겟 물리 프린터의 종류에 상관없이 프린터 고유의 모든 기능을 사용할 수 있는 혁신적인 고성능 클라이언트입니다. 기존의 Virtual Printer Driver 개발 방식으로는 빠르게 발전하는 물리 프린터의 모든 고유 기능을 유연하고 빠르게 지원하기 어려워 해당 개발 방식을 도입하였습니다. 현재 32bit 버전은 개발 완료 후 QA 중이고 상반기에 64bit 버전을 개발하고 릴리즈할 예정입니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -1023,10 +1083,10 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 
 &lt;h2 id=&quot;section-4&quot;&gt;개발 문화&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;Github, Github Issues, Hipchat을 사용한 가볍고 탄력성 있는 개발 문화를 지향합니다. &lt;/li&gt;
-  &lt;li&gt;새로운 기술을 적극적으로 검토하고 실험합니다. 기술 스택도 마음대로 선택 가능합니다. 다만 충분한 테스트 코드 작성 및 검토가 선행됩니다. &lt;/li&gt;
+  &lt;li&gt;Github, Github Issues, Hipchat을 사용한 가볍고 탄력성 있는 개발 문화를 지향합니다.&lt;/li&gt;
+  &lt;li&gt;새로운 기술을 적극적으로 검토하고 실험합니다. 기술 스택도 마음대로 선택 가능합니다. 다만 충분한 테스트 코드 작성 및 검토가 선행됩니다.&lt;/li&gt;
   &lt;li&gt;하기 싫은 일을 강요하는 사람은 없습니다. 모든 개발 방향을 토론을 통해 결정됩니다.&lt;/li&gt;
-  &lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다. &lt;/li&gt;
+  &lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1034,20 +1094,20 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-5&quot;&gt;복리후생&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;회사 위치 : &lt;a href=&quot;http://map.naver.com/local/siteview.nhn?code=13468464&quot;&gt;서울특별시 강남구 역삼동 799-5, 대일빌딩 3층&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실  &lt;/li&gt;
+  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실&lt;/li&gt;
   &lt;li&gt;개발에 필요한 모든 장비 지원&lt;/li&gt;
   &lt;li&gt;연봉제, 4대보험, 퇴직금, 인센티브&lt;/li&gt;
-  &lt;li&gt;점심 식대 지원  &lt;/li&gt;
-  &lt;li&gt;도서 구매비 지원  &lt;/li&gt;
-  &lt;li&gt;컨퍼런스 참가비 지원  &lt;/li&gt;
+  &lt;li&gt;점심 식대 지원&lt;/li&gt;
+  &lt;li&gt;도서 구매비 지원&lt;/li&gt;
+  &lt;li&gt;컨퍼런스 참가비 지원&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-6&quot;&gt;지원방법&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;수시 채용입니다. 언제든지 연락주세요.  &lt;/li&gt;
-  &lt;li&gt;resume, 포트폴리오 (형식 자유) 를 jobs@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)  &lt;/li&gt;
+  &lt;li&gt;수시 채용입니다. 언제든지 연락주세요.&lt;/li&gt;
+  &lt;li&gt;resume, 포트폴리오 (형식 자유) 를 jobs@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1055,7 +1115,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-7&quot;&gt;회사 소개 및 언론 보도&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/&quot;&gt;회사 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1070,26 +1130,26 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <guid>http://add2paper.github.io/2014/12/01/More-Python-1-Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드를 개발하고 있는 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다.&lt;br /&gt;
 이번 포스트부터 Python의 멀고도 가까운 내용을 소개하는 More Python을 연재코자 합니다. &lt;br /&gt;
-그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다! &lt;/p&gt;
+그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다!&lt;/p&gt;
 
-&lt;h2 id=&quot;copy&quot;&gt;Copy&lt;/h2&gt;
-&lt;p&gt;이 포스트에서 말하고자 하는 Copy는 변수를 복사하는 그 Copy입니다. &lt;br /&gt;예를 들어 아래와 같이 apple 변수 값을  banana 변수에 그대로 대입하는 경우입니다.&lt;/p&gt;
+&lt;p&gt;##Copy
+이 포스트에서 말하고자 하는 Copy는 변수를 복사하는 그 Copy입니다. &lt;br /&gt;예를 들어 아래와 같이 apple 변수 값을  banana 변수에 그대로 대입하는 경우입니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;red&#39;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;banana&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'red'&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;banana&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;그럼 그냥 쓰면 되지 문제가 뭐길래 포스팅까지 하느냐? 하면 바로 아래와 같은 경우입니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;9&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;foo를 초기화하고 bar에 값을 대입하고 foo의 값을 바꿨더니 bar의 값도 따라 바뀌었습니다.&lt;br /&gt;
 아래에서 확인할 수 있듯이 값을 대입하면 값에 대한 메모리가 더 할당되는 것이 아닌 기존 값의 메모리 주소를 공유하기 때문에 발생하게 됩니다. 리스트 같은 경우 리스트 자체뿐만 아니라 리스트 내 요소들도 똑같은 주소를 공유합니다. 이러한 Copy를 &lt;strong&gt;Shallow Copy(얕은 복사)&lt;/strong&gt;라고 합니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;4433166064&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4433166064&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
@@ -1097,48 +1157,48 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;span class=&quot;mi&quot;&gt;140327877880784&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327877880784&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;777&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;그럼 이러한 현상을 피하기 위해서는 무엇이 필요할까요? 얕은 복사의 반의어인 &lt;strong&gt;Deep Copy(깊은 복사)&lt;/strong&gt;를 이용하면 됩니다. Python에서는 기본적으로 copy 모듈을 제공하고 있어 아래와 같이 사용하면 됩니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;copy&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;copy&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deepcopy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;4433166064&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4433319624&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;이렇게 Deep Copy를 하더라도 리스트 내 요소들은 여전히 똑같은 값을 공유하고 있습니다. 그러나 얕은 복사와는 다르게 리스트 자체는 다른 값이기 때문에 원본 리스트의 요소가 바뀌었다고 복사된 리스트의 요소에 영향을 끼치지는 않습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;copy&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;copy&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;copy&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;deepcopy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;True&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;777&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;140327877880712&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;mi&quot;&gt;140327877880712&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다. &lt;/p&gt;
+&lt;p&gt;Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;좀 더 구체적으로 사용해보면 바로 Shallow Copy인 이유를 바로 알 수 있습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h2 id=&quot;and-more&quot;&gt;And more?&lt;/h2&gt;
-&lt;p&gt;기본적으로 리스트형뿐만 아니라 모든 변수형에 적용되는 사항이나 문자열은 값을 변경하려면 새로 대입해야 하고 튜플은 값을 변경하는 것이 목적도 아니고 바뀌지도 않으니 실질적으로 사용할 수 있는 건 리스트와 사전형입니다. 특히 사전형보다는 리스트를 다룰 때 자주 사용될 수 있으니 실제 코딩하실 때 참고하시면 도움되실듯합니다. &lt;/p&gt;
+&lt;p&gt;##And more?
+기본적으로 리스트형뿐만 아니라 모든 변수형에 적용되는 사항이나 문자열은 값을 변경하려면 새로 대입해야 하고 튜플은 값을 변경하는 것이 목적도 아니고 바뀌지도 않으니 실질적으로 사용할 수 있는 건 리스트와 사전형입니다. 특히 사전형보다는 리스트를 다룰 때 자주 사용될 수 있으니 실제 코딩하실 때 참고하시면 도움되실듯합니다.&lt;/p&gt;
 
 &lt;p&gt;다른 흥미로운 주제를 가지고 다시 찾아뵙도록 하겠습니다. :D&lt;/p&gt;
 
@@ -1156,52 +1216,54 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <guid>http://add2paper.github.io/2014/08/06/Test-And-CI</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드 개발을 맡은 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다. 이번 블로그 개편에 맞춰 저희가 하고 있는 백엔드 테스트, 장고 테스트에 대하여 공유하고자 합니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
-&lt;p&gt;현재 애드투페이퍼 백엔드는 API와 웹 서비스로 구성되어있습니다. 이 중에서 API 서비스 테스트에 관하여 소개하고자 합니다.&lt;/p&gt;
+&lt;p&gt;##Overview
+현재 애드투페이퍼 백엔드는 API와 웹 서비스로 구성되어있습니다. 이 중에서 API 서비스 테스트에 관하여 소개하고자 합니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;test&quot;&gt;Test?&lt;/h2&gt;
-&lt;p&gt;테스트는 흔히 통상적인 개념으로 무엇인가를 검사하는 행위를 지칭합니다.&lt;br /&gt;
+&lt;p&gt;##Test?
+테스트는 흔히 통상적인 개념으로 무엇인가를 검사하는 행위를 지칭합니다.&lt;br /&gt;
 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4_%ED%85%8C%EC%8A%A4%ED%8A%B8&quot;&gt;소프트웨어 테스트&lt;/a&gt;도 이와 마찬가지로 소프트웨어가 올바르게 의도한 대로 작동하는가를 검사하는 것 이라고 할 수 있습니다. 이러한 소프트웨어 테스트는 버그 발견뿐만 아니라 테스트와 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EB%A6%AC%ED%8C%A9%ED%86%A0%EB%A7%81&quot;&gt;리팩토링&lt;/a&gt; 과정을 통해서 코드 품질 향상에도 좋은 영향을 이끌어옵니다.&lt;br /&gt;
 이런 연유와 유사하게 소프트웨어 개발 기법으로 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C&quot;&gt;테스트 주도 개발&lt;/a&gt;이라는 기법도 탄생하게 됩니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;django-test&quot;&gt;Django Test&lt;/h2&gt;
-&lt;p&gt;장고 프레임워크에서는 기본적으로 &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/topics/testing/overview/&quot;&gt;장고 테스트 모듈&lt;/a&gt;을 제공합니다.&lt;br /&gt;
+&lt;p&gt;##Django Test
+장고 프레임워크에서는 기본적으로 &lt;a href=&quot;https://docs.djangoproject.com/en/1.7/topics/testing/overview/&quot;&gt;장고 테스트 모듈&lt;/a&gt;을 제공합니다.&lt;br /&gt;
 장고 테스트 모듈에는 &lt;a href=&quot;https://docs.python.org/2/library/unittest.html&quot;&gt;파이썬 유닛 테스트&lt;/a&gt;와 유사하나 가장 큰 이점은 자동으로 테스트 데이터베이스를 생성해주고 끝나면 삭제까지 해줍니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;from django.http import HttpResponse
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from django.http import HttpResponse
 
 
 def HelloView(request):
-    return HttpResponse(&#39;Hello World&#39;)
+    return HttpResponse('Hello World')
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;이 HelloView의 기본적인 테스트 조건은 아래와 같습니다.
 * Response를 제대로 해주는가
-* 의도한 결괏값인가  &lt;/p&gt;
+* 의도한 결괏값인가&lt;/p&gt;
 
 &lt;p&gt;위 조건대로 장고 테스트 모듈을 이용하여 테스트 코드를 작성해 보겠습니다.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;from django.test import TestCase
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;from django.test import TestCase
 
 
 class HelloTestCase(TestCase):
     #테스트전 초기화하는 함수입니다.
     def setUp(self):
-        self.baseURL = &#39;/&#39;
+        self.baseURL = '/'
         
     def test_hello(self):
-        url = self.baseURL + &#39;hello/&#39;
+        url = self.baseURL + 'hello/'
         
         #성공 테스트
         res = self.client.get(url)
         self.assertEqual(res.status_code, 200)
-        self.assertEqual(res.content, &#39;Hello&#39;)
+        self.assertEqual(res.content, 'Hello')
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;위 코드와 같은 형태로 테스트 코드를 작성할 수 있습니다. 이때 유의할 점은 test_hello와 같이 테스트 함수는 함수명 앞에 test_와 같이 네이밍을 해줘야 합니다. 또한, 이 코드는 간단한 예시이지만 실제로 코드를 작성할 때는 성공하는 테스트뿐만 아니라 실패하는 테스트 코드도 작성해줘야 합니다. 예를 들어 뷰에서 post 요청만을 받는다면 get으로 요청 시에 정상적으로 거절하는지, 실패하는지에 대해서도 테스트를 해야 합니다.&lt;/p&gt;
 
-&lt;h2 id=&quot;ci&quot;&gt;CI&lt;/h2&gt;
-&lt;p&gt;프로젝트 규모가 커지면 빌드와 테스트하는 데에 많은 자원적, 시간적 비용이 들게 됩니다. 이런 문제점을 해결하기 위해 한 시스템에서 빌드와 테스트를 수행하는데 이를 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8_%ED%86%B5%ED%95%A9&quot;&gt;CI(Continuous Integration)&lt;/a&gt; 시스템이라고 합니다.&lt;br /&gt;
+&lt;p&gt;##CI
+프로젝트 규모가 커지면 빌드와 테스트하는 데에 많은 자원적, 시간적 비용이 들게 됩니다. 이런 문제점을 해결하기 위해 한 시스템에서 빌드와 테스트를 수행하는데 이를 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EC%A7%80%EC%86%8D%EC%A0%81%EC%9D%B8_%ED%86%B5%ED%95%A9&quot;&gt;CI(Continuous Integration)&lt;/a&gt; 시스템이라고 합니다.&lt;br /&gt;
 현재 애드투페이퍼에서는 &lt;a href=&quot;https://codeship.io&quot;&gt;codeship.io&lt;/a&gt;이라는 서비스에 소스 코드 저장소의 훅을 걸어 사용하고 있습니다. 코드를 수정하고 저장소에 푸쉬를 하게 되면 아래와 같은 흐름대로 코드 테스트를 진행합니다.&lt;/p&gt;
 
 &lt;ul&gt;
@@ -1214,17 +1276,17 @@ class HelloTestCase(TestCase):
   &lt;li&gt;의존성 설치&lt;/li&gt;
   &lt;li&gt;데이터베이스 싱크&lt;/li&gt;
   &lt;li&gt;테스트 수행&lt;/li&gt;
-  &lt;li&gt;결과 전달  &lt;/li&gt;
+  &lt;li&gt;결과 전달&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/codeship_test.png&quot; alt=&quot;코드쉽 테스트&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/codeship_test.png&quot; alt=&quot;코드쉽 테스트&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;위 스크린 샷처럼 푸쉬를 할 때마다 테스트를 수행하고 아래 스크린 샷처럼 그 결과를 메일이나 힙챗과 같은 수단으로 테스트 성공 여부를 받을 수 있습니다. 그리고 테스트가 성공하면 릴리즈 서버로 배포할 수 있도록 설정할 수도 있습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/test_feedback.png&quot; alt=&quot;테스트 피드백&quot; /&gt;  &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/test_feedback.png&quot; alt=&quot;테스트 피드백&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;and-more&quot;&gt;And more?&lt;/h2&gt;
-&lt;p&gt;이 밖에도 백엔드에 관하여 공유사항들이 많이 있는데요, 다음 포스팅에서 공유하도록 하겠습니다.&lt;/p&gt;
+&lt;p&gt;##And more?
+이 밖에도 백엔드에 관하여 공유사항들이 많이 있는데요, 다음 포스팅에서 공유하도록 하겠습니다.&lt;/p&gt;
 
 &lt;p&gt;읽어주셔서 감사합니다.&lt;/p&gt;
 </description>
@@ -1324,7 +1386,7 @@ class HelloTestCase(TestCase):
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;어플리케이션 서버&lt;/h3&gt;
+&lt;p&gt;###어플리케이션 서버&lt;/p&gt;
 
 &lt;pre&gt;
 [Git 저장소에서 최신 코드 다운로드]
@@ -1335,7 +1397,7 @@ supervisorctl status gunicorn | sed &quot;s/.*[pid ]\([0-9]\+\)\,.*/\1/&quot; | 
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;캐시 + 워커 서버&lt;/h3&gt;
+&lt;h3 id=&quot;section-2&quot;&gt;캐시 + 워커 서버&lt;/h3&gt;
 
 &lt;pre&gt;
 [Git 저장소에서 최신 코드 다운로드]

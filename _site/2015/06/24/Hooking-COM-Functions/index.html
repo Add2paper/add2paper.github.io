@@ -127,7 +127,32 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 <p>오 꽤 깔쌈합니다. 이런 걸 띄우려면 <strong>IFileOpenDialog</strong> 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.</p>
 
-<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cp">#include &lt;iostream&gt;
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26</pre></td><td class="code"><pre><span class="cp">#include &lt;iostream&gt;
 #include &lt;atlbase.h&gt;
 #include &lt;ShObjIdl.h&gt;
 </span>
@@ -152,7 +177,8 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
     <span class="n">CoUninitialize</span><span class="p">();</span>
 
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <p>어때요. 참 쉽죠?</p>
 
@@ -177,9 +203,9 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 <p>함수 호출 전 코드 세 줄을 보겠습니다.</p>
 
-<div class="highlight"><pre><code class="language-asm" data-lang="asm">mov ecx, dword ptr [ebp-104h]  # ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.
+<figure class="highlight"><pre><code class="language-asm" data-lang="asm">mov ecx, dword ptr [ebp-104h]  # ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.
 mov edx, dword ptr [ecx]       # IFileOpenDialog의 vtable을 가져옵니다.
-mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 보군요.</code></pre></div>
+mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 보군요.</code></pre></figure>
 
 <p>코드 편집 과정에서 잘렸지만, ebp-104h에는 <strong>IFileOpenDialog</strong> 객체 인스턴스의 주솟값이 들어 있습니다. 코드 첫 줄에서는 먼저 이 값을 ecx 레지스터에 저장합니다.
 그리고 다음 줄에서 그 주소를 다시 참조하여 edx 레지스터에 저장하는데 저게 뭐 하는 거죠?</p>
@@ -214,7 +240,36 @@ mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 �
 <p>이제 모든 준비가 됐습니다. 후킹 할 함수의 주소도 알아낼 수 있고, 그 함수의 실제 Prototype도 확인했습니다.
 이전 포스트에서 배운 꿀팁을 이용하여 간단하게 후킹 코드를 작성해봅시다.</p>
 
-<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="c1">// 함수 선언부
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table style="border-spacing: 0"><tbody><tr><td class="gutter gl" style="text-align: right"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30</pre></td><td class="code"><pre><span class="c1">// 함수 선언부
 </span><span class="k">typedef</span> <span class="n">HRESULT</span><span class="p">(</span><span class="n">STDMETHODCALLTYPE</span> <span class="n">IFileDialog</span><span class="o">::*</span><span class="n">GetResultFunction</span><span class="p">)(</span><span class="n">IShellItem</span> <span class="o">**</span><span class="p">);</span>
 <span class="n">Hook</span><span class="o">::</span><span class="n">OverrideHook</span><span class="o">&lt;</span><span class="n">GetResultFunction</span><span class="o">&gt;</span> <span class="n">GetResultHook</span><span class="p">;</span>
 
@@ -243,7 +298,8 @@ mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 �
         <span class="c1">// 결과를 리턴합니다(재미난 작업에 따라 ret 값이 바뀔 수도 있겠네요).
 </span>        <span class="k">return</span> <span class="n">ret</span><span class="p">;</span>
     <span class="p">});</span>
-<span class="p">}</span></code></pre></div>
+<span class="p">}</span><span class="w">
+</span></pre></td></tr></tbody></table></code></pre></figure>
 
 <p>별다른 설명이 필요 없을 정도 심플하고 깔끔합니다. 절로 미소가 지어지네요(<del>사실 테스트는 안 해ㅂ…</del>).</p>
 
