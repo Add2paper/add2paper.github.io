@@ -6,8 +6,8 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Thu, 17 Dec 2015 02:15:29 +0000</pubDate>
-    <lastBuildDate>Thu, 17 Dec 2015 02:15:29 +0000</lastBuildDate>
+    <pubDate>Wed, 24 Aug 2016 03:08:46 +0000</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 03:08:46 +0000</lastBuildDate>
 
     
     
@@ -46,32 +46,32 @@
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-1&quot;&gt;오전 10시 : 업무 시작&lt;/h2&gt;
-&lt;p&gt;팀원들과 아침 인사를 나누고 자리에 앉았습니다. 때마침 10시를 맞아 슬랙(Slack) 봇이 일정을 보내놓았군요.&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/start.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림1: 구글 캘린더를 연동한 슬랙]&lt;/span&gt;
-    
-&lt;/div&gt;
-&lt;ul&gt;
-  &lt;li&gt;애디팀 크리스마스 이벤트 / 송년회 안내 (오후 6시 ~ 오후 6시 30분)&lt;/li&gt;
-  &lt;li&gt;미니세미나 (오후 6시 30분 ~ 오후 7시)&lt;/li&gt;
-  &lt;li&gt;프로덕트팀 회식 (오후 7시 ~ 오후 9시)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;팀원들과 아침 인사를 나누고 자리에 앉았습니다. 때마침 10시를 맞아 슬랙(Slack) 봇이 일정을 보내놓았군요.
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/start.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림1: 구글 캘린더를 연동한 슬랙]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;
+* 애디팀 크리스마스 이벤트 / 송년회 안내 (오후 6시 ~ 오후 6시 30분)
+* 미니세미나 (오후 6시 30분 ~ 오후 7시)
+* 프로덕트팀 회식 (오후 7시 ~ 오후 9시)&lt;/p&gt;
 
 &lt;p&gt;  벌써 2015년이 끝나갑니다. 송년회 안내, 회식 등 연말을 알리는 일정이 있습니다. 평소에는 오후 7시에 업무를 마무리 하지만, 각종 안내가 있으니 오후 6시까지 일을 마무리해야겠다는 생각도 드는군요.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-2&quot;&gt;개발사항 체크&lt;/h2&gt;
-&lt;p&gt;오늘 할 일을 확인하기 위해 어제 개발했던 사항들을 정리하려 합니다. 저희 팀은 모든 개발 사항을 한 채널에 기록하고 이름을 dev 라고 정했습니다. dev 채널을 통해 어제 개발했던 사항을 확인해야겠군요.&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/dev_channel.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림2: 슬랙 dev 채널]&lt;/span&gt;
-    
-&lt;/div&gt;
-&lt;p&gt;  이전의 개발 기록들을 확인했습니다. 동시에 어제 무슨 일을 했는지 상기합니다. 오늘 할 일에 대한 구상이 잡혀가는군요.&lt;/p&gt;
+&lt;p&gt;오늘 할 일을 확인하기 위해 어제 개발했던 사항들을 정리하려 합니다. 저희 팀은 모든 개발 사항을 한 채널에 기록하고 이름을 dev 라고 정했습니다. dev 채널을 통해 어제 개발했던 사항을 확인해야겠군요.
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/dev_channel.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림2: 슬랙 dev 채널]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;
+  이전의 개발 기록들을 확인했습니다. 동시에 어제 무슨 일을 했는지 상기합니다. 오늘 할 일에 대한 구상이 잡혀가는군요.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -117,25 +117,27 @@
 
 &lt;h2 id=&quot;section-5&quot;&gt;오전 10시 45분 : 요약 지표 확인&lt;/h2&gt;
 
-&lt;p&gt;본 서버 - 사내 서버 간 데이터베이스(DB) 동기화가 끝났군요. 클로이 모레츠가 활동 유저(Active User) 요약 지표를 알려줍니다. 클로이 모레츠는 저희가 미리 설정한 각종 알리미 봇 입니다. 매일 아침 DB 동기화가 끝나면 메인 채널에 지표를 알립니다. 이를 통해 팀원 모두 앱 AU 상황을 알 수 있습니다.&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/chloe.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림4: 요약 지표를 알려주는 클로이 모레츠(봇)]&lt;/span&gt;
-    
-&lt;/div&gt;
+&lt;p&gt;본 서버 - 사내 서버 간 데이터베이스(DB) 동기화가 끝났군요. 클로이 모레츠가 활동 유저(Active User) 요약 지표를 알려줍니다. 클로이 모레츠는 저희가 미리 설정한 각종 알리미 봇 입니다. 매일 아침 DB 동기화가 끝나면 메인 채널에 지표를 알립니다. 이를 통해 팀원 모두 앱 AU 상황을 알 수 있습니다.
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/chloe.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림4: 요약 지표를 알려주는 클로이 모레츠(봇)]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-6&quot;&gt;낮 12시 : 점심 식사&lt;/h2&gt;
 
-&lt;p&gt;바쁘게 일하다 보니 어느덧 점심시간입니다. 업무 관련 내용이 아니므로 점심 메뉴 선정은 카카오톡 단체채팅방을 통해 정합니다. 디자이너 Y님께서 점심 메뉴를 선정하셨군요!&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/kakao_lunch.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림5: 점심시간을 알리는 소리, 까똑!]&lt;/span&gt;
-    
-&lt;/div&gt;
+&lt;p&gt;바쁘게 일하다 보니 어느덧 점심시간입니다. 업무 관련 내용이 아니므로 점심 메뉴 선정은 카카오톡 단체채팅방을 통해 정합니다. 디자이너 Y님께서 점심 메뉴를 선정하셨군요!
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/kakao_lunch.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림5: 점심시간을 알리는 소리, 까똑!]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -143,21 +145,23 @@
 
 &lt;p&gt;개발하던 내용을 반 정도 끝냈습니다. 작업 내용을 공유하는 게 좋겠군요. 개발팀 전체가 공유하는 원격 코드 저장소&lt;sup id=&quot;fnref:5&quot;&gt;&lt;a href=&quot;#fn:5&quot; class=&quot;footnote&quot;&gt;5&lt;/a&gt;&lt;/sup&gt;에 작업하던 내용을 전송&lt;sup id=&quot;fnref:6&quot;&gt;&lt;a href=&quot;#fn:6&quot; class=&quot;footnote&quot;&gt;6&lt;/a&gt;&lt;/sup&gt;하려 합니다.&lt;/p&gt;
 
-&lt;p&gt;우선 작업 내용에 이상이 없는지, 시뮬레이터를 통해 테스트합니다.&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/simulators.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림6: 시뮬레이터로 켠 애드투페이퍼 앱]&lt;/span&gt;
-    
-&lt;/div&gt;
+&lt;p&gt;우선 작업 내용에 이상이 없는지, 시뮬레이터를 통해 테스트합니다.
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/simulators.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;  확인해보니 작동에는 문제가 없습니다. 이젠 코드를 확인합니다. 코드 버전 관리 기능을 사용하면 쉽게 작업 전/후를 비교할 수 있습니다. &lt;a href=&quot;https://www.youtube.com/watch?v=clHOuZmqaZA&quot;&gt;1줄로 짤 코드를 누가 10줄로 만들었어요? 에러 잡기 힘들게&lt;/a&gt;와 같은 상황이 없도록 꼼꼼히 코드를 살핍니다.&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/git_highlighting.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림7: 작업 전/후 비교]&lt;/span&gt;
-    
-&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림6: 시뮬레이터로 켠 애드투페이퍼 앱]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;  확인해보니 작동에는 문제가 없습니다. 이젠 코드를 확인합니다. 코드 버전 관리 기능을 사용하면 쉽게 작업 전/후를 비교할 수 있습니다. &lt;a href=&quot;https://www.youtube.com/watch?v=clHOuZmqaZA&quot;&gt;1줄로 짤 코드를 누가 10줄로 만들었어요? 에러 잡기 힘들게&lt;/a&gt;와 같은 상황이 없도록 꼼꼼히 코드를 살핍니다.
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/git_highlighting.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림7: 작업 전/후 비교]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;코드에도 문제가 없어 보입니다. 이제 원격 코드 저장소로 코드를 전송합니다.&lt;/p&gt;
 
@@ -181,13 +185,14 @@
 
 &lt;h2 id=&quot;section-8&quot;&gt;오후 4시 : 작업 완료&lt;/h2&gt;
 
-&lt;p&gt;시간이 흘러 작업을 완료했습니다. 오후 2시에 했듯, 개발 내용 점검 후 코드 저장소에 전송합니다. 시뮬레이터, 작업 전/후 비교, CI를 끝냈습니다. 이젠 작업 내용을 master에 붙여야 합니다.&lt;/p&gt;
-&lt;div class=&quot;image-wrapper&quot;&gt;
-    &lt;img src=&quot;/images/good_morning/branches.png&quot; alt=&quot;&quot; /&gt;
-    
-    &lt;span class=&quot;image-caption&quot;&gt;[그림9: 나누어진 작업내용들]&lt;/span&gt;
-    
-&lt;/div&gt;
+&lt;p&gt;시간이 흘러 작업을 완료했습니다. 오후 2시에 했듯, 개발 내용 점검 후 코드 저장소에 전송합니다. 시뮬레이터, 작업 전/후 비교, CI를 끝냈습니다. 이젠 작업 내용을 master에 붙여야 합니다.
+&amp;lt;div class=&quot;image-wrapper&quot; &amp;gt;
+    &lt;img src=&quot;/images/good_morning/branches.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;span class=&quot;image-caption&quot;&amp;gt;[그림9: 나누어진 작업내용들]&amp;lt;/span&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;  5가지 색깔 띠가 [그림9]에 있습니다. 색깔 띠를 각각 branch(직역: 나뭇가지)라고 부릅니다. 나무에 기둥을 중심으로 가지가 뻗어있는 걸 연상해주세요.
 저희 팀은 큰 작업 단위를 branch로 나눈 후, 작업 완료후에 메인 branch인 master로 합칩니다. 그림의 파랑, 초록, 보라, 노랑 띠들을 맨 위 검정색 띠로 합치는 셈이죠.&lt;/p&gt;
@@ -208,7 +213,7 @@
     
 &lt;/div&gt;
 
-&lt;p&gt;PR을 생성했습니다.&lt;/p&gt;
+&lt;p&gt;PR을 생성했습니다. &lt;/p&gt;
 
 &lt;div class=&quot;image-wrapper&quot;&gt;
     &lt;img src=&quot;/images/good_morning/comment_on_pr.png&quot; alt=&quot;&quot; /&gt;
@@ -296,26 +301,26 @@
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
       <author></author>
       <guid>http://add2paper.github.io/2015/07/21/Recruiting-Designer</guid>
-      <description>&lt;p&gt;&lt;img src=&quot;/images/recruiting_designer_header.png&quot; alt=&quot;디자이너 채용&quot; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&quot;/images/recruiting_designer_header.png&quot; alt=&quot;디자이너 채용&quot; /&gt;  &lt;/p&gt;
 
 &lt;h2 id=&quot;section&quot;&gt;디자이너 채용공고 (1명)&lt;/h2&gt;
 
 &lt;p&gt;50만 대학생들에게 든든한 힘이 되고있는 서비스 ‘애딧(애드투페이퍼)’팀에서 신입디자이너를 채용합니다!
 전국 140개 대학교 곳곳에 운영되고 있는 애딧zone부터, 구글플레이&amp;amp;앱스토어 평점 4.8을 받는 모바일어플리케이션을 운영하는 애딧 팀에 합류하는 것은 디자이너에게 무한한 성장의 기회가 될 것입니다.
-지금 바로 지원하세요!&lt;/p&gt;
+지금 바로 지원하세요! &lt;/p&gt;
 
 &lt;h3 id=&quot;section-1&quot;&gt;업무 분야&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;UI / GUI Design&lt;/li&gt;
-  &lt;li&gt;BX Design&lt;/li&gt;
+  &lt;li&gt;BX Design &lt;/li&gt;
   &lt;li&gt;UX Design&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;구체적으로,
 애딧(애드투페이퍼) 모바일 어플리케이션 UI/UX 참여
 애딧 브랜드 및 서비스 마케팅 관련 작업 참여 (모바일, 웹, 오프라인)
-500여 기업과 함께하는 애딧의 다양한 광고캠페인 관련 업무 참여&lt;/p&gt;
+500여 기업과 함께하는 애딧의 다양한 광고캠페인 관련 업무 참여  &lt;/p&gt;
 
 &lt;h3 id=&quot;section-2&quot;&gt;지원자격&lt;/h3&gt;
 
@@ -342,7 +347,7 @@
 &lt;ul&gt;
   &lt;li&gt;애드투페이퍼 서비스 사용 경험이 있는 분&lt;/li&gt;
   &lt;li&gt;대학생활을 충분히 즐기신 분! (저희는 대학생이 사용하는 서비스입니다^^)&lt;/li&gt;
-  &lt;li&gt;UX, UI, BX 등 폭 넓은 디자인 경험을 쌓고 싶으신 분&lt;/li&gt;
+  &lt;li&gt;UX, UI, BX 등 폭 넓은 디자인 경험을 쌓고 싶으신 분 &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;section-6&quot;&gt;복리후생&lt;/h3&gt;
@@ -352,7 +357,7 @@
   &lt;li&gt;연봉제, 4대보험, 퇴직금&lt;/li&gt;
   &lt;li&gt;점심식사 지원&lt;/li&gt;
   &lt;li&gt;도서구매비 지원&lt;/li&gt;
-  &lt;li&gt;컨퍼런스 참가비 등 각종 업무 관련 교육비용 지원&lt;/li&gt;
+  &lt;li&gt;컨퍼런스 참가비 등 각종 업무 관련 교육비용 지원 &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;section-7&quot;&gt;지원방법&lt;/h3&gt;
@@ -436,32 +441,32 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 &lt;p&gt;오 꽤 깔쌈합니다. 이런 걸 띄우려면 &lt;strong&gt;IFileOpenDialog&lt;/strong&gt; 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;atlbase.h&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;ShObjIdl.h&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;CoInitialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;CComPtr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileOpenDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CoCreateInstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLSID_FileOpenDialog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CLSCTX_ALL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;CComPtr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResult&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;S_OK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 이걸 후킹 해봅시다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;PWSTR&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetDisplayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SIGDN_FILESYSPATH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wcout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;         &lt;span class=&quot;n&quot;&gt;CoTaskMemFree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;22&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;CoUninitialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+#include &amp;lt;atlbase.h&amp;gt;
+#include &amp;lt;ShObjIdl.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;CoInitialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;CComPtr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileOpenDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CoCreateInstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLSID_FileOpenDialog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CLSCTX_ALL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;CComPtr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResult&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;S_OK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 이걸 후킹 해봅시다.
+&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;PWSTR&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetDisplayName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SIGDN_FILESYSPATH&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wcout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;CoTaskMemFree&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;CoUninitialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;어때요. 참 쉽죠?&lt;/p&gt;
 
@@ -484,9 +489,9 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 &lt;p&gt;함수 호출 전 코드 세 줄을 보겠습니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;&lt;span class=&quot;nf&quot;&gt;mov&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ecx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;dword&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ptr&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ebp-104h&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;]&lt;/span&gt;  &lt;span class=&quot;c&quot;&gt;# ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;mov&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;edx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;dword&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ptr&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;ecx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;]&lt;/span&gt;       &lt;span class=&quot;c&quot;&gt;# IFileOpenDialog의 vtable을 가져옵니다.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;mov&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;eax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;dword&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ptr&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;edx&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;50&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;]&lt;/span&gt;   &lt;span class=&quot;c&quot;&gt;# vtable + 50h에 GetResult의 주소가 있나 보군요.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-asm&quot; data-lang=&quot;asm&quot;&gt;mov ecx, dword ptr [ebp-104h]  # ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.
+mov edx, dword ptr [ecx]       # IFileOpenDialog의 vtable을 가져옵니다.
+mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 보군요.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;코드 편집 과정에서 잘렸지만, ebp-104h에는 &lt;strong&gt;IFileOpenDialog&lt;/strong&gt; 객체 인스턴스의 주솟값이 들어 있습니다. 코드 첫 줄에서는 먼저 이 값을 ecx 레지스터에 저장합니다.
 그리고 다음 줄에서 그 주소를 다시 참조하여 edx 레지스터에 저장하는데 저게 뭐 하는 거죠?&lt;/p&gt;
@@ -519,36 +524,36 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 &lt;p&gt;이제 모든 준비가 됐습니다. 후킹 할 함수의 주소도 알아낼 수 있고, 그 함수의 실제 Prototype도 확인했습니다.
 이전 포스트에서 배운 꿀팁을 이용하여 간단하게 후킹 코드를 작성해봅시다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 함수 선언부&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;HRESULT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;STDMETHODCALLTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IFileDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hook&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OverrideHook&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 생략...&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;CComPtr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileOpenDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CoCreateInstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLSID_FileOpenDialog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CLSCTX_ALL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt;     &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvtable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// vtable의 주소를 구해옵니다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvtable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt;     &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vtable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvtable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 실제 vtable을 구해옵니다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;16&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;17&lt;/span&gt;     &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x50&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// 32bit 환경에서 테스트했기 때문에 4로 나눠줍니다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;18&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;19&lt;/span&gt;     &lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vtable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;20&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;[](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileDialog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;21&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;22&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// 먼저 원본 함수를 호출하여 결과를 얻어옵니다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;23&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;24&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;25&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// 이제 여기서 재미난 작업들을 합니다.&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;26&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;27&lt;/span&gt;         &lt;span class=&quot;c1&quot;&gt;// 결과를 리턴합니다(재미난 작업에 따라 ret 값이 바뀔 수도 있겠네요).&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;28&lt;/span&gt;         &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;29&lt;/span&gt;     &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;30&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c--&quot; data-lang=&quot;c++&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// 함수 선언부
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;typedef&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;HRESULT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;STDMETHODCALLTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IFileDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hook&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OverrideHook&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultFunction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// 생략...
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;hook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;CComPtr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileOpenDialog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CoCreateInstance&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLSID_FileOpenDialog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CLSCTX_ALL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvtable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dlg&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// vtable의 주소를 구해옵니다.
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvtable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vtable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;size_t&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pvtable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 실제 vtable을 구해옵니다.
+&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mh&quot;&gt;0x50&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;     &lt;span class=&quot;c1&quot;&gt;// 32bit 환경에서 테스트했기 때문에 4로 나눠줍니다.
+&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Install&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;vtable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;idx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;[](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IFileDialog&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;IShellItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;**&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// 먼저 원본 함수를 호출하여 결과를 얻어옵니다.
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;auto&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GetResultHook&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ppsi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// 이제 여기서 재미난 작업들을 합니다.
+&lt;/span&gt;
+        &lt;span class=&quot;c1&quot;&gt;// 결과를 리턴합니다(재미난 작업에 따라 ret 값이 바뀔 수도 있겠네요).
+&lt;/span&gt;        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ret&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;별다른 설명이 필요 없을 정도 심플하고 깔끔합니다. 절로 미소가 지어지네요(&lt;del&gt;사실 테스트는 안 해ㅂ…&lt;/del&gt;).&lt;/p&gt;
 
@@ -770,10 +775,10 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;django&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;patch_django&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;():&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;Flask!&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Flask!&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;django&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_django&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;django&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;#39;Flask!&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;Flask!&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;이렇게 Python의 은혜를 받아 매우 손쉽게 Patch를 할 수 있습니다. &lt;br /&gt;
 이런 은혜에도 불구하고 문제점이 하나 있는데요, 아래와 같이 코드를 보면 Patch가 원활히 되지 않습니다. :(&lt;/p&gt;
@@ -783,14 +788,14 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;ne&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;t set attributes of built-in/extension type &amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;can&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;t set attributes of built-in/extension type &#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;datetime.date의 속성을 지정할 수 없다고 합니다. (C 모듈은 Monkey Patch를 할 수 없습니다.)&lt;br /&gt;
 일단 영문을 모르겠으니 묻지도 따지지도 않고 파일을 찾아 디버깅을 해보겠습니다.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__file__&lt;/span&gt;
-&lt;span class=&quot;s&quot;&gt;&amp;#39;/Somewhere/lib/python2.7/lib-dynload/datetime.so&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;s&quot;&gt;&#39;/Somewhere/lib/python2.7/lib-dynload/datetime.so&#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;아니! Python 파일이 아닙니다. C로 작성된 모듈 같은데 이제 어쩌죠? (저는 Python밖에 모른다고요…)&lt;br /&gt;&lt;del&gt;이제 이만 글을 마칩니다. 읽어주셔서 감사합니다.&lt;/del&gt;&lt;/p&gt;
 
@@ -806,14 +811,14 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 
 &lt;p&gt;이제 이 get_dict를 이용해서 Patch를 해봅니다!&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;today&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;today&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;오, 오 되었습니다. 이제 실행을 해보면!&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Traceback&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;most&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;recent&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;call&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;last&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;lt;stdin&amp;gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;ne&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unbound&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;called&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;got&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nothing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+  &lt;span class=&quot;n&quot;&gt;File&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;&amp;lt;stdin&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;TypeError&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unbound&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;method&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;patch_today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;must&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;be&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;called&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;first&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argument&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;got&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;nothing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;instead&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;이제는 다른 오류가 반겨줍니다. 아무래도 date의 규격에 맞지 않는 것 같습니다.&lt;br /&gt;클래스로 다시 Patch 코드를 작성해봅시다.&lt;/p&gt;
 
@@ -824,7 +829,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 
 &lt;p&gt;다시 한번 Patch를 하고 실행을 해보면!&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;today&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PatchDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;get_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;today&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PatchDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;today&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2015&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
@@ -853,7 +858,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 ‘대학생’과 ‘대학캠퍼스’타겟에  독점적 영향력을 갖는 모바일플랫폼으로 성장하고자 합니다.&lt;br /&gt;
 이미 한국의 규모 있는 대학 70%에 애드투페이퍼 무료프린팅ZONE이 제휴 되어있습니다. 또한 ‘애딧’포인트를 기반으로 대학생들의 모바일 소비 생활을 혁신하고 있습니다. &lt;br /&gt;
 우리에게 무료프린팅서비스는 종착점이 아닌 출발점입니다. 2015년에는 대학생들이 학교에 가는 길, 점심을 먹을 때, 커피를 마실 때, 저녁을 먹을 때마다 ‘애딧’을 통해 보다 합리적이고 즐거운 소비생활을 하게 될 것입니다!&lt;br /&gt;
-우리 대학생들의 삶을 바꾸어갈 핵심서비스를 함께 만들며 성장할 PM을 모십니다!&lt;/p&gt;
+우리 대학생들의 삶을 바꾸어갈 핵심서비스를 함께 만들며 성장할 PM을 모십니다! &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -868,11 +873,11 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-1&quot;&gt;애드투페이퍼는 이런 분을 찾습니다&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;웹서비스 / 모바일앱에 대한 높은 이해도가 있으신 분&lt;/li&gt;
-  &lt;li&gt;UX 디자인에 대한 이해가 있으신 분&lt;/li&gt;
+  &lt;li&gt;UX 디자인에 대한 이해가 있으신 분 &lt;/li&gt;
   &lt;li&gt;높은 커뮤니케이션 능력 및 팀플레이 능력을 갖추신 분&lt;/li&gt;
   &lt;li&gt;대학 생활 혁신에 대한 비전이 있으신 분&lt;/li&gt;
   &lt;li&gt;데이터에 기반한 의사 결정에 열의가 있으신 분&lt;/li&gt;
-  &lt;li&gt;소셜커머스 또는 O2O관련 프로덕트 매니징 경력을 우대합니다.&lt;/li&gt;
+  &lt;li&gt;소셜커머스 또는 O2O관련 프로덕트 매니징 경력을 우대합니다.  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -907,11 +912,11 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-3&quot;&gt;복리후생&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;회사 위치 : &lt;a href=&quot;http://map.naver.com/local/siteview.nhn?code=13468464&quot;&gt;서울특별시 강남구 역삼동 799-5, 대일빌딩 3층&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실&lt;/li&gt;
+  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실  &lt;/li&gt;
   &lt;li&gt;연봉제, 4대보험, 퇴직금, 인센티브&lt;/li&gt;
-  &lt;li&gt;점심 식대 지원&lt;/li&gt;
-  &lt;li&gt;도서 구매비 지원&lt;/li&gt;
-  &lt;li&gt;컨퍼런스 참가비 지원&lt;/li&gt;
+  &lt;li&gt;점심 식대 지원  &lt;/li&gt;
+  &lt;li&gt;도서 구매비 지원  &lt;/li&gt;
+  &lt;li&gt;컨퍼런스 참가비 지원  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -926,7 +931,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-5&quot;&gt;회사 소개 및 언론 보도&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/&quot;&gt;회사 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt; &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=FTOkQE-oqF8&quot;&gt;애드투페이퍼 서비스 소개 동영상&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -942,7 +947,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <guid>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 20대 대학생 타겟 미디어입니다. 2014년 하반기에는 통합 가상 화폐 ‘애딧’과 API 서비스를 오픈하여 다양한 대학생 편의 서비스와 빠른 속도로 제휴를 진행하고 있습니다. &lt;u&gt;2015년 2월 23일 현재까지 100여 개 대학교에 제휴 된 2,300여 대의 애드투페이퍼 PC를 통해 40만 명의 회원이 2,600만여 장의 인쇄를 하였습니다. 2015년 상반기에는 속도감 있는 제휴를 통해 140여 개 대학교 3,500여 대 PC로 확장 예정입니다.&lt;/u&gt; 대학생 타겟 미디어를 넘어 대학생 통합 편의 서비스로 진화하고 있는 애드투페이퍼에서 실력 있는 개발자분들을 모십니다. &lt;b&gt;&lt;u&gt;산업기능요원(보충역 / 전직) 또한 가능합니다.&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
 
-&lt;p&gt;애드투페이퍼에서 새로 개발 중인 윈도우 클라이언트 4.0 버전은 기존의 Virtual Printer Driver 개발 방식에서 탈피하여 프린터 관련 Windows API 후킹을 통해 타겟 물리 프린터의 종류에 상관없이 프린터 고유의 모든 기능을 사용할 수 있는 혁신적인 고성능 클라이언트입니다. 기존의 Virtual Printer Driver 개발 방식으로는 빠르게 발전하는 물리 프린터의 모든 고유 기능을 유연하고 빠르게 지원하기 어려워 해당 개발 방식을 도입하였습니다. 현재 32bit 버전은 개발 완료 후 QA 중이고 상반기에 64bit 버전을 개발하고 릴리즈할 예정입니다.&lt;/p&gt;
+&lt;p&gt;애드투페이퍼에서 새로 개발 중인 윈도우 클라이언트 4.0 버전은 기존의 Virtual Printer Driver 개발 방식에서 탈피하여 프린터 관련 Windows API 후킹을 통해 타겟 물리 프린터의 종류에 상관없이 프린터 고유의 모든 기능을 사용할 수 있는 혁신적인 고성능 클라이언트입니다. 기존의 Virtual Printer Driver 개발 방식으로는 빠르게 발전하는 물리 프린터의 모든 고유 기능을 유연하고 빠르게 지원하기 어려워 해당 개발 방식을 도입하였습니다. 현재 32bit 버전은 개발 완료 후 QA 중이고 상반기에 64bit 버전을 개발하고 릴리즈할 예정입니다. &lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
@@ -983,10 +988,10 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 
 &lt;h2 id=&quot;section-4&quot;&gt;개발 문화&lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt;Github, Github Issues, Hipchat을 사용한 가볍고 탄력성 있는 개발 문화를 지향합니다.&lt;/li&gt;
-  &lt;li&gt;새로운 기술을 적극적으로 검토하고 실험합니다. 기술 스택도 마음대로 선택 가능합니다. 다만 충분한 테스트 코드 작성 및 검토가 선행됩니다.&lt;/li&gt;
+  &lt;li&gt;Github, Github Issues, Hipchat을 사용한 가볍고 탄력성 있는 개발 문화를 지향합니다. &lt;/li&gt;
+  &lt;li&gt;새로운 기술을 적극적으로 검토하고 실험합니다. 기술 스택도 마음대로 선택 가능합니다. 다만 충분한 테스트 코드 작성 및 검토가 선행됩니다. &lt;/li&gt;
   &lt;li&gt;하기 싫은 일을 강요하는 사람은 없습니다. 모든 개발 방향을 토론을 통해 결정됩니다.&lt;/li&gt;
-  &lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다.&lt;/li&gt;
+  &lt;li&gt;낮에 똑똑하게 열심히 일하고 야근은 절대로 하지 않습니다. &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -994,20 +999,20 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-5&quot;&gt;복리후생&lt;/h2&gt;
 &lt;ol&gt;
   &lt;li&gt;회사 위치 : &lt;a href=&quot;http://map.naver.com/local/siteview.nhn?code=13468464&quot;&gt;서울특별시 강남구 역삼동 799-5, 대일빌딩 3층&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실&lt;/li&gt;
+  &lt;li&gt;건물 한 층을 전부 사용하는 쾌적한 사무실  &lt;/li&gt;
   &lt;li&gt;개발에 필요한 모든 장비 지원&lt;/li&gt;
   &lt;li&gt;연봉제, 4대보험, 퇴직금, 인센티브&lt;/li&gt;
-  &lt;li&gt;점심 식대 지원&lt;/li&gt;
-  &lt;li&gt;도서 구매비 지원&lt;/li&gt;
-  &lt;li&gt;컨퍼런스 참가비 지원&lt;/li&gt;
+  &lt;li&gt;점심 식대 지원  &lt;/li&gt;
+  &lt;li&gt;도서 구매비 지원  &lt;/li&gt;
+  &lt;li&gt;컨퍼런스 참가비 지원  &lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;section-6&quot;&gt;지원방법&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;수시 채용입니다. 언제든지 연락주세요.&lt;/li&gt;
-  &lt;li&gt;resume, 포트폴리오 (형식 자유) 를 jobs@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)&lt;/li&gt;
+  &lt;li&gt;수시 채용입니다. 언제든지 연락주세요.  &lt;/li&gt;
+  &lt;li&gt;resume, 포트폴리오 (형식 자유) 를 jobs@add2paper.com 으로 보내주시면 됩니다. (개인 블로그, 홈페이지, 또는 Github 계정을 함께 보내주시면 좋습니다.)  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -1015,7 +1020,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;h2 id=&quot;section-7&quot;&gt;회사 소개 및 언론 보도&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/&quot;&gt;회사 소개&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.add2paper.com/about/#press&quot;&gt;언론 보도&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -1030,12 +1035,12 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <guid>http://add2paper.github.io/2014/12/01/More-Python-1-Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드를 개발하고 있는 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다.&lt;br /&gt;
 이번 포스트부터 Python의 멀고도 가까운 내용을 소개하는 More Python을 연재코자 합니다. &lt;br /&gt;
-그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다!&lt;/p&gt;
+그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다! &lt;/p&gt;
 
 &lt;h2 id=&quot;copy&quot;&gt;Copy&lt;/h2&gt;
 &lt;p&gt;이 포스트에서 말하고자 하는 Copy는 변수를 복사하는 그 Copy입니다. &lt;br /&gt;예를 들어 아래와 같이 apple 변수 값을  banana 변수에 그대로 대입하는 경우입니다.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;#39;red&amp;#39;&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&#39;red&#39;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;banana&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;apple&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;그럼 그냥 쓰면 되지 문제가 뭐길래 포스팅까지 하느냐? 하면 바로 아래와 같은 경우입니다.&lt;/p&gt;
@@ -1081,7 +1086,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;])&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;140327877880712&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;140327876950296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다.&lt;/p&gt;
+&lt;p&gt;Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다. &lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;bar&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;foo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[:]&lt;/span&gt;
@@ -1098,7 +1103,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;h2 id=&quot;and-more&quot;&gt;And more?&lt;/h2&gt;
-&lt;p&gt;기본적으로 리스트형뿐만 아니라 모든 변수형에 적용되는 사항이나 문자열은 값을 변경하려면 새로 대입해야 하고 튜플은 값을 변경하는 것이 목적도 아니고 바뀌지도 않으니 실질적으로 사용할 수 있는 건 리스트와 사전형입니다. 특히 사전형보다는 리스트를 다룰 때 자주 사용될 수 있으니 실제 코딩하실 때 참고하시면 도움되실듯합니다.&lt;/p&gt;
+&lt;p&gt;기본적으로 리스트형뿐만 아니라 모든 변수형에 적용되는 사항이나 문자열은 값을 변경하려면 새로 대입해야 하고 튜플은 값을 변경하는 것이 목적도 아니고 바뀌지도 않으니 실질적으로 사용할 수 있는 건 리스트와 사전형입니다. 특히 사전형보다는 리스트를 다룰 때 자주 사용될 수 있으니 실제 코딩하실 때 참고하시면 도움되실듯합니다. &lt;/p&gt;
 
 &lt;p&gt;다른 흥미로운 주제를 가지고 다시 찾아뵙도록 하겠습니다. :D&lt;/p&gt;
 
@@ -1137,7 +1142,7 @@ def HelloView(request):
 
 &lt;p&gt;이 HelloView의 기본적인 테스트 조건은 아래와 같습니다.
 * Response를 제대로 해주는가
-* 의도한 결괏값인가&lt;/p&gt;
+* 의도한 결괏값인가  &lt;/p&gt;
 
 &lt;p&gt;위 조건대로 장고 테스트 모듈을 이용하여 테스트 코드를 작성해 보겠습니다.&lt;/p&gt;
 
@@ -1174,14 +1179,14 @@ class HelloTestCase(TestCase):
   &lt;li&gt;의존성 설치&lt;/li&gt;
   &lt;li&gt;데이터베이스 싱크&lt;/li&gt;
   &lt;li&gt;테스트 수행&lt;/li&gt;
-  &lt;li&gt;결과 전달&lt;/li&gt;
+  &lt;li&gt;결과 전달  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/codeship_test.png&quot; alt=&quot;코드쉽 테스트&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/codeship_test.png&quot; alt=&quot;코드쉽 테스트&quot; /&gt;  &lt;/p&gt;
 
 &lt;p&gt;위 스크린 샷처럼 푸쉬를 할 때마다 테스트를 수행하고 아래 스크린 샷처럼 그 결과를 메일이나 힙챗과 같은 수단으로 테스트 성공 여부를 받을 수 있습니다. 그리고 테스트가 성공하면 릴리즈 서버로 배포할 수 있도록 설정할 수도 있습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/test_feedback.png&quot; alt=&quot;테스트 피드백&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/test_feedback.png&quot; alt=&quot;테스트 피드백&quot; /&gt;  &lt;/p&gt;
 
 &lt;h2 id=&quot;and-more&quot;&gt;And more?&lt;/h2&gt;
 &lt;p&gt;이 밖에도 백엔드에 관하여 공유사항들이 많이 있는데요, 다음 포스팅에서 공유하도록 하겠습니다.&lt;/p&gt;

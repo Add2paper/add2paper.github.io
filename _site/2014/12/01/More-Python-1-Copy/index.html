@@ -65,12 +65,12 @@
         <section>
             <p>안녕하세요, <a href="http://www.add2paper.com">애드투페이퍼</a>에서 백엔드를 개발하고 있는 <a href="http://www.parkayun.kr">박아윤</a>입니다.<br />
 이번 포스트부터 Python의 멀고도 가까운 내용을 소개하는 More Python을 연재코자 합니다. <br />
-그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다!</p>
+그 첫 번째 포스트로 Python의 Copy 관련 내용을 풀어보겠습니다! </p>
 
 <h2 id="copy">Copy</h2>
 <p>이 포스트에서 말하고자 하는 Copy는 변수를 복사하는 그 Copy입니다. <br />예를 들어 아래와 같이 apple 변수 값을  banana 변수에 그대로 대입하는 경우입니다.</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">apple</span> <span class="o">=</span> <span class="s">&#39;red&#39;</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">apple</span> <span class="o">=</span> <span class="s">'red'</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">banana</span> <span class="o">=</span> <span class="n">apple</span></code></pre></div>
 
 <p>그럼 그냥 쓰면 되지 문제가 뭐길래 포스팅까지 하느냐? 하면 바로 아래와 같은 경우입니다.</p>
@@ -116,7 +116,7 @@
 <span class="o">&gt;&gt;&gt;</span> <span class="k">print</span> <span class="nb">id</span><span class="p">(</span><span class="n">foo</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">id</span><span class="p">(</span><span class="n">bar</span><span class="p">[</span><span class="mi">0</span><span class="p">]),</span> <span class="nb">id</span><span class="p">(</span><span class="n">foo</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="o">==</span> <span class="nb">id</span><span class="p">(</span><span class="n">bar</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 <span class="mi">140327877880712</span><span class="p">,</span> <span class="mi">140327876950296</span><span class="p">,</span> <span class="bp">False</span></code></pre></div>
 
-<p>Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다.</p>
+<p>Copy 모듈을 쓰지 않고 아래와 같은 방법으로도 Deep Copy와 비슷한 효과를 얻을 수 있습니다. 그러나 여기서 주의할 점은 효과만 비슷할 뿐 Deep Copy가 아닌 Shallow Copy입니다. </p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">foo</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">bar</span> <span class="o">=</span> <span class="n">foo</span><span class="p">[:]</span>
@@ -133,7 +133,7 @@
 <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]]</span> <span class="p">[[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]]</span></code></pre></div>
 
 <h2 id="and-more">And more?</h2>
-<p>기본적으로 리스트형뿐만 아니라 모든 변수형에 적용되는 사항이나 문자열은 값을 변경하려면 새로 대입해야 하고 튜플은 값을 변경하는 것이 목적도 아니고 바뀌지도 않으니 실질적으로 사용할 수 있는 건 리스트와 사전형입니다. 특히 사전형보다는 리스트를 다룰 때 자주 사용될 수 있으니 실제 코딩하실 때 참고하시면 도움되실듯합니다.</p>
+<p>기본적으로 리스트형뿐만 아니라 모든 변수형에 적용되는 사항이나 문자열은 값을 변경하려면 새로 대입해야 하고 튜플은 값을 변경하는 것이 목적도 아니고 바뀌지도 않으니 실질적으로 사용할 수 있는 건 리스트와 사전형입니다. 특히 사전형보다는 리스트를 다룰 때 자주 사용될 수 있으니 실제 코딩하실 때 참고하시면 도움되실듯합니다. </p>
 
 <p>다른 흥미로운 주제를 가지고 다시 찾아뵙도록 하겠습니다. :D</p>
 
@@ -171,7 +171,7 @@
 
 <footer class="site-footer">
     <div class="container">
-        &copy; 2015 
+        &copy; 2016 
         
         <nav>
             <a href="http://www.add2paper.com/">Add2paper</a> &middot;

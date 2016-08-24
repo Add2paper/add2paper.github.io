@@ -84,17 +84,18 @@ OS별, CPU 아키텍처별 별도 개발이 필요
 <p>주로 DLL을 작성하여 프로세스 단위에 적용하는 안정성, 호환성이 높은 후킹 방식입니다. 추천.</p>
 
 <ul>
-  <li>
-    <p>IAT 후킹</p>
-
-    <p>대표적 유저레벨 후킹 방식의 하나로, 모듈 별 후킹 여부를 결정할 수 있습니다. API의 주소가 담긴 테이블을 수정하는 식으로 작동합니다.</p>
-  </li>
-  <li>
-    <p>Trampoline</p>
-
-    <p>API의 코드를 직접 패치하는 방식입니다. 때문에 후킹이 한 프로세스 내에서 전역적으로 적용됩니다. 제대로 구현하기가 IAT 후킹에 비해 훨씬 까다롭습니다.</p>
-  </li>
+  <li>IAT 후킹</li>
 </ul>
+
+<pre><code>대표적 유저레벨 후킹 방식의 하나로, 모듈 별 후킹 여부를 결정할 수 있습니다. API의 주소가 담긴 테이블을 수정하는 식으로 작동합니다.
+</code></pre>
+
+<ul>
+  <li>Trampoline</li>
+</ul>
+
+<pre><code>API의 코드를 직접 패치하는 방식입니다. 때문에 후킹이 한 프로세스 내에서 전역적으로 적용됩니다. 제대로 구현하기가 IAT 후킹에 비해 훨씬 까다롭습니다.
+</code></pre>
 
 <h2 id="section-3">글로벌 후킹</h2>
 
@@ -249,7 +250,7 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
 
 <footer class="site-footer">
     <div class="container">
-        &copy; 2015 
+        &copy; 2016 
         
         <nav>
             <a href="http://www.add2paper.com/">Add2paper</a> &middot;

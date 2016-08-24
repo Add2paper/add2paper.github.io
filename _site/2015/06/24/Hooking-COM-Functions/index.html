@@ -123,32 +123,32 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 <p>오 꽤 깔쌈합니다. 이런 걸 띄우려면 <strong>IFileOpenDialog</strong> 라고 하는 인터페이스를 사용해야 합니다(그림1에 있습니다). 기왕 말이 나온 김에 어떻게 쓰는 건지나 한번 봅시다.</p>
 
-<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="lineno"> 1</span> <span class="cp">#include &lt;iostream&gt;</span>
-<span class="lineno"> 2</span> <span class="cp">#include &lt;atlbase.h&gt;</span>
-<span class="lineno"> 3</span> <span class="cp">#include &lt;ShObjIdl.h&gt;</span>
-<span class="lineno"> 4</span> 
-<span class="lineno"> 5</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="lineno"> 6</span> <span class="p">{</span>
-<span class="lineno"> 7</span>     <span class="n">CoInitialize</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-<span class="lineno"> 8</span> 
-<span class="lineno"> 9</span>     <span class="n">CComPtr</span><span class="o">&lt;</span><span class="n">IFileOpenDialog</span><span class="o">&gt;</span> <span class="n">dlg</span><span class="p">;</span>
-<span class="lineno">10</span>     <span class="n">dlg</span><span class="p">.</span><span class="n">CoCreateInstance</span><span class="p">(</span><span class="n">CLSID_FileOpenDialog</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">CLSCTX_ALL</span><span class="p">);</span>
-<span class="lineno">11</span> 
-<span class="lineno">12</span>     <span class="n">dlg</span><span class="o">-&gt;</span><span class="n">Show</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
-<span class="lineno">13</span> 
-<span class="lineno">14</span>     <span class="n">CComPtr</span><span class="o">&lt;</span><span class="n">IShellItem</span><span class="o">&gt;</span> <span class="n">item</span><span class="p">;</span>
-<span class="lineno">15</span>     <span class="k">if</span> <span class="p">(</span><span class="n">dlg</span><span class="o">-&gt;</span><span class="n">GetResult</span><span class="p">(</span><span class="o">&amp;</span><span class="n">item</span><span class="p">)</span> <span class="o">==</span> <span class="n">S_OK</span><span class="p">)</span> <span class="c1">// 이걸 후킹 해봅시다.</span>
-<span class="lineno">16</span>     <span class="p">{</span>
-<span class="lineno">17</span>         <span class="n">PWSTR</span> <span class="n">path</span><span class="p">;</span>
-<span class="lineno">18</span>         <span class="n">item</span><span class="o">-&gt;</span><span class="n">GetDisplayName</span><span class="p">(</span><span class="n">SIGDN_FILESYSPATH</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">path</span><span class="p">);</span>
-<span class="lineno">19</span>         <span class="n">std</span><span class="o">::</span><span class="n">wcout</span> <span class="o">&lt;&lt;</span> <span class="n">path</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
-<span class="lineno">20</span>         <span class="n">CoTaskMemFree</span><span class="p">(</span><span class="n">path</span><span class="p">);</span>
-<span class="lineno">21</span>     <span class="p">}</span>
-<span class="lineno">22</span> 
-<span class="lineno">23</span>     <span class="n">CoUninitialize</span><span class="p">();</span>
-<span class="lineno">24</span> 
-<span class="lineno">25</span>     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="lineno">26</span> <span class="p">}</span></code></pre></div>
+<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="cp">#include &lt;iostream&gt;
+#include &lt;atlbase.h&gt;
+#include &lt;ShObjIdl.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">CoInitialize</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+    <span class="n">CComPtr</span><span class="o">&lt;</span><span class="n">IFileOpenDialog</span><span class="o">&gt;</span> <span class="n">dlg</span><span class="p">;</span>
+    <span class="n">dlg</span><span class="p">.</span><span class="n">CoCreateInstance</span><span class="p">(</span><span class="n">CLSID_FileOpenDialog</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">CLSCTX_ALL</span><span class="p">);</span>
+
+    <span class="n">dlg</span><span class="o">-&gt;</span><span class="n">Show</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span>
+
+    <span class="n">CComPtr</span><span class="o">&lt;</span><span class="n">IShellItem</span><span class="o">&gt;</span> <span class="n">item</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">dlg</span><span class="o">-&gt;</span><span class="n">GetResult</span><span class="p">(</span><span class="o">&amp;</span><span class="n">item</span><span class="p">)</span> <span class="o">==</span> <span class="n">S_OK</span><span class="p">)</span> <span class="c1">// 이걸 후킹 해봅시다.
+</span>    <span class="p">{</span>
+        <span class="n">PWSTR</span> <span class="n">path</span><span class="p">;</span>
+        <span class="n">item</span><span class="o">-&gt;</span><span class="n">GetDisplayName</span><span class="p">(</span><span class="n">SIGDN_FILESYSPATH</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">path</span><span class="p">);</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">wcout</span> <span class="o">&lt;&lt;</span> <span class="n">path</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+        <span class="n">CoTaskMemFree</span><span class="p">(</span><span class="n">path</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="n">CoUninitialize</span><span class="p">();</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
 
 <p>어때요. 참 쉽죠?</p>
 
@@ -171,9 +171,9 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 
 <p>함수 호출 전 코드 세 줄을 보겠습니다.</p>
 
-<div class="highlight"><pre><code class="language-asm" data-lang="asm"><span class="nf">mov</span> <span class="no">ecx</span><span class="p">,</span> <span class="no">dword</span> <span class="no">ptr</span> <span class="err">[</span><span class="no">ebp-104h</span><span class="err">]</span>  <span class="c"># ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.</span>
-<span class="nf">mov</span> <span class="no">edx</span><span class="p">,</span> <span class="no">dword</span> <span class="no">ptr</span> <span class="err">[</span><span class="no">ecx</span><span class="err">]</span>       <span class="c"># IFileOpenDialog의 vtable을 가져옵니다.</span>
-<span class="nf">mov</span> <span class="no">eax</span><span class="p">,</span> <span class="no">dword</span> <span class="no">ptr</span> <span class="err">[</span><span class="no">edx</span><span class="err">+</span><span class="mi">50</span><span class="no">h</span><span class="err">]</span>   <span class="c"># vtable + 50h에 GetResult의 주소가 있나 보군요.</span></code></pre></div>
+<div class="highlight"><pre><code class="language-asm" data-lang="asm">mov ecx, dword ptr [ebp-104h]  # ebp - 104h에는 IFileOpenDialog 객체의 주소가 담겨 있습니다.
+mov edx, dword ptr [ecx]       # IFileOpenDialog의 vtable을 가져옵니다.
+mov eax, dword ptr [edx+50h]   # vtable + 50h에 GetResult의 주소가 있나 보군요.</code></pre></div>
 
 <p>코드 편집 과정에서 잘렸지만, ebp-104h에는 <strong>IFileOpenDialog</strong> 객체 인스턴스의 주솟값이 들어 있습니다. 코드 첫 줄에서는 먼저 이 값을 ecx 레지스터에 저장합니다.
 그리고 다음 줄에서 그 주소를 다시 참조하여 edx 레지스터에 저장하는데 저게 뭐 하는 거죠?</p>
@@ -206,36 +206,36 @@ COM의 상세한 스펙이나 동작 원리 등에 관해서도 물론 쓸 수�
 <p>이제 모든 준비가 됐습니다. 후킹 할 함수의 주소도 알아낼 수 있고, 그 함수의 실제 Prototype도 확인했습니다.
 이전 포스트에서 배운 꿀팁을 이용하여 간단하게 후킹 코드를 작성해봅시다.</p>
 
-<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="lineno"> 1</span> <span class="c1">// 함수 선언부</span>
-<span class="lineno"> 2</span> <span class="k">typedef</span> <span class="nf">HRESULT</span><span class="p">(</span><span class="n">STDMETHODCALLTYPE</span> <span class="n">IFileDialog</span><span class="o">::*</span><span class="n">GetResultFunction</span><span class="p">)(</span><span class="n">IShellItem</span> <span class="o">**</span><span class="p">);</span>
-<span class="lineno"> 3</span> <span class="n">Hook</span><span class="o">::</span><span class="n">OverrideHook</span><span class="o">&lt;</span><span class="n">GetResultFunction</span><span class="o">&gt;</span> <span class="n">GetResultHook</span><span class="p">;</span>
-<span class="lineno"> 4</span> 
-<span class="lineno"> 5</span> <span class="c1">// 생략...</span>
-<span class="lineno"> 6</span> 
-<span class="lineno"> 7</span> <span class="kt">void</span> <span class="nf">hook</span><span class="p">()</span>
-<span class="lineno"> 8</span> <span class="p">{</span>
-<span class="lineno"> 9</span>     <span class="n">CComPtr</span><span class="o">&lt;</span><span class="n">IFileOpenDialog</span><span class="o">&gt;</span> <span class="n">dlg</span><span class="p">;</span>
-<span class="lineno">10</span>     <span class="n">dlg</span><span class="p">.</span><span class="n">CoCreateInstance</span><span class="p">(</span><span class="n">CLSID_FileOpenDialog</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">CLSCTX_ALL</span><span class="p">);</span>
-<span class="lineno">11</span> 
-<span class="lineno">12</span>     <span class="kt">size_t</span> <span class="o">*</span><span class="n">pvtable</span> <span class="o">=</span> <span class="p">(</span><span class="kt">size_t</span> <span class="o">*</span><span class="p">)</span><span class="n">dlg</span><span class="p">.</span><span class="n">p</span><span class="p">;</span>     <span class="c1">// vtable의 주소를 구해옵니다.</span>
-<span class="lineno">13</span>     <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">pvtable</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
-<span class="lineno">14</span> 
-<span class="lineno">15</span>     <span class="kt">size_t</span> <span class="o">*</span><span class="n">vtable</span> <span class="o">=</span> <span class="p">(</span><span class="kt">size_t</span> <span class="o">*</span><span class="p">)</span><span class="n">pvtable</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="c1">// 실제 vtable을 구해옵니다.</span>
-<span class="lineno">16</span> 
-<span class="lineno">17</span>     <span class="k">const</span> <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="mh">0x50</span> <span class="o">/</span> <span class="mi">4</span><span class="p">;</span>     <span class="c1">// 32bit 환경에서 테스트했기 때문에 4로 나눠줍니다.</span>
-<span class="lineno">18</span> 
-<span class="lineno">19</span>     <span class="n">GetResultHook</span><span class="p">.</span><span class="n">Install</span><span class="p">(</span><span class="n">vtable</span><span class="p">[</span><span class="n">idx</span><span class="p">],</span>
-<span class="lineno">20</span>     <span class="p">[](</span><span class="n">IFileDialog</span> <span class="o">*</span><span class="n">_this</span><span class="p">,</span> <span class="n">IShellItem</span> <span class="o">**</span><span class="n">ppsi</span><span class="p">)</span>
-<span class="lineno">21</span>     <span class="p">{</span>
-<span class="lineno">22</span>         <span class="c1">// 먼저 원본 함수를 호출하여 결과를 얻어옵니다.</span>
-<span class="lineno">23</span>         <span class="k">auto</span> <span class="n">ret</span> <span class="o">=</span> <span class="p">(</span><span class="n">_this</span><span class="o">-&gt;*</span><span class="n">GetResultHook</span><span class="p">)(</span><span class="n">ppsi</span><span class="p">);</span>
-<span class="lineno">24</span> 
-<span class="lineno">25</span>         <span class="c1">// 이제 여기서 재미난 작업들을 합니다.</span>
-<span class="lineno">26</span> 
-<span class="lineno">27</span>         <span class="c1">// 결과를 리턴합니다(재미난 작업에 따라 ret 값이 바뀔 수도 있겠네요).</span>
-<span class="lineno">28</span>         <span class="k">return</span> <span class="n">ret</span><span class="p">;</span>
-<span class="lineno">29</span>     <span class="p">});</span>
-<span class="lineno">30</span> <span class="p">}</span></code></pre></div>
+<div class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="c1">// 함수 선언부
+</span><span class="k">typedef</span> <span class="n">HRESULT</span><span class="p">(</span><span class="n">STDMETHODCALLTYPE</span> <span class="n">IFileDialog</span><span class="o">::*</span><span class="n">GetResultFunction</span><span class="p">)(</span><span class="n">IShellItem</span> <span class="o">**</span><span class="p">);</span>
+<span class="n">Hook</span><span class="o">::</span><span class="n">OverrideHook</span><span class="o">&lt;</span><span class="n">GetResultFunction</span><span class="o">&gt;</span> <span class="n">GetResultHook</span><span class="p">;</span>
+
+<span class="c1">// 생략...
+</span>
+<span class="kt">void</span> <span class="nf">hook</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="n">CComPtr</span><span class="o">&lt;</span><span class="n">IFileOpenDialog</span><span class="o">&gt;</span> <span class="n">dlg</span><span class="p">;</span>
+    <span class="n">dlg</span><span class="p">.</span><span class="n">CoCreateInstance</span><span class="p">(</span><span class="n">CLSID_FileOpenDialog</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">CLSCTX_ALL</span><span class="p">);</span>
+
+    <span class="kt">size_t</span> <span class="o">*</span><span class="n">pvtable</span> <span class="o">=</span> <span class="p">(</span><span class="kt">size_t</span> <span class="o">*</span><span class="p">)</span><span class="n">dlg</span><span class="p">.</span><span class="n">p</span><span class="p">;</span>     <span class="c1">// vtable의 주소를 구해옵니다.
+</span>    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">pvtable</span><span class="p">)</span> <span class="k">return</span><span class="p">;</span>
+
+    <span class="kt">size_t</span> <span class="o">*</span><span class="n">vtable</span> <span class="o">=</span> <span class="p">(</span><span class="kt">size_t</span> <span class="o">*</span><span class="p">)</span><span class="n">pvtable</span><span class="p">[</span><span class="mi">0</span><span class="p">];</span> <span class="c1">// 실제 vtable을 구해옵니다.
+</span>
+    <span class="k">const</span> <span class="kt">int</span> <span class="n">idx</span> <span class="o">=</span> <span class="mh">0x50</span> <span class="o">/</span> <span class="mi">4</span><span class="p">;</span>     <span class="c1">// 32bit 환경에서 테스트했기 때문에 4로 나눠줍니다.
+</span>
+    <span class="n">GetResultHook</span><span class="p">.</span><span class="n">Install</span><span class="p">(</span><span class="n">vtable</span><span class="p">[</span><span class="n">idx</span><span class="p">],</span>
+    <span class="p">[](</span><span class="n">IFileDialog</span> <span class="o">*</span><span class="n">_this</span><span class="p">,</span> <span class="n">IShellItem</span> <span class="o">**</span><span class="n">ppsi</span><span class="p">)</span>
+    <span class="p">{</span>
+        <span class="c1">// 먼저 원본 함수를 호출하여 결과를 얻어옵니다.
+</span>        <span class="k">auto</span> <span class="n">ret</span> <span class="o">=</span> <span class="p">(</span><span class="n">_this</span><span class="o">-&gt;*</span><span class="n">GetResultHook</span><span class="p">)(</span><span class="n">ppsi</span><span class="p">);</span>
+
+        <span class="c1">// 이제 여기서 재미난 작업들을 합니다.
+</span>
+        <span class="c1">// 결과를 리턴합니다(재미난 작업에 따라 ret 값이 바뀔 수도 있겠네요).
+</span>        <span class="k">return</span> <span class="n">ret</span><span class="p">;</span>
+    <span class="p">});</span>
+<span class="p">}</span></code></pre></div>
 
 <p>별다른 설명이 필요 없을 정도 심플하고 깔끔합니다. 절로 미소가 지어지네요(<del>사실 테스트는 안 해ㅂ…</del>).</p>
 
@@ -305,7 +305,7 @@ API 함수의 주소를 구하는 법도 많이 고민하고 Calling convention�
 
 <footer class="site-footer">
     <div class="container">
-        &copy; 2015 
+        &copy; 2016 
         
         <nav>
             <a href="http://www.add2paper.com/">Add2paper</a> &middot;

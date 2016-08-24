@@ -72,10 +72,10 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">django</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="k">def</span> <span class="nf">patch_django</span><span class="p">():</span>
-<span class="o">...</span>    <span class="k">return</span> <span class="s">&quot;Flask!&quot;</span>
+<span class="o">...</span>    <span class="k">return</span> <span class="s">"Flask!"</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">django</span> <span class="o">=</span> <span class="n">patch_django</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">django</span><span class="p">()</span>
-<span class="s">&#39;Flask!&#39;</span></code></pre></div>
+<span class="s">'Flask!'</span></code></pre></div>
 
 <p>이렇게 Python의 은혜를 받아 매우 손쉽게 Patch를 할 수 있습니다. <br />
 이런 은혜에도 불구하고 문제점이 하나 있는데요, 아래와 같이 코드를 보면 Patch가 원활히 되지 않습니다. :(</p>
@@ -85,14 +85,14 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
 <span class="o">...</span>    <span class="k">return</span> <span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span> <span class="o">=</span> <span class="n">patch_today</span><span class="p">()</span>
 <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="ne">TypeError</span><span class="p">:</span> <span class="n">can</span><span class="s">&#39;t set attributes of built-in/extension type &#39;</span><span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="s">&#39;</span></code></pre></div>
+  <span class="n">File</span> <span class="s">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="nb">TypeError</span><span class="p">:</span> <span class="n">can</span><span class="s">'t set attributes of built-in/extension type '</span><span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="s">'</span></code></pre></div>
 
 <p>datetime.date의 속성을 지정할 수 없다고 합니다. (C 모듈은 Monkey Patch를 할 수 없습니다.)<br />
 일단 영문을 모르겠으니 묻지도 따지지도 않고 파일을 찾아 디버깅을 해보겠습니다.</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">datetime</span><span class="o">.</span><span class="n">__file__</span>
-<span class="s">&#39;/Somewhere/lib/python2.7/lib-dynload/datetime.so&#39;</span></code></pre></div>
+<span class="s">'/Somewhere/lib/python2.7/lib-dynload/datetime.so'</span></code></pre></div>
 
 <p>아니! Python 파일이 아닙니다. C로 작성된 모듈 같은데 이제 어쩌죠? (저는 Python밖에 모른다고요…)<br /><del>이제 이만 글을 마칩니다. 읽어주셔서 감사합니다.</del></p>
 
@@ -108,14 +108,14 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
 
 <p>이제 이 get_dict를 이용해서 Patch를 해봅니다!</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">&#39;today&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">patch_today</span></code></pre></div>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">'today'</span><span class="p">]</span> <span class="o">=</span> <span class="n">patch_today</span></code></pre></div>
 
 <p>오, 오 되었습니다. 이제 실행을 해보면!</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
 <span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
-  <span class="n">File</span> <span class="s">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="ne">TypeError</span><span class="p">:</span> <span class="n">unbound</span> <span class="n">method</span> <span class="n">patch_today</span><span class="p">()</span> <span class="n">must</span> <span class="n">be</span> <span class="n">called</span> <span class="k">with</span> <span class="n">date</span> <span class="n">instance</span> <span class="k">as</span> <span class="n">first</span> <span class="n">argument</span> <span class="p">(</span><span class="n">got</span> <span class="n">nothing</span> <span class="n">instead</span><span class="p">)</span></code></pre></div>
+  <span class="n">File</span> <span class="s">"&lt;stdin&gt;"</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="nb">TypeError</span><span class="p">:</span> <span class="n">unbound</span> <span class="n">method</span> <span class="n">patch_today</span><span class="p">()</span> <span class="n">must</span> <span class="n">be</span> <span class="n">called</span> <span class="k">with</span> <span class="n">date</span> <span class="n">instance</span> <span class="k">as</span> <span class="n">first</span> <span class="n">argument</span> <span class="p">(</span><span class="n">got</span> <span class="n">nothing</span> <span class="n">instead</span><span class="p">)</span></code></pre></div>
 
 <p>이제는 다른 오류가 반겨줍니다. 아무래도 date의 규격에 맞지 않는 것 같습니다.<br />클래스로 다시 Patch 코드를 작성해봅시다.</p>
 
@@ -126,7 +126,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
 
 <p>다시 한번 Patch를 하고 실행을 해보면!</p>
 
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">&#39;today&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">PatchDate</span><span class="o">.</span><span class="n">today</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">&gt;&gt;&gt;</span> <span class="n">get_dict</span><span class="p">(</span><span class="n">date</span><span class="p">)[</span><span class="s">'today'</span><span class="p">]</span> <span class="o">=</span> <span class="n">PatchDate</span><span class="o">.</span><span class="n">today</span>
 <span class="o">&gt;&gt;&gt;</span> <span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">()</span>
 <span class="n">datetime</span><span class="o">.</span><span class="n">date</span><span class="p">(</span><span class="mi">2015</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span></code></pre></div>
 
@@ -173,7 +173,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.</p>
 
 <footer class="site-footer">
     <div class="container">
-        &copy; 2015 
+        &copy; 2016 
         
         <nav>
             <a href="http://www.add2paper.com/">Add2paper</a> &middot;
