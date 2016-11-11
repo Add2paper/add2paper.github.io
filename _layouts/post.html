@@ -21,7 +21,14 @@ layout: base
         </header>
 
         <section>
+            {% if page.external_url %}
+            <div style="margin: 40px 0;">
+                <a href="{{ post.external_link }}" target="_blank">외부에서 작성된 글</a>입니다.
+            </div>
+            {% else %}
             {{ content }}
+            {% endif %}
+
             {% include _social.html %}
         </section>
 

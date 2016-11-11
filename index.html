@@ -28,7 +28,11 @@ layout: base
     <section class="index">
         <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
         <div>
+            {% if post.external_url %}
+            <h2 class="title"><a href="{{ post.external_url }}" rel="prefetch" target="_blank">{{ post.title }}</a></h2>
+            {% else %}
             <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
+            {% endif %}
             <p>{{ post.excerpt }}</p>
             <div class="meta">
                 Written By <address>{{ post.author.name }}</address> &mdash;

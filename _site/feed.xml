@@ -6,9 +6,32 @@
     <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
     <language>en-us</language>
-    <pubDate>Wed, 24 Aug 2016 09:15:59 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2016 09:15:59 +0000</lastBuildDate>
+    <pubDate>Fri, 11 Nov 2016 08:32:59 +0000</pubDate>
+    <lastBuildDate>Fri, 11 Nov 2016 08:32:59 +0000</lastBuildDate>
 
+    
+    
+    <item>
+      <title>동료를 위한 개발하기</title>
+      <link>http://add2paper.github.io/2016/11/10/Dev-For-US/</link>
+      <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
+      <author></author>
+      <guid>http://add2paper.github.io/2016/11/10/Dev-For-US</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는&lt;/p&gt;
+
+&lt;p&gt;우리는 지난 5년 동안 “대학생의 생활을 풍요롭게!”라는 핵심 목표 아래 대학생 무료 프린팅 서비스 애드투페이퍼, 대학생 마이크로 크레딧 애딧페이, 대학교 교수님 평가 서비스 아이러브프로페서, 토익 공부 방법 모음 토익위키 등의 프로덕트를 “아주 바쁘게” 만들어왔습니다.&lt;/p&gt;
+
+&lt;p&gt;꽤 많은 프로덕트들을 만들면서 우리는 “대학생”을 위해 매 순간 최선을 다했다고 자부할 수 있습니다. 대학생이야말로 우리 프로덕트의 사용자이기 때문입니다.&lt;/p&gt;
+
+&lt;p&gt;아주 중요한 것을 잊고 있었습니다
+지금까지 “아주 바쁘게” 일했기 때문일까요? 우리는 아주 중요한 것을 잊고 있었습니다.
+“동료” 또한 우리 프로덕트의 사용자라는 것을 말입니다. &lt;strong&gt;“동료”를 위한 개발을 게을리하여, 그들의 업무가 점점 힘겨워지고 있다는 점을 말입니다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;이런?! 
+프로덕트팀 문준영님의 글은 &lt;a href=&quot;https://brunch.co.kr/@moonjoonyoung/1&quot;&gt;문준영님의 브런치&lt;/a&gt; 에서 이어서 보실 수 있습니다.&lt;/p&gt;
+</description>
+    </item>
+    
     
     
     <item>
