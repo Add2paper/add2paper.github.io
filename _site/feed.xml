@@ -1,16 +1,15 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
     <link>http://add2paper.github.io</link>
-    <atom:link href="http://add2paper.github.io/feed.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <language>en-us</language>
-    <pubDate>Fri, 11 Nov 2016 08:32:59 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Nov 2016 08:32:59 +0000</lastBuildDate>
+    <language>ko-kr</language>
+    <pubDate>Tue, 15 Nov 2016 06:36:57 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Nov 2016 06:36:57 +0000</lastBuildDate>
 
     
-    
+
     <item>
       <title>동료를 위한 개발하기</title>
       <link>http://add2paper.github.io/2016/11/10/Dev-For-US/</link>
@@ -31,9 +30,9 @@
 프로덕트팀 문준영님의 글은 &lt;a href=&quot;https://brunch.co.kr/@moonjoonyoung/1&quot;&gt;문준영님의 브런치&lt;/a&gt; 에서 이어서 보실 수 있습니다.&lt;/p&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>애드투페이퍼 개발자의 하루</title>
       <link>http://add2paper.github.io/2015/12/16/Add2paper-Engineer/</link>
@@ -343,9 +342,9 @@
 &lt;/div&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>50만 대학생들에게 든든한 힘이 되고있는 서비스 ‘애딧(애드투페이퍼)’팀에서 신입디자이너를 채용합니다!</title>
       <link>http://add2paper.github.io/2015/07/21/Recruiting-Designer/</link>
@@ -423,9 +422,9 @@
 &lt;/ul&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>Hooking COM Functions for fun and profit</title>
       <link>http://add2paper.github.io/2015/06/24/Hooking-COM-Functions/</link>
@@ -707,9 +706,9 @@ API 함수의 주소를 구하는 법도 많이 고민하고 Calling convention�
 &lt;/div&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>API Hooking Honey-Butter Tips</title>
       <link>http://add2paper.github.io/2015/06/15/Complex-API-Hooking-Model/</link>
@@ -877,9 +876,9 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
 &lt;/ul&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>More Python 2 - Patch C Module</title>
       <link>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/</link>
@@ -965,9 +964,9 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;/ul&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>프로덕트 매니저 채용 공고</title>
       <link>http://add2paper.github.io/2015/03/16/Add2paper-Recuriting-Product-Manager/</link>
@@ -1056,9 +1055,9 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;/ul&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>리버스 엔지니어 채용 공고 - 신입 / 경력 (산업기능요원 보충역 / 전직 가능)</title>
       <link>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer/</link>
@@ -1144,9 +1143,9 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;/ul&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>More Python 1 - Copy</title>
       <link>http://add2paper.github.io/2014/12/01/More-Python-1-Copy/</link>
@@ -1246,9 +1245,9 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;p&gt;읽어주셔서 감사합니다.&lt;/p&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>테스트와 CI</title>
       <link>http://add2paper.github.io/2014/08/06/Test-And-CI/</link>
@@ -1336,9 +1335,9 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
 &lt;p&gt;읽어주셔서 감사합니다.&lt;/p&gt;
 </description>
     </item>
+
     
-    
-    
+
     <item>
       <title>애드투페이퍼 서비스 구성 Stack</title>
       <link>http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/</link>
@@ -1466,7 +1465,7 @@ supervisorctl reload
 &lt;p&gt;감사합니다.&lt;/p&gt;
 </description>
     </item>
-    
+
     
 
   </channel> 
