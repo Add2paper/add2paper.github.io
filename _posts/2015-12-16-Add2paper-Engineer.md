@@ -135,14 +135,14 @@ CI를 통과했다는 것은 제가 전송한 코드가 실제 서버 환경에�
 
 &nbsp;&nbsp;5가지 색깔 띠가 [그림9]에 있습니다. 색깔 띠를 각각 branch(직역: 나뭇가지)라고 부릅니다. 나무에 기둥을 중심으로 가지가 뻗어있는 걸 연상해주세요.
 저희 팀은 큰 작업 단위를 branch로 나눈 후, 작업 완료후에 메인 branch인 master로 합칩니다. 그림의 파랑, 초록, 보라, 노랑 띠들을 맨 위 검정색 띠로 합치는 셈이죠.
- 
+
 {% include _image.html img="/images/good_morning/merge_branches.png" caption="[그림10: 검은색 색깔 띠로 합쳐져가는 branch들]" %}
 
 &nbsp;&nbsp;master에 코드를 합치는 건 예민한 작업입니다. master에 문제가 생기면 서비스에 즉각 타격을 입기 때문이죠. 작업 단위가 클수록 세심히 코드를 살펴야합니다. 꼼꼼한 작업 확인을 위해 저희는 Pull requests(PR)[^7] 기능으로 코드 검토(review)를 합니다.
 
 {% include _image.html img="/images/good_morning/pull_requests.png" caption="[그림11: Pull requests 생성]" %}
 
-PR을 생성했습니다. 
+PR을 생성했습니다.
 
 {% include _image.html img="/images/good_morning/comment_on_pr.png" caption="[그림12: 코드 검토 모습]" %}
 
@@ -156,7 +156,7 @@ PR을 생성했습니다.
 
 작업 내용을 서비스에 적용하려면 코드를 서버에 배포해야합니다. 배포 직전에는 앞서 진행한 모든 검토 과정들을 다시 진행합니다. 배포 담당자께서 dev 채널에 미리 공지합니다.
 
-{% include _image.html img="/images/good_morning/deploy.png" caption="[그림14: 코드 배포 준비 모습]" %} 
+{% include _image.html img="/images/good_morning/deploy.png" caption="[그림14: 코드 배포 준비 모습]" %}
 
 &nbsp;&nbsp;서버 배포를 완료했습니다. 12년 경력 배포 봇이 이를 알려주는군요. 사무실 로비에는 [배포를 알리는 효과음](https://www.youtube.com/watch?v=cAez7KLXlfQ)이 나옵니다.
 

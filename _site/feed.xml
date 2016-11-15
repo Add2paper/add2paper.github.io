@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>애드투페이퍼 엔지니어링 블로그</title>
     <link>http://add2paper.github.io</link>
     <description></description>
     <language>ko-kr</language>
-    <pubDate>Tue, 15 Nov 2016 06:36:57 +0000</pubDate>
-    <lastBuildDate>Tue, 15 Nov 2016 06:36:57 +0000</lastBuildDate>
+    <pubDate>Tue, 15 Nov 2016 07:38:40 +0000</pubDate>
+    <lastBuildDate>Tue, 15 Nov 2016 07:38:40 +0000</lastBuildDate>
 
     
 
@@ -14,7 +14,7 @@
       <title>동료를 위한 개발하기</title>
       <link>http://add2paper.github.io/2016/11/10/Dev-For-US/</link>
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2016/11/10/Dev-For-US</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는&lt;/p&gt;
 
@@ -37,7 +37,7 @@
       <title>애드투페이퍼 개발자의 하루</title>
       <link>http://add2paper.github.io/2015/12/16/Add2paper-Engineer/</link>
       <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2015/12/16/Add2paper-Engineer</guid>
       <description>&lt;style&gt;
 .image-wrapper {
@@ -349,7 +349,7 @@
       <title>50만 대학생들에게 든든한 힘이 되고있는 서비스 ‘애딧(애드투페이퍼)’팀에서 신입디자이너를 채용합니다!</title>
       <link>http://add2paper.github.io/2015/07/21/Recruiting-Designer/</link>
       <pubDate>Tue, 21 Jul 2015 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2015/07/21/Recruiting-Designer</guid>
       <description>&lt;p&gt;&lt;img src=&quot;/images/recruiting_designer_header.png&quot; alt=&quot;디자이너 채용&quot; /&gt;&lt;/p&gt;
 
@@ -429,7 +429,7 @@
       <title>Hooking COM Functions for fun and profit</title>
       <link>http://add2paper.github.io/2015/06/24/Hooking-COM-Functions/</link>
       <pubDate>Wed, 24 Jun 2015 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2015/06/24/Hooking-COM-Functions</guid>
       <description>&lt;style&gt;
 .image-wrapper {
@@ -713,7 +713,7 @@ API 함수의 주소를 구하는 법도 많이 고민하고 Calling convention�
       <title>API Hooking Honey-Butter Tips</title>
       <link>http://add2paper.github.io/2015/06/15/Complex-API-Hooking-Model/</link>
       <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2015/06/15/Complex-API-Hooking-Model</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;의 시스템 개발자 오지헌입니다. API 후킹을 통해 조금 복잡한 애플리케이션을 개발하고 싶은 분들을 위해 몇 가지 팁을 모아봤습니다.&lt;/p&gt;
 
@@ -883,8 +883,8 @@ getProcessName, checkAllowedProcessName는 매번 호출되기에는 무거워�
       <title>More Python 2 - Patch C Module</title>
       <link>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy/</link>
       <pubDate>Mon, 01 Jun 2015 00:00:00 +0000</pubDate>
-      <author></author>
-      <guid>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module - Copy</guid>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
+      <guid>http://add2paper.github.io/2015/06/01/More-Python-2-Path-C-Module-Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;의 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다. &lt;br /&gt;
 &lt;a href=&quot;/2014/12/01/More-Python-1-Copy/&quot;&gt;첫 번째 More Python&lt;/a&gt;을 작성하고 정확히 반년 뒤, 의병의 날인 오늘 그 두 번째 글을 작성하게 되었습니다. 하하&lt;br /&gt;&lt;/p&gt;
 
@@ -971,7 +971,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <title>프로덕트 매니저 채용 공고</title>
       <link>http://add2paper.github.io/2015/03/16/Add2paper-Recuriting-Product-Manager/</link>
       <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2015/03/16/Add2paper-Recuriting-Product-Manager</guid>
       <description>&lt;p&gt;우리나라는 대학 진학률이 70%에 이릅니다. 한국의 경제인구 대부분이 대학생이거나, 대학생이었습니다. &lt;br /&gt;
 &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 ‘대학생’과 ‘대학캠퍼스’타겟에  독점적 영향력을 갖는 모바일플랫폼으로 성장하고자 합니다.&lt;br /&gt;
@@ -1062,7 +1062,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <title>리버스 엔지니어 채용 공고 - 신입 / 경력 (산업기능요원 보충역 / 전직 가능)</title>
       <link>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer/</link>
       <pubDate>Mon, 23 Feb 2015 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2015/02/23/Add2paper-Recruiting-Reverse-engineer</guid>
       <description>&lt;p&gt;&lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;는 20대 대학생 타겟 미디어입니다. 2014년 하반기에는 통합 가상 화폐 ‘애딧’과 API 서비스를 오픈하여 다양한 대학생 편의 서비스와 빠른 속도로 제휴를 진행하고 있습니다. &lt;u&gt;2015년 2월 23일 현재까지 100여 개 대학교에 제휴 된 2,300여 대의 애드투페이퍼 PC를 통해 40만 명의 회원이 2,600만여 장의 인쇄를 하였습니다. 2015년 상반기에는 속도감 있는 제휴를 통해 140여 개 대학교 3,500여 대 PC로 확장 예정입니다.&lt;/u&gt; 대학생 타겟 미디어를 넘어 대학생 통합 편의 서비스로 진화하고 있는 애드투페이퍼에서 실력 있는 개발자분들을 모십니다. &lt;b&gt;&lt;u&gt;산업기능요원(보충역 / 전직) 또한 가능합니다.&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;
 
@@ -1150,7 +1150,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <title>More Python 1 - Copy</title>
       <link>http://add2paper.github.io/2014/12/01/More-Python-1-Copy/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2014/12/01/More-Python-1-Copy</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드를 개발하고 있는 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다.&lt;br /&gt;
 이번 포스트부터 Python의 멀고도 가까운 내용을 소개하는 More Python을 연재코자 합니다. &lt;br /&gt;
@@ -1252,7 +1252,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <title>테스트와 CI</title>
       <link>http://add2paper.github.io/2014/08/06/Test-And-CI/</link>
       <pubDate>Wed, 06 Aug 2014 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2014/08/06/Test-And-CI</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 백엔드 개발을 맡은 &lt;a href=&quot;http://www.parkayun.kr&quot;&gt;박아윤&lt;/a&gt;입니다. 이번 블로그 개편에 맞춰 저희가 하고 있는 백엔드 테스트, 장고 테스트에 대하여 공유하고자 합니다.&lt;/p&gt;
 
@@ -1342,7 +1342,7 @@ Python에서는 이러한 Patch를 아래와 같이 할 수 있습니다.&lt;/p&
       <title>애드투페이퍼 서비스 구성 Stack</title>
       <link>http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack/</link>
       <pubDate>Wed, 17 Apr 2013 00:00:00 +0000</pubDate>
-      <author></author>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
       <guid>http://add2paper.github.io/2013/04/17/Add2paper-Technology-Stack</guid>
       <description>&lt;p&gt;안녕하세요, &lt;a href=&quot;http://www.add2paper.com&quot;&gt;애드투페이퍼&lt;/a&gt;에서 개발을 담당하고 있는 &lt;a href=&quot;http://www.leekchan.com&quot;&gt;이경찬&lt;/a&gt;입니다. 애드투페이퍼를 개발 및 운영하면서 경험하고 해결한 사항들을 공유하고자 블로그를 만들었습니다. 첫 번째 포스트에서는 애드투페이퍼 서비스 구성 Stack에 대해서 공유하고자 합니다.&lt;/p&gt;
 
