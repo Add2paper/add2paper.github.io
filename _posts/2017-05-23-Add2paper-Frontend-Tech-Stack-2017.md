@@ -1,0 +1,94 @@
+---
+layout: post
+
+title: 애드투페이퍼 프론트엔드 기술 스택 2017
+cover_image: blog-cover.png
+
+excerpt: "애드투페이퍼의 프론트엔드 기술 스택을 소개합니다."
+
+author:
+  name: 이현수
+  bio: Software Engineer
+  image: lhs.png
+  page: https://incleaf.com
+---
+
+<style>
+.image-wrapper {
+    text-align: center;
+}
+
+.image-caption {
+    display: block;
+    color: #777;
+    font-size: .8em;
+    margin-top: -.8em;
+    margin-bottom: 1.2em;
+}
+article p {
+    line-height: 1.6 !important;
+}
+</style>
+
+<!--# 애드투페이퍼 프론트엔드 기술 스택 2017-->
+안녕하세요, 애드투페이퍼 프론트엔드 엔지니어 이현수입니다.
+최근 1년간 애드투페이퍼의 프론트엔드 스택은 많이 변화했습니다. 2017년 애드투페이퍼는 어떤 기술을 사용하고 있는지 설명드리겠습니다.
+
+<br />
+
+<!--## 문제 의식
+
+애드투페이퍼 서비스는 하이브리드 앱이며 Django 템플릿 엔진, jQuery로 구성되어 있습니다.
+이 구조에선 프론트엔드에서 백엔드의 템플릿 변수를 활용해 동적으로 결과를 만들어야 합니다.
+따라서 템플릿, HTML, JavaScript, CSS 코드를 한 파일에서 작성하게 됩니다. 어느정도 파일을 분리할 수 있지만 스탠드얼론(standalone)하게 분리되지 않습니다.
+제가 이 템플릿 기반의 구조에서 느낀 불편함을 소개드리겠습니다.
+
+우선 여러 언어가 한 파일에 모여 있어 **코드 가독성이 나쁘며 디버깅이 어렵고, 테스트 코드를 작성하기 어렵습니다.** 파일을 나누어도 크게 나아지지 않고 코드 추적이 힘들어집니다.
+ESLint같은 린팅 툴도 사용할 수 없습니다. 재사용을 위해 몇백, 몇천 줄 단위의 코드에서 해당 코드들을 일일이 찾아내서 복사하는건 고통스러운 작업입니다.
+
+**백엔드, 프론트엔드 개발자가 각자의 영역의 코드를 수정해야 하는 경우가 많습니다**.
+이 과정에서 코드의 일관성을 해치거나, 사소한 실수로 버그가 발생하는 경우가 생기기도 합니다.
+
+템플릿 기반의 구조는 안정성과 확장성이 검증된 클래식한 방법이고, 템플릿 문법만 익히면 큰 환경 설정 없이 빠르게 웹을 개발할 수 있습니다. 지금도 애드투페이퍼를 포함한 수많은 서비스가 템플릿 기반의 웹을 사용하고 있습니다.
+하지만 많은 엔지니어가 비슷한 문제 의식을 느꼈고, 최근에 나온 기술들은 이 문제점들을 해결하도록 설계되었습니다.
+
+<br />-->
+
+## React 도입
+
+최근엔 네이버, 다음을 포함한 수많은 국내 기업들이 React를 사용하고 있지만 작년까지만 해도 국내엔 레퍼런스가 많지 않았습니다.
+혜성같이 등장하고 금방 사라져버린 라이브러리들이 많았기에 도입 여부에 대한 회의를 여러 번 진행했고, React를 도입하는 것으로 결론이 났습니다.
+
+{% include _image.html img="/images/why-react.png" caption="React를 도입하기 위한 몸부림: 사내 발표 자료 'Why React'" %}
+
+<br />
+
+Angular2, Vue를 뒤로 하고 React를 선택했던 이유는 다음과 같습니다:
+
+1. **레퍼런스 풍부**: Facebook, Instagram, Airbnb 같은 대형 기업에서 프로덕션 전반에 걸쳐 사용합니다.
+2. **IE8 지원**: 많은 종류의 브라우저를 지원해야 하기 때문에 하위 호환성이 중요합니다.
+3. **활발한 커뮤니티**: 다른 라이브러리에 비해 커뮤니티가 활발해 도움을 받기 쉽습니다.
+4. **점진적 도입 가능**: 컴포넌트 단위로 도입하기 용이합니다.
+
+jQuery로 개발하면 네트워크 통신, DOM 제어, 이벤트 제어 코드들이 섞이게 됩니다. 간단한 페이지를 빠르게 구현할 때엔 용이하지만 확장과 유지 보수에서 더 많은 시간을 쏟게 됩니다.
+하지만 React, Redux를 사용하면 데이터 자체가 UI를 표현합니다. 따라서 직접 DOM을 제어할 필요가 없습니다. 네트워크 통신은 뷰와 분리됩니다. 뷰는 컴포넌트 단위로 쪼개지고 각자의 로직을 수행합니다. 일부러 이상하게 구현하지 않는 이상 관심사의 분리가 보장되도록 설계되어 있습니다. **개발 프로세스에서 최초 개발보단 유지보수에 시간을 더 많이 쓴다는 점을 고려하면 최초 구현 속도가 느려지더라도 React, Redux가 더 좋은 결과를 가져올 것으로 생각했습니다.**
+개인적으로는 React를 사용해본 경험이 있어 러닝커브 없이 바로 개발할 수 있다는 점도 작용했습니다.
+
+<br />
+
+## 2017 기술 스택 소개
+
+현재 애드투페이퍼, 애딧페이에는 [jQuery](https://jquery.com/)와 함께 부분적으로 [ES6](https://www.ecma-international.org/ecma-262/6.0/), [React](https://facebook.github.io/react/)가 사용되고 있습니다. 올해에 신규 개발한 애드투페이퍼 블랙은 빠르게 변하는 기획에 대응하기 위해 네이티브 UI는 사용하지 않고 **모두 웹으로 구현**하기로 했습니다. 웹으로 개발하게 되면 기존엔 신경 쓰지 않아도 됐던 액티비티 스택, 상단바 상태, 스크롤 위치 같은 부분들도 모두 관리가 필요합니다. 다행히 [React](https://facebook.github.io/react/), [Redux](http://redux.js.org/), [React Router](https://reacttraining.com/react-router/)를 사용해 어렵지 않게 구현했습니다. AJAX 통신으로 필요한 데이터만 주고받는 SPA 특성상 로딩 속도가 크게 줄어 이전보다 훨씬 나아진 사용자 경험을 제공하고 있습니다.
+
+{% include _image.html img="/images/add2paper-black.jpg" caption="애드투페이퍼 블랙 스크린샷" %}
+
+[Mocha](https://mochajs.org/)와 [Chai](http://chaijs.com/)를 사용하여 테스트 코드를 작성합니다. 기획, 디자인이 급변하는 스타트업 특성상 UI 테스트는 무리라 판단하여 [Redux](http://redux.js.org/) [Reducer](http://redux.js.org/docs/basics/Reducers.html) 위주의 테스트 코드를 작성합니다. [BrowserSync](https://www.browsersync.io/), [Genymotion](https://www.genymotion.com/)을 사용하여 디바이스로 직접 테스트를 진행하기도 합니다. [ESLint](http://eslint.org/)를 사용해 코드의 정렬 상태를 일관적으로 유지합니다. [Gulp](http://gulpjs.com/)를 사용하여 프론트엔드의 태스크들을 관리합니다.
+
+애드투페이퍼 웹사이트와 애드투페이퍼 윈도우 클라이언트는 오래된 컴퓨터의 사용 비율이 높습니다. 따라서 IE7 기준으로 [ES3](http://www-archive.mozilla.org/js/language/E262-3.pdf), [jQuery](https://jquery.com/)를 사용해서 개발중이며 테스트는 이 [저장소](https://github.com/Add2paper/linuxmicrosoftievirtualmachines)에 있는 이미지들을 사용해서 직접 진행합니다.
+
+<br />
+
+## TL;DR
+
+1. **모바일 앱**: ES5, ES6, jQuery, React, Redux, React Router 사용
+2. **윈도우 클라이언트, 웹**: ES3, jQuery 사용
