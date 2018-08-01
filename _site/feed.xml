@@ -5,8 +5,32 @@
     <link>http://add2paper.github.io</link>
     <description></description>
     <language>ko-kr</language>
-    <pubDate>Tue, 02 Jan 2018 04:09:54 +0000</pubDate>
-    <lastBuildDate>Tue, 02 Jan 2018 04:09:54 +0000</lastBuildDate>
+    <pubDate>Wed, 01 Aug 2018 01:42:01 +0000</pubDate>
+    <lastBuildDate>Wed, 01 Aug 2018 01:42:01 +0000</lastBuildDate>
+
+    
+
+    <item>
+      <title>Django-Channels를 이용한 프린트 서버</title>
+      <link>http://add2paper.github.io/2018/08/01/Django-Channels/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
+      <guid>http://add2paper.github.io/2018/08/01/Django-Channels</guid>
+      <description>
+</description>
+    </item>
+
+    
+
+    <item>
+      <title>Python3.6+에서 바뀐 Dictionary 구현</title>
+      <link>http://add2paper.github.io/2018/07/01/Python3-Dict-Order/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <author>dev@add2paper.com (애드투페이퍼 개발팀)</author>
+      <guid>http://add2paper.github.io/2018/07/01/Python3-Dict-Order</guid>
+      <description>
+</description>
+    </item>
 
     
 
