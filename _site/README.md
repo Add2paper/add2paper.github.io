@@ -10,3 +10,9 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 http://127.0.0.1:4000/ 를 통해 확인
+
+## Trouble Shooting
+```shell
+$ bundle update
+```
+대부분 해결
